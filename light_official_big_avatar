@@ -1,0 +1,722 @@
+@media only screen and (max-width: 6000px){
+.b-achievement.is-badge:before {
+    bottom: 0px!important;
+  }}
+.b-achievement .c-image .inner a .border {
+	border: 0px solid #9da2a8;
+}
+/*НАЧАЛО ШРИФТЫ*/
+:root {
+    --font-main: 'PT Mono', monospace;
+    --font-alt: var(--font-main);
+}
+body {
+    font-family: Helvetica Neue, Arial, Verdana, sans-serif;
+    font-family: var(--font-main);
+    font-size: 15px;
+    min-height: 100vh;
+}
+header.head h1, header.head h2 {
+	border-bottom: none;
+    color: #123;
+    display: inline-block;
+    font-family: Open Sans, Helvetica Neue, Arial, Verdana, sans-serif;
+    font-family: var(--font-alt);
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0;
+}
+:root {
+    --font-main: 'PT Mono', monospace;
+    --font-alt: var(--font-main);
+}
+
+:root { 
+  	--font-main: 'PT Mono', monospace; 
+  	--font-alt: var(--font-main);
+} 
+@font-face { 
+  	font-family: 'PT Mono'; 
+  	font-style: normal; 
+  	font-weight: 400; 
+  	font-display: swap; 
+  	src: local('PT Mono'), local('PTMono-Regular'), url(https://fonts.gstatic.com/s/ptmono/v7/9oRONYoBnWILk-9AnC8zMw.woff2) format('woff2');
+  	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+} 
+@font-face { 
+  	font-family: 'PT Mono'; 
+  	font-style: normal; 
+  	font-weight: 400; 
+  	font-display: swap; 
+  	src: local('PT Mono'), local('PTMono-Regular'), url(https://fonts.gstatic.com/s/ptmono/v7/9oRONYoBnWILk-9AnCszM-Py.woff2) format('woff2'); 
+}
+/*КОНЕЦ ШРИФТЫ*/
+/* Фиксированные размеры постеров */
+@import url(https://css-club.web.app/css/fixed_cover.min.css);
+/* Оформление вкладок */
+.u-tabs > div:not([data-tab]) {
+  white-space: nowrap;
+  overflow-x: auto;
+}
+.u-tabs [data-tab-switch] {
+  display: inline-block;
+    padding: .25em .75em;
+    /* border: 2px solid; */
+    /* border-radius: 20px; */
+    font-weight: bold;
+    /*opacity: .5; */
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background: #e8ebef;
+    border-left: 5px solid #d8dde4;
+    color: #176093!important;
+    font-family: Open Sans, Helvetica Neue, Arial, Verdana, sans-serif;
+    background: var(--headline-background-color);
+    border-left: 5px solid var(--headline-border-color);
+    color: var(--headline-color);
+    font-family: var(--font-alt);
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.13px;
+    line-height: 1.65;
+    margin-bottom: 10px;
+    padding: 4px 10px 2px;
+    position: relative;
+    text-transform: uppercase;
+    -webkit-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+    -webkit-font-smoothing: antialiased;
+}
+.u-tabs [data-tab-switch]:not(:first-child) {
+  	margin-left: 10px;
+}
+.u-tabs .active[data-tab-switch] {
+    color: #dd5202!important;
+    opacity: 1;
+}
+.u-tabs [data-tab] {
+  	margin-top: 10px;
+}
+/* Закрепление верхнего меню */
+.l-top_menu-v2 {
+  	position: fixed;
+  	top: 0;
+  	right: 0;
+  	left: 0;
+}
+.l-page {
+  	margin-top: 46px;
+}
+.b-comments-notifier {
+  	top: 46px !important;
+}
+
+.p-profiles-show .profile-content .activity {
+    display: none;
+}
+
+@media screen {
+  	.p-profiles .profile-head .c-brief .avatar {
+        background-image: var(--desktop-avatar-image);
+        background-size: cover;
+        background-position: center;
+        background-color: var(--tile-back-color);
+        position: relative;
+      
+    }
+    .p-profiles .profile-head .c-brief .avatar img {
+        visibility: hidden;
+    }
+	.p-clubs-index .b-club {
+        width: 100% !important;
+    }
+	.item-add:first-child, .item-minus:first-child {
+        position: relative;
+        float: right;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .p-profiles .profile-head .c-brief header {
+        width: calc(100% - 50px) !important;
+    }
+
+    .p-profiles-show.x1200 .profile-content .c-right {
+        width: calc(45% - 40px) !important;
+    }
+}
+@media screen and (min-width: 1025px) {
+    .p-profiles .profile-head .c-brief .avatar {
+        margin: 0 0 0 10px;
+        max-width: 39%;
+        width: 100%;
+        height: 537px;
+    }
+    .p-profiles .profile-head .c-brief .avatar .profile-actions {
+        background-color: #e8ebef;
+      	border-left: 5px solid var(--headline-border-color);
+        border-bottom-left-radius: 1.5px;
+        border-bottom-right-radius: 1.5px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding: 3px;
+    }
+    .p-dashboards-show .c-news_topics.m0 {
+        width: 67.8%;
+        margin-right: 1.8%;
+    }
+    .menu-slide-outer.x240 .l-menu {
+        width: calc(27.4% - 15px);
+    }
+    .menu-slide-outer.x240 .l-content {
+        margin-right: 15px;
+        width: 72.6%;
+    }
+    .menu-slide-outer.x199 .l-menu {
+        width: calc(23.6% - 15px);
+    }
+    .menu-slide-outer.x199 .l-content {
+        margin-right: 15px;
+    }
+    .p-profiles-show.x1200 .profile-content .c-left {
+        margin-right: 20px;
+    }
+    .p-profiles-show.x1200 .profile-content .c-right {
+        margin-left: 20px;
+        width: calc(52% - 40px);
+    }
+    .p-dashboards-show .cc-second .cc-inner {
+        margin-right: 1.8%;
+        width: 74.5%;
+    }
+    .p-dashboards-show .cc-second .c-forum {
+        width: 23.7%;
+        height: 366px;
+    }
+    .p-dashboards-show .cc-second .cc-inner .c-my_list {
+        width: 36.6%;
+        height: 366px;
+    }
+    .p-dashboards-show .cc-second .cc-inner .c-content {
+        height: 366px;
+    }
+    .p-profiles .profile-head .c-brief header h1 {
+        
+        margin-top: 6px;
+    }
+	.p-profiles .profile-head {
+        margin-top: 117px;
+    }
+    .p-profiles-show .profile-content .c-right .cc-2a, .p-profiles-show .profile-content .c-right > .block:last-child {
+        margin-left: -20px;
+    }
+    .b-user.detailed, .b-user.moderation {
+        height: 126px;
+        margin-bottom: 15px;
+    }
+    .p-pages-ongoings .block.m0, .p-achievements-group .p-achievements-global > .block {
+        margin-bottom: 15px !important;
+    }
+    .b-collection-filters .block > .filter {
+        margin-top: 0;
+    }
+    .p-pages.p-pages-ongoings .b-topic, .p-collections.p-collections-show .b-topic > .editor-container, .p-collections.p-collections-show .b-topic > .b-comments, .p-pages.p-pages-about .b-topic, .p-articles-show .b-topic > .b-comments, .p-articles-show .b-topic > .editor-container {
+        margin-top: 15px;
+    }
+    .p-profiles .profile-head .c-info {
+        margin: 20px 10px 0 0;
+        display: inline-block;
+        clear: none;
+        overflow: inherit;
+        float: right;
+        width: calc(61% - 40px);
+        height: 237px;
+        position: relative;
+    }
+        .p-profiles .profile-head .c-info .c-additionals {
+            margin-bottom: 0;
+            margin-top: 30px;
+            position: absolute;
+            bottom: 20px;
+        }
+    .p-profiles-show .profile-content .block:first-child, .p-achievements-group .cc-2 > .c-column {
+        margin-bottom: 0;
+    }
+    .p-dashboards-show .b-hot_topics-v2 + * > .block2, .p-dashboards-show .b-hot_topics-v2 + * > .cc-second, .p-profiles-show .lifetime, .p-profiles-show .profile-content .c-left, .p-profiles-show .profile-content .c-right > .block:last-child, .p-profiles-show .profile-content .block.achievements, .p-profiles-show .profile-content .about.block {
+        margin-bottom: 20px;
+    }
+    .p-profiles-show .profile-content .c-right .cc-2a {
+        margin-bottom: 20px !important;
+    }
+    .p-pages.p-pages-about .head + .cc-2a > .c-column {
+        min-height: 170px;
+    }
+    .p-moderations.p-moderations-show .cc-3 > .c-column {
+        min-height: 260px;
+    }
+    .p-profiles .profile-head .c-history {
+        margin: 0 10px 0 0;
+        display: inline-block;
+        overflow: inherit;
+        float: right;
+        width: calc(61% - 40px);
+        height: 280px;
+    }
+    .p-profiles-show .profile-content {
+        margin: 20px 10px 0 10px;
+    }
+    .p-dashboards-show .cc-second .cc-inner .c-content {
+        width: 61%;
+    }
+    .p-achievements-index .cc-franchises-genres .c-genres {
+        margin-right: 17px;
+        width: calc((100% - 17px) / 2);
+    }
+    .p-achievements-index .cc-franchises-genres .c-franchises {
+        width: calc((100% - 17px) / 2);
+    }
+    .p-achievements-group .cc-2 > .c-column {
+        width: calc((100% - 15px) / 2);
+    }
+        .p-achievements-group .cc-2 > .c-column:nth-child(2n+1) {
+            margin-right: 15px;
+        }
+    .p-topics .l-menu .b-forums, .l-menu .block2, .l-menu .block, .l-menu .b-menu_logo, .l-menu .b-favoured, .p-achievements-index .block.m0 .block2, .p-achievements-show .b-entry-info, .p-achievements-show .block, .p-achievements-index .block, .p-contests-index .block, .p-contests.p-contests-show > .l-page > * > .block, .p-achievements-index .block2, .p-studios .block > .studio, .p-articles-index .b-topic, .p-profiles-moderation .block2, .p-collections .b-collection-topic.b-topic-minified, .p-pages-bb_codes .b-bb_codes-examples.block, .p-collections-index .b-search-results .block:not(:last-child) {
+        margin-bottom: 15px;
+    }
+    .p-profiles-index .b-options-floated.mylist.mobile-desktop {
+        margin-bottom: 9px;
+    }
+}
+@media screen and (min-width: 768px) {
+    :root {
+        --padding-width: 20px;
+    }
+    .p-profiles .profile-head .c-brief header {
+        position: absolute;
+        top: 0;
+        margin: 15px 10px 10px 10px;
+        padding-top: 8px;
+        width: calc(100% - 40px);
+        float: left;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    .p-profiles-show .lifetime {
+        height: 110px;
+    }
+    .p-profiles-show .profile-content .activity {
+        height: 210px;
+  	}
+    .p-profiles-show .profile-content .graph {
+        height: 120px !important;
+    }
+    .p-profiles-show .profile-content .c-right .cc-2a {
+        height: 155px;
+    }
+    .p-profiles-show .profile-content .c-right > .block:last-child {
+        height: 165px;
+    }
+    .p-dashboards .animes .studios {
+        margin-top: 51px;
+    }
+}
+body[data-locale=ru] .b-feedback>.marker-positioner {
+    height: 140px;
+    z-index: 2;
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .p-profiles .profile-head .c-brief .avatar {
+        margin: 5px 0 0 10px;
+        max-width: calc((100% - 39px) / 2);
+        width: 100%;
+        height: 55vw;
+    }
+    .p-profiles .profile-head .c-brief .avatar .profile-actions {
+            background-color: #e8ebef;
+    border-left: 5px solid var(--headline-border-color);
+    border-bottom-left-radius: 1.5px;
+    border-bottom-right-radius: 1.5px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 3px;
+        }
+    .p-profiles .profile-head .c-brief header h1 {
+        margin-left: 20px;
+        margin-top: 6px;
+    }
+    .p-profiles .profile-head .c-brief header .notice {
+        margin-left: 20px;
+    }
+    .p-profiles-show .profile-content .c-right .cc-2a, .p-profiles-show .profile-content .c-right > .block:last-child {
+        margin-left: -20px;
+    }
+    .p-profiles-show.x1200 .profile-content .c-right > .block:last-child, .p-profiles-show.x1200 .profile-content .c-right > .subcontent:last-child {
+        margin-bottom: 30px;
+    }
+    .p-profiles .profile-head .c-info {
+        margin: 20px 10px 0 10px;
+        display: inline-block;
+        clear: none;
+        overflow: inherit;
+        float: left;
+        width: calc((100% - 20px));
+        position: relative;
+    }
+        .p-profiles .profile-head .c-info .c-additionals {
+            margin-bottom: 0;
+        }
+    .p-profiles-show .profile-content .block:first-child {
+        margin-bottom: 0;
+    }
+    .p-profiles .profile-head .c-history {
+        margin: 5px 10px 0 0;
+        display: inline-block;
+        overflow: inherit;
+        float: right;
+        width: calc((100% - 39px) / 2);
+        height: 55vw;
+    }
+    .p-profiles .profile-head {
+        margin-top: 110px;
+    }
+    .p-profiles-show .profile-content {
+        margin: 20px 10px 0 10px;
+    }
+    .profile-content > .cc-2.block > .c-column.c-left {
+        width: calc((100% - 40px) / 2);
+        margin-right: 40px;
+    }
+    .profile-content > .cc-2.block > .c-column.c-right {
+        width: calc((100% - 40px) / 2);
+    }
+    .menu-slide-outer.x240 .l-content {
+        margin-right: 10px;
+        width: 72.66%;
+    }
+    .menu-slide-outer.x240 .l-menu {
+        width: calc(27.34% - 10px);
+    }
+    .menu-slide-outer.x199 .l-content {
+        margin-right: 10px;
+    }
+    .menu-slide-outer.x199 .l-menu {
+        width: calc(24.3% - 17.5px);
+    }
+    .p-achievements-index .cc-franchises-genres .c-genres {
+        margin-right: 11px;
+        width: calc((100% - 11px) / 2);
+    }
+    .p-achievements-index .cc-franchises-genres .c-franchises {
+        width: calc((100% - 11px) / 2);
+    }
+    .buttons ::after {
+        font-size: 16px !important;
+    }
+    .p-profiles-show .lifetime .title .label {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .p-dashboards-show .cc-second .cc-inner .c-content {
+        width: calc(0.65 * (100% - 10px));
+        height: 366px;
+    }
+    .p-dashboards-show .cc-second .c-my_list:last-child {
+        width: calc(0.35 * (100% - 10px));
+        height: 366px;
+    }
+    .p-dashboards-show .cc-second .cc-inner {
+        margin-right: 10px;
+        width: calc(0.75 * (100% - 10px));
+    }
+    .p-dashboards-show .cc-second .c-forum {
+        width: calc(0.25 * (100% - 10px));
+        height: 366px;
+    }
+    .p-dashboards-show .b-hot_topics-v2 + * > .cc-second {
+        margin-bottom: 0;
+    }
+    .p-dashboards-show .cc-news .c-generated_news {
+        width: calc(0.3 * (100% - 10px));
+    }
+    .p-dashboards-show .cc-news .c-news_topics {
+        width: calc(0.7 * (100% - 10px));
+        margin-right: 10px;
+    }
+    .b-comment > .inner .body {
+        margin-left: 0;
+    }
+    .p-achievements-group .cc-2 > .c-column {
+        width: calc((100% - 10px) / 2);
+    }
+        .p-achievements-group .cc-2 > .c-column:nth-child(2n+1) {
+            margin-right: 10px;
+        }
+}
+@media screen and (max-width: 1024px) {
+    .p-profiles-show[data-user^="{\"id\":null"] .profile-head .c-mobile-actions {
+        display: none;
+    }
+    .subheadline-buttons {
+        margin-top: 0;
+    }
+    .l-page {
+        padding-top: 10px;
+    }
+    .p-profiles-show .l-page {
+        padding-top: 15px;
+    }
+    .b-hot_topics-v2 {
+        margin-top: -10px;
+    }
+    .l-top_menu-v2 .menu-icon {
+        height: 40px;
+        margin-top: -7px;
+    }
+    header.head, .p-topics .l-menu .b-forums, .l-menu .block2, .l-menu .block, .p-pages-about .members-block, .p-pages-about .head + .cc-2a > .c-column, .cc.block, .p-pages-about .c-chart:first-child, .p-collections .b-collection-topic.b-topic-minified, .p-dashboards-show .b-hot_topics-v2 + * > .block2, .p-dashboards-show .cc-second .c-content, .contests .block, .p-moderations.p-moderations-show .cc-3 > .c-column, .p-animes_collection-index .pagination, .p-mangas_collection-index .pagination, .p-recommendations-index .pagination, .p-userlist_comparer-show .pagination, .l-menu .b-menu_logo, .l-menu .b-favoured, .b-clubs-menu .b-subposter-actions, .p-achievements-index .block.m0 .block2, .p-achievements-show .b-entry-info, .p-achievements-show .block, .p-achievements-index .block, .p-achievements-index .block2, .p-achievements-index .cc-franchises-genres .c-genres, .p-contests-index .block, .p-contests.p-contests-show > .l-page > * > .block, .p-studios .block > .studio, .p-articles-index .b-topic, .p-profiles-moderation .block2, .p-pages-bb_codes .b-bb_codes-examples.block, .p-collections-index .b-search-results .block:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    .p-dashboards-show .cc-second .c-my_list:last-child, .l-menu .b-menu-links.menu-topics-block.history.m30, .p-pages-ongoings .block.m0, .p-achievements-group .p-achievements-global > .block {
+        margin-bottom: 10px !important;
+    }
+    .p-pages.p-pages-ongoings .b-topic, .p-collections.p-collections-show .b-topic > .editor-container, .p-collections.p-collections-show .b-topic > .b-comments, .p-pages.p-pages-about .b-topic, .p-articles-show .b-topic > .b-comments, .p-articles-show .b-topic > .editor-container {
+        margin-top: 10px;
+    }
+    .p-pages-about .b-brief, .p-achievements-group .cc-2 > .c-column {
+        margin-bottom: 0;
+    }
+    .b-topic.aside-expanded > .inner, .b-message.aside-expanded > .inner, .b-comment.aside-expanded > .inner {
+        margin-left: -160px;
+    }
+    .b-user.detailed, .b-user.moderation {
+        height: 126px;
+        margin-bottom: 10px;
+    }
+    .b-topic.aside-expanded::before, .b-message.aside-expanded::before, .b-comment.aside-expanded::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 15px;
+        z-index: 2;
+        display: block;
+        margin-left: -36px;
+        background: var(--l-page-back-color-desktop);
+        border-right: 1px solid var(--tile-border-color);
+    }
+    .p-profiles .profile-head .c-brief .avatar img {
+        width: 160px;
+        height: 160px;
+    }
+    .b-comment > .inner header img {
+        width: 48px;
+        height: 48px;
+    }
+    .l-top_menu-v2 .active .submenu {
+        max-width: 98%;
+        left: 1%;
+    }
+    .l-top_menu-v2 .global-search .search-results {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    .bar.horizontal .line .bar-container .bar.min {
+        height: 19.8px;
+    }
+    .bar.horizontal .line {
+        height: 20px;
+    }
+    .p-contests .rating .member {
+        height: 29px;
+    }
+    .b-abuse_marker::before {
+        margin-top: 8px;
+    }
+    .b-status-line .section.about .author .b-user16 img {
+        margin-top: 5px;
+    }
+    .subheadline-input {
+        margin-top: 8.5px;
+    }
+    .headline, .midheadline, .subheadline {
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+    .profile-actions .settings::before, .profile-actions .ban::before, .profile-actions .mail::before, .profile-actions .ignore-add::before, .profile-actions .fav-add::before, .profile-actions .talk::before {
+        width: 20px;
+    }
+    .p-characters .item-edit::before {
+        margin-top: -4px;
+    }
+    .b-options-floated.r-edit {
+        margin-top: 3px;
+    }
+    .p-user_rates-index .stat-categories .category {
+        height: 26px;
+    }
+    .b-menu-line {
+        line-height: 25px;
+    }
+    .b-options-floated {
+        margin-top: 2px;
+    }
+    .midheadline .b-user16 img, .subheadline .b-user16 img {
+        margin-top: 5px;
+    }
+    .p-articles-show .b-topic > .inner > .item-mobile, .p-collections-show .b-topic > .inner > .item-mobile {
+        right: 20px;
+        top: 15px;
+    }
+    .l-top_menu-v2 .menu-icon.contest::before {
+        margin-top: 7.5px;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 481px) {
+    .p-profiles .profile-head .c-brief .avatar {
+        margin-top: 130px;
+        height: 75vw;
+        max-width: calc((100% - 16px) * 0.68);
+        width: 100%;
+    }
+    .p-profiles .profile-head .c-history .entry {
+        display: block;
+    }
+    .p-profiles .profile-head .c-history {
+        width: 30%;
+        margin-bottom: 0 !important;
+        margin: 130px 0 0 0;
+        display: inline-block;
+        overflow: inherit;
+        float: right;
+        width: calc((100% - 16px) * 0.32);
+        height: 75vw;
+        padding: 0px;
+        background-color: var(--tile-back-color);
+        border-radius: 3px;
+        border: 1px solid var(--tile-border-color);
+    }
+    .p-profiles .profile-head .c-brief header {
+        position: absolute;
+        top: 0;
+        margin-top: 15px;
+        padding-top: 14px !important;
+        width: calc(100% - 20px);
+        height: 115.5px;
+        float: left;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    .p-profiles[data-user^="{\"id\":null"] .profile-head .avatar, .p-profiles[data-user^="{\"id\":null"] .profile-head .c-history {
+        margin-top: 132px;
+    }
+    .menu-slide-outer.x240 .l-content {
+        margin-right: 10px;
+    }
+    .menu-slide-outer.x240 .l-menu {
+        width: calc(33.5% - 10px);
+    }
+    .menu-slide-outer.x199 .l-content {
+        margin-right: 10px;
+    }
+    .menu-slide-outer.x199 .l-menu {
+        width: calc(33.5% - 10px);
+    }
+    .p-dashboards-show .cc-second .c-my_list:last-child {
+        width: calc(0.5 * (100% - 10px));
+        margin-right: 10px !important;
+        height: 406px;
+    }
+    .p-dashboards-show .cc-second .c-forum {
+        width: calc(0.5 * (100% - 10px));
+        height: 406px;
+    }
+    .p-dashboards-show .b-hot_topics-v2 + * > .cc-second {
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 767px) {
+    :root {
+        --padding-width: 10px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .l-top_menu-v2 .logo-container .glyph {
+        display: none;
+    }
+	body {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .l-page {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .b-hot_topics-v2 {
+        margin-left: -5px;
+    }
+    .p-profiles .profile-head .c-brief .avatar {
+        margin-top: 148px;
+        height: 110vw !important;
+        max-width: 100%;
+        width: 100%;
+    }
+    .p-profiles .profile-head .c-brief header {
+        position: absolute;
+        top: 0;
+        margin-top: 15px;
+        padding-top: 14px !important;
+        width: calc(100% - 10px);
+        height: 132.5px;
+        float: left;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    .menu-slide-outer.x240 .l-content {
+        margin-right: 10px;
+    }
+    .menu-slide-outer.x240 .l-menu {
+        width: calc(43% - 10px);
+    }
+    .menu-slide-outer.x199 .l-content {
+        margin-right: 10px;
+    }
+    .menu-slide-outer.x199 .l-menu {
+        width: calc(43% - 10px);
+    }
+    .subheadline .b-user16 > a span {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 110px;
+        display: block;
+        margin-bottom: -7px;
+    }
+    .p-userlist_comparer .comparer table .num {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 75px;
+    }
+    .p-dashboards-show .b-hot_topics-v2 + * > .cc-second {
+        margin-bottom: 10px;
+    }
+    .p-messages-index .b-options-floated.mobile-phone_portrait {
+        display: block;
+    }
+}
+@media screen and (max-width: 375px) {
+    .b-hot_topics-v2 .b-link {
+        -ms-flex-preferred-size: calc(80% - 40px);
+        flex-basis: calc(80% - 40px);
+    }
+}
+:root {
+    /* В профиле на месте обычной аватарки отображается выбранная Вами картинка. */
+    --desktop-avatar-image: url('https://nyaa.shikimori.one/system/user_images/original/100774/1464295.jpg');
+}
+@import url('https://raw.githubusercontent.com/SergejVolkov/sergejvolkov-shiki-theme/master/profile-cover-light.css');
+@import url('https://raw.githubusercontent.com/SergejVolkov/sergejvolkov-shiki-theme/master/profile-cover.css');
