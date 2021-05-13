@@ -712,6 +712,7 @@ body[data-locale=ru] .b-feedback>.marker-positioner {
     .b-hot_topics-v2 .b-link {
         -ms-flex-preferred-size: calc(80% - 40px);
         flex-basis: calc(80% - 40px);
+	    
     }
 }
 :root {
