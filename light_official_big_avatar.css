@@ -716,7 +716,7 @@ body[data-locale=ru] .b-feedback>.marker-positioner {
 }
 :root {
     /* В профиле на месте обычной аватарки отображается выбранная Вами картинка. */
-    --desktop-avatar-image: url('https://kawai.shikimori.one/system/user_images/original/100774/1492506.jpg');
+    --desktop-avatar-image: url('https://moe.shikimori.one/system/user_images/original/100774/1492512.jpg');
 }
 @import url('https://raw.githubusercontent.com/SergejVolkov/sergejvolkov-shiki-theme/master/profile-cover-light.css');
 @import url('https://raw.githubusercontent.com/SergejVolkov/sergejvolkov-shiki-theme/master/profile-cover.css');
