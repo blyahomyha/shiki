@@ -715,10 +715,5 @@ body[data-locale=ru] .b-feedback>.marker-positioner {
 	    
     }
 }
-:root {
-    /* В профиле на месте обычной аватарки отображается выбранная Вами картинка. */
-    --desktop-avatar-image: url('https://nyaa.shikimori.one/system/user_images/original/100774/1518415.jpg');
-}
-
 @import url('https://raw.githubusercontent.com/SergejVolkov/sergejvolkov-shiki-theme/master/profile-cover-light.css');
 @import url('https://raw.githubusercontent.com/SergejVolkov/sergejvolkov-shiki-theme/master/profile-cover.css');
