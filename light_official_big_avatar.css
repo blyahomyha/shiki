@@ -709,6 +709,7 @@ body[data-locale=ru] .b-feedback>.marker-positioner {
         display: block;
     }
 }
+
 @media screen and (max-width: 375px) {
     .b-hot_topics-v2 .b-link {
         -ms-flex-preferred-size: calc(80% - 40px);
@@ -716,9 +717,5 @@ body[data-locale=ru] .b-feedback>.marker-positioner {
 	    
     }
 }
-
-
-
-
 @import url('https://raw.githubusercontent.com/SergejVolkov/sergejvolkov-shiki-theme/master/profile-cover-light.css');
 @import url('https://raw.githubusercontent.com/SergejVolkov/sergejvolkov-shiki-theme/master/profile-cover.css');
