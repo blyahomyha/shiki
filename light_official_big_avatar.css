@@ -52,8 +52,7 @@ header.head h1, header.head h2 {
   	src: local('PT Mono'), local('PTMono-Regular'), url(https://fonts.gstatic.com/s/ptmono/v7/9oRONYoBnWILk-9AnCszM-Py.woff2) format('woff2'); 
 }
 /*КОНЕЦ ШРИФТЫ*/
-/* Фиксированные размеры постеров */
-@import url(https://css-club.web.app/css/fixed_cover.min.css);
+
 /* Оформление вкладок */
 .u-tabs > div:not([data-tab]) {
   white-space: nowrap;
@@ -112,10 +111,6 @@ header.head h1, header.head h2 {
 }
 .b-comments-notifier {
   	top: 46px !important;
-}
-
-.p-profiles-show .profile-content .activity {
-    display: none;
 }
 
 @media screen {
