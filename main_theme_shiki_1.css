@@ -838,11 +838,6 @@ body, label {
     border-radius: 0px;
 }
 
-.profile-content > .cc-2 > .c-right > .cc-2a>.c-column:nth-child(2n+1) {
-    clear: left;
-    display: none;
-}
-
 hr {
     border: 0px #c8c8c969 dashed;
     height: 0px;
