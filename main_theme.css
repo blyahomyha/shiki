@@ -936,3 +936,74 @@ a {
 .headline>a:hover:before, .midheadline>a:hover:before, .subheadline>a:hover:before {
     color: #f37ba6!important;
 }
+
+.bar.simple .bar {
+    background: #bdbdbd!important;
+    border-top: 1px solid #bdbdbd;
+    border-left: 1px solid #bdbdbd;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.bar.horizontal .line {
+    clear: right;
+    padding: 0 5px 0 0px;
+    margin-bottom: 1px;
+    background-color: #fff;
+    background-image: url(https://i.imgur.com/IGXGYKz.png);
+}
+.b-rate .stars.score {
+    color: #626262;
+}
+.b-anime_status_tag.released , .b-anime_status_tag.anons , .b-anime_status_tag.ongoing , .b-anime_status_tag.discontinued , .b-anime_status_tag.paused {
+    border: 1px solid #999999;
+    color: #000;
+    background-color: #fff;
+    background-image: url(https://i.imgur.com/IGXGYKz.png);
+}
+.b-tag.active[href], .b-tag[href]:hover {
+    border-bottom-color: transparent;
+    color: #fff;
+    margin-left: 0;
+    margin-right: 6px;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-decoration: none;
+    background-color: #fff;
+    background-image: url(https://i.imgur.com/IGXGYKz.png);
+}
+
+.b-add_to_list.completed .trigger, .b-add_to_list.completed .option , .b-add_to_list.dropped .trigger, .b-add_to_list.dropped .option , .b-add_to_list.on_hold .trigger, .b-add_to_list.on_hold .option , .b-add_to_list.planned .trigger, .b-add_to_list.planned .option , .b-add_to_list.watching .trigger, .b-add_to_list.watching .option , .b-add_to_list.rewatching .trigger, .b-add_to_list.rewatching .option {
+    background: #eef6dc;
+    border-color: #bdbdbd;
+    color: #000000;
+    background-image: url(https://i.imgur.com/IGXGYKz.png);
+}
+.b-rate .stars.hover {
+    color: #ffa9c8;
+}
+.b-link_button.dark:hover {
+    background-color: #bdbdbd;
+    border-color: #00ffff00;
+    color: #fff;
+    background-color: #fff;
+    background-image: url(https://i.imgur.com/IGXGYKz.png);
+}
+.b-link_button.dark {
+    background-color: #456;
+    border-color: #3e4d5d00;
+    color: #2e2e2e;
+    background-color: #fff;
+    background-image: url(https://i.imgur.com/IGXGYKz.png);
+}
+.b-comments-notifier {
+    color: #000;
+    background-color: #bdbdbd;
+    border-top: 1px solid #bdbdbd;
+    border-left: 1px solid #bdbdbd;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.b-comments-notifier:hover {
+    background-color: #a9a9a9;
+}
