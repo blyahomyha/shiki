@@ -1,0 +1,938 @@
+/* AUTO=sticky_menu */ 
+@media screen and (min-width: 1025px) { .l-top_menu-v2 { position: sticky; top: 0; } .l-top_menu-v2 .active .submenu { max-height: calc(100vh - var(--top-menu-height)); overflow-y: auto; } }
+
+.l-top_menu-v2 .submenu>a.icon-mail span.unread span {
+    color: #000;
+}
+
+.l-top_menu-v2 .submenu>.legend {
+    font-weight: 100;
+    letter-spacing: 0px;
+    margin-top: 5px;
+    padding: 0 15px 0 10px;
+    pointer-events: none;
+    text-transform: uppercase;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: linear-gradient( 
+45deg, #c3c3c3, #e3e3e3);
+    color: black!important;
+    line-height: 1.9;
+    font-size: 13px!important;
+    margin: 0px;
+  	position: relative;
+}
+
+.l-top_menu-v2 .submenu>.legend:before {
+	content: 'x';
+    position: absolute;
+    right: 4px;
+    text-align: center;
+    top: 4px;
+    float: right;
+    padding-right: 0px;
+    width: 14px;
+    height: 14px;
+    background-color: #e9e7e7;
+    color: black;
+    border-radius: 0px;
+    border-right: 1px #404040 solid;
+    border-bottom: 1px #404040 solid;
+    outline: 1px #000 solid;
+    line-height: 1.1;
+    text-transform: none;
+}
+
+.l-top_menu-v2 .submenu {
+    background: #ffffff !important;
+    border: 1px #dfdfdf solid;
+    border-top: 0;
+    border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    -webkit-border-radius: 0 0 6px 6px;
+    color: #000;
+    padding: 5px;
+    margin-bottom: 15px;
+    outline: 1px solid #000000;
+    background: #ffffff;
+    border: 1px #cacaca;
+    border-bottom: 1px #cacaca;
+    border-style: solid;
+    -webkit-box-shadow: 3px 3px 0px rgb(50 50 50 / 25%);
+    -moz-box-shadow: 3px 3px 0px rgba(50, 50, 50, 0.25);
+    box-shadow: 3px 3px 0px rgb(50 50 50 / 25%);
+    border-radius: 0;
+}
+
+.l-top_menu-v2 .submenu > a:hover, .l-top_menu-v2 .menu-dropdown>span a:hover {
+    color: #000 !important;
+    transition: background 0.2s ease;
+   	background-color: rgb(240 214 222 / 44%)!important;
+}
+
+.l-top_menu-v2 .submenu>a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #000;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    outline: none;
+    padding-right: 10px;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.l-top_menu-v2 .submenu {
+    background: #ffffff !important;
+    border: 1px #dfdfdf solid;
+    border-top: 0;
+    border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    -webkit-border-radius: 0 0 6px 6px;
+    color: #000;
+}
+
+.l-top_menu-v2, .l-top_menu-v2 .menu-dropdown>span, .l-top_menu-v2 .menu-dropdown > span {
+    background: #ffffff !important;
+    border-radius: 0;
+    color: #000;
+  	border-bottom: 1px solid #dfdfdf;
+
+}
+
+.l-top_menu-v2 .menu-dropdown>span a {
+	color: #000;
+}
+
+.l-top_menu-v2 .menu-dropdown.profile {
+	color: #000!important;
+}
+
+.l-top_menu-v2 .menu-icon:hover {
+    -webkit-transition: background .2s ease;
+    transition: background .2s ease;
+    background-color: rgb(240 214 222 / 44%);
+}
+
+/* Полностью убираем иконку */
+.l-top_menu-v2 .logo-container .glyph {
+  	display: none;
+}
+
+/* Меняем название в логотипе на свою картинку */
+.l-top_menu-v2 .logo-container .logo {
+  /* Ширина:
+     уменьшайте, чтобы избавиться от пустого пространства
+     увеличивайте, чтобы картинка не уменьшалась */
+  	width: 100px;
+  	height: 40px; /* Высота картинки */
+  	max-height: 46px; /* Высота меню */
+  	background-image: url('https://img0.liveinternet.ru/images/attach/c/2//65/196/65196616_70.gif#DSD');
+  	background-repeat: no-repeat;
+}
+
+/* Замена логотипа в меню */
+.l-top_menu-v2 .logo-container .logo {
+  	display: block;
+}
+.l-top_menu-v2 .logo-container::after {
+  	display: none;
+}
+
+body, label { 
+  cursor: url(http://i.imgur.com/ZOrzC.png), default!important;
+}
+/*
+@media only screen and (max-width: 6000px){
+.l-footer .copyright:before {
+    content: 'Оригинальная тема by необычный никнейм ';
+}
+}
+*/
+@media screen and (min-width: 1440px) {
+  	.p-profiles .profile-head .c-brief .avatar .profile-actions:before {
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 0px 0px 0 5px;
+    margin-bottom: 7px;
+    content: 'INFP-T, ♉︎ телец Предпочитаемые жанры: ужасы, психология';
+    color: black!important;
+    line-height: 1.9;
+    font-size: 11px;
+    z-index: 23;
+    text-align: left;
+	}
+  	.profile-head > .c-brief > .avatar {
+  	position: absolute;
+    left: -200px;
+    margin-top: -15px!important;
+    padding: 5px;
+    margin-bottom: 15px;
+    outline: 1px solid #000000;
+    background: #ffffff;
+    border: 1px #cacaca;
+    border-bottom: 1px #cacaca;
+    border-style: solid;
+    -webkit-box-shadow: 3px 3px 0px rgb(50 50 50 / 25%);
+    -moz-box-shadow: 3px 3px 0px rgba(50, 50, 50, 0.25);
+    box-shadow: 3px 3px 0px rgb(50 50 50 / 25%);
+ 	} 
+  	.profile-head > .c-brief > .avatar::before {
+    display: block;
+    width: auto;
+    height: 25px;
+    padding: 0px 0px 0 5px;
+    margin-bottom: 7px;
+    content: '/Профиль';
+    background: linear-gradient( 
+45deg, #c3c3c3, #e3e3e3);
+    color: black!important;
+    line-height: 1.9;
+    font-size: 13px;
+	}
+  	.profile-head > .c-brief > .avatar::after {
+    content: 'x';
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    top: 10px;
+    float: right;
+    padding-right: 0px;
+    width: 14px;
+    height: 14px;
+    background-color: #e9e7e7;
+    color: black;
+    border-radius: 0px;
+    border-right: 1px #404040 solid;
+    border-bottom: 1px #404040 solid;
+    outline: 1px #000 solid;
+	}
+  	.profile-head > .c-brief {
+  	position: relative;
+    z-index: -1;
+  	}
+  	.p-profiles .profile-head .c-brief .avatar img {
+  	width: 100%!important;
+    height: auto!important;
+    padding: 0px;
+    outline: 1px solid #00000047;
+    border-radius: 0px!important;
+  	}
+  	.p-profiles .profile-head .c-brief .avatar .profile-actions {
+    margin-top: 5px;
+    text-align: center;
+    display: grid;
+    margin-left: 0px;
+	}
+  	.p-profiles .profile-head .c-brief .avatar .profile-actions > a {
+  	outline: 1px solid #000000;
+    background: #d6d3d3;
+    border: 1px #cacaca;
+    border-bottom: 1px #cacaca;
+    border-style: solid;
+    color: black!important;
+    border-radius: 0px;
+    border-right: 2px #404040 solid;
+    border-bottom: 2px #404040 solid;
+    cursor: inherit;
+    margin: 5px 0;
+    height: 25px;
+    padding: 0px !important;
+  	}
+  	.p-profiles .profile-head .c-brief .avatar .profile-actions > a:hover{
+  	color: #000000 !important; 
+    border-radius: 0px;
+    background-color: #f0d6de;
+    color: #000000!important;
+    border-left: 2px #404040 solid;
+    border-top: 2px #404040 solid;
+    border-right: 0;
+  	}
+  	.profile-actions .mail, .profile-actions .settings, .profile-actions .ban {
+  	color: #000000 !important;
+  	}
+  	.l-page {
+    margin-top: 15px;
+    border: 1px solid #dfdfdf;
+    box-shadow: rgb(0 0 0 / 8%) 7px 7px;
+    border-radius: 5px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-radius: 0px!important;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+.l-page {
+    margin-top: 15px;
+    border: 1px solid #dfdfdf;
+    box-shadow: 2px 2px 0px rgb(50 50 50 / 25%);
+    border-radius: 0px;
+  	padding-bottom: 15px;
+   	margin-bottom: 15px;
+  	}
+}
+
+@media screen and (max-width: 767px){
+	.menu-icon.trigger.mobile {
+    background-color: #c4c4c4!important;
+	}
+}
+
+.buttons .editor-smiley, .buttons .editor-quote, .buttons .editor-link, .buttons .editor-bold, .buttons .editor-italic, .buttons .editor-underline, .buttons .editor-strike, .buttons .editor-image, .buttons .editor-spoiler, .buttons .editor-file, .buttons .item-ignore, .buttons .item-reply, .buttons .item-delete, .buttons .item-cancel, .buttons .item-request-reject, .buttons .item-delete-cancel, .buttons .item-moderation-cancel, .buttons .item-moderation, .buttons .item-quote, .profile-actions .mail, .profile-actions .settings, .profile-actions .ban, .profile-actions .fav-remove, .profile-actions .talk, .profile-actions .ignore-add, .profile-actions .fav-add, .profile-actions .ignore-remove {
+    padding: 5px !important;
+    color: #000000 !important;
+}
+
+.b-stats_bar .bar .first, .b-stats_bar .bar .second, .b-stats_bar .bar .third {
+    color: transparent;
+}
+
+.p-profiles header.head .misc:after {  
+  	content: "Собирает клубнику в Польше";
+  	font-size: 11px;
+  	line-height: 12px;
+}
+
+.p-profiles header.head .misc {
+  	font-size: 0px; 
+}
+
+.rate_module>.c-column>strong {
+    position: absolute;
+    top: 8px;
+    left: -6px;
+    padding: 6px 8px;
+    background: #afcbd7e0;
+    border-color: #ffffff;
+    border-radius: 2px 4px 4px 0;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 70%);
+    color: #000000;
+    font-size: 12px;
+    line-height: 10px;
+    pointer-events: none;
+}
+
+.b-spoiler label:before , .b-spoiler label:after {
+    content: '';
+}
+
+.b-user.avatar img, .p-profiles .profile-head .c-brief .avatar img, .l-top_menu-v2 .menu-dropdown.profile>span img, .b-comment>.inner header img, .l-top_menu-v2 .icon-avatar img, .p-user_rates-index .l-menu .avatar img, .b-club .logo, .b-user.avatar img, .b-user.named_avatar img, .b-user.avatar_fixed_margin img, .p-collections .b-topic>.inner header img, .p-topics .l-menu .clubs .entry img, .b-message > .inner header img, .b-dialog > .inner header img {
+    border-radius: 0px;
+}
+
+/* АЧИВКИ НАЧАЛО */ 
+.b-achievement.is-badge:before {
+	bottom: 0px;
+  	border-radius: 0;
+}
+.b-achievement .c-image .inner a .border {
+    border: 0;
+}
+/* АЧИВКИ КОНЕЦ */ 
+
+.p-profiles .profile-head .c-brief header .notice span:after {
+    color: #000000;
+    content: ;
+    display: inline-block;
+    font-weight: normal;
+    padding: 0 5px;
+}
+
+/* Оформление вкладок */
+.u-tabs > div:not([data-tab]) {
+  	white-space: nowrap;
+  	overflow-x: auto;
+}
+.u-tabs [data-tab-switch] {
+  	display: inline-block;
+    padding: .25em .75em;
+    /* border: 2px solid; */
+    /* border-radius: 20px; */
+    font-weight: bold;
+    /*opacity: .5; */
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background: #e8ebef;
+    border-left: 5px solid #d8dde4;
+    color: #176093!important;
+    font-family: Open Sans, Helvetica Neue, Arial, Verdana, sans-serif;
+    background: var(--headline-background-color);
+    border-left: 5px solid var(--headline-border-color);
+    color: var(--headline-color);
+    font-family: var(--font-alt);
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.13px;
+    line-height: 1.65;
+    margin-bottom: 10px;
+    padding: 4px 10px 2px;
+    position: relative;
+    text-transform: uppercase;
+    -webkit-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+    -webkit-font-smoothing: antialiased;
+}
+
+.u-tabs [data-tab-switch]:not(:first-child) {
+  	margin-left: 10px;
+}
+
+.u-tabs .active[data-tab-switch] {
+    color: #dd5202!important;
+    opacity: 1;
+}
+
+.u-tabs [data-tab] {
+  	margin-top: 10px;
+}
+
+.p-profiles .about.block .b-spoiler label {
+  	border: none;
+  	display: inline-block !important;
+  	font-weight: 100; /* толщина шрифта, можно убрать, если не нужно */
+  	color: #000; /* цвет текста спойлера */
+  	background: #e8ebef; /* цвет фона спойлера */
+  	height: 30px; 
+  	width: 100%;
+  	font-size: 12pt; /* размер шрифта текста на спойлере */
+  	padding-top: 3px; 
+  	text-align: center;
+  	margin-bottom: 5px;
+}
+
+.p-profiles .about.block .b-spoiler .after:before, .about.block .b-spoiler .before:before {
+  	content: '';
+}
+
+.p-profiles .about.block .b-spoiler .before {
+  	width: 100%; 
+  	height: 50px;
+  	display: inline-block !important;
+  	margin-top: -50px;
+}
+
+.p-profiles .about.block .b-spoiler label {
+    background: #e8ebef00;
+  	color: #f7cfdd;
+}
+
+/* БЛОКИ НАЧАЛО */ 
+
+/* Скрываем родительский контейнер Активностей и Дниметра */
+.p-profiles-show .profile-content .cc-2 > .c-left {
+  	display: none;
+}
+
+/* Растягиваем родительский контейнер Избранного, Друзей и Клубов */
+.p-profiles-show .profile-content .cc-2 > .c-right {
+  	display: flex;
+  	flex-direction: row-reverse;
+  	width: 100%;
+  	float: none;
+  	margin: 0;
+}
+
+/* Родительский блок Друзей и клубов – под историей */
+.p-profiles-show .profile-content .cc-2 > .c-right > .cc-2a {
+  	flex-shrink: 0;
+  	width: 23%;
+  	margin: 0 0 0 30px !important;
+}
+
+/* Избранное – на всю доступную ширину */
+.p-profiles-show .profile-content .cc-2 > .c-right > .block {
+  	flex-grow: 1;
+}
+
+/* Друзья и клубы друг над другом */
+.p-profiles-show .profile-content .cc-2 > .c-right .cc-2a > .c-column {
+  	width: 100%;
+}
+/* БЛОКИ КОНЕЦ */ 
+
+.headline, .subheadline, .midheadline:not(.magenta):not(.orange):not(.blue):not(.red):not(.green):not(.yellow):not(.purple), .headline > a, .subheadline > a, .midheadline:not(.magenta):not(.orange):not(.blue):not(.red):not(.green):not(.yellow):not(.purple) > a {
+    background: #e3f0fb00;
+    border-left: 0px solid #e3f0fb;
+    color: #cccccc;
+    border-radius: 0px;
+    text-align: left;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    text-transform: none;
+    border-color: #eeeeee;
+    font-size: 13px!important;
+    line-height: 30px;
+}
+
+.headline>a, .midheadline>a, .subheadline>a {
+  	border-bottom-width: 0px!important;
+}
+
+.b-stats_bar .title , .subheadline , .p-profiles .profile-head .c-history .entry .title , .p-profiles-show .lifetime .times .time.checked , strong, b , .p-profiles-show .profile-content .activity .title , .p-profiles .stat_name .size , .b-comment>.inner .name-date>a , .p-profiles-show .achievements .header .title , .b-achievement .c-about .title, .b-achievement .about .title , .b-catalog_entry .cover .title{
+	font-weight: 100!important;
+}
+
+.tooltip-inner {
+    padding: 5px;
+   	border-radius: 0px;
+    margin-bottom: 15px;
+    outline: 1px solid #000000;
+    background: #ffffff;
+    border: 1px #cacaca;
+    border-bottom: 1px #cacaca;
+    border-style: solid;
+    -webkit-box-shadow: 3px 3px 0px rgb(50 50 50 / 25%);
+    -moz-box-shadow: 3px 3px 0px rgba(50, 50, 50, 0.25);
+    box-shadow: 3px 3px 0px rgb(50 50 50 / 25%);
+}
+
+.tooltip-inner:before {
+    display: block;
+    width: auto;
+    padding: 0px 0px 0 5px;
+    margin-bottom: 7px;
+    content: '/Содержимое файла';
+    background: linear-gradient( 
+45deg, #c3c3c3, #e3e3e3);
+    color: black!important;
+    line-height: 2.2;
+}
+
+.tooltip-inner .close {
+    cursor: pointer;
+    font-family: Courier;
+    font-size: 13px;
+    position: absolute;
+    z-index: 2;
+    right: 12px;
+    text-align: center;
+    top: 12px;
+    padding-right: 0px;
+    line-height: 1.3;
+    width: 14px;
+    height: 14px;
+    background-color: #e9e7e7;
+    color: black;
+    border-radius: 0px;
+    border-right: 1px #404040 solid;
+    border-bottom: 1px #404040 solid;
+    outline: 1px #000 solid;
+}
+
+.tooltip-inner .close:hover {
+	border-radius: 0px;
+    background-color: #f0d6de;
+    color: #000000!important;
+    border-left: 1px #404040 solid;
+    border-top: 1px #404040 solid;
+    border-right: 0;
+}
+
+.tooltip-arrow {
+    display: none;
+}
+
+.p-profiles .profile-head .c-history .entry img:hover {
+    opacity: 1;
+}
+
+.p-profiles .profile-head .c-history .entry img {
+    opacity: 0.9;
+    filter: grayscale(40%);
+}
+
+.b-user.avatar img:hover, .b-user.named_avatar img:hover, .b-user.avatar_fixed_margin img:hover {
+    opacity: 1;
+}
+
+.b-user.avatar img, .b-user.named_avatar img, .b-user.avatar_fixed_margin img {
+    opacity: 0.9;
+    filter: grayscale(45%);
+}
+
+.b-club .logo:hover {
+    opacity: 1;
+}
+
+.b-club .logo {
+    opacity: 0.8;
+    filter: grayscale(30%);
+}
+
+.b-catalog_entry .cover .image-decor {
+    opacity: 0.8;
+    filter: grayscale(30%);
+}
+
+.b-catalog_entry .cover .image-decor:hover {
+    opacity: 0.88;
+}
+
+.b-catalog_entry-tooltip .image {
+    opacity: 0.8;
+    filter: grayscale(30%);
+}
+
+.b-catalog_entry-tooltip .image:hover {
+    opacity: 0.9;
+}
+.b-comment>.inner header img {
+	opacity: 0.8;
+    filter: grayscale(30%);
+}
+.b-comment>.inner header img:hover {
+	opacity: 0.9;
+}
+
+.b-catalog_entry-tooltip .inner .additional-images .link img {
+    opacity: 0.8;
+    filter: grayscale(30%);
+}
+
+.b-catalog_entry-tooltip .inner .additional-images .link img:hover {
+    opacity: 0.9;
+}
+
+.p-profiles .profile-head .c-brief header h1 {
+    font-size: 25px;
+    font-weight: 100;
+    font-style: oblique;
+}
+
+.subheadline:hover {
+    color: #555A80 !important;
+}
+
+.b-stats_bar.anime .bar .first {
+    background: #8b8b8b;
+}
+.b-stats_bar.anime .bar .second {
+    background: #d6d3d3;
+}
+.b-stats_bar.manga .bar .first {
+    background: #ffa9c8;
+}
+.b-stats_bar.manga .bar .second {
+    background: #f0d6de;
+}
+.p-profiles .stat_name[data-type="dropped"] .size {
+    background: #e5e8eb00;
+}
+.p-profiles .stat_name .size {
+    background: #e3f0fb00;
+    color: #000000!important;
+}
+
+.p-profiles .profile-head .avatar img {
+    border: 0px dashed #80afdf;
+}
+
+.p-profiles .stat_name .size {
+    background: #e3f0fb00;
+}
+.b-stats_bar .bar .third {
+    background: #f0d6de;
+}
+
+.c-lists-info .b-stats_bar .bar {
+    height: 4px;
+  	border-radius: 0px;
+}
+
+.b-comments+.editor-container {
+    margin-top: 30px;
+    padding: 5px;
+    margin-bottom: 15px;
+    outline: 1px solid #000000;
+    background: #FFFFFF;
+    border: 1px #cacaca;
+    border-bottom: 1px #cacaca;
+    border-style: solid;
+    -webkit-box-shadow: 3px 3px 0px rgb(50 50 50 / 25%);
+    -moz-box-shadow: 3px 3px 0px rgba(50, 50, 50, 0.25);
+    box-shadow: 3px 3px 0px rgb(50 50 50 / 25%);
+}
+
+.b-comments+.editor-container > .subheadline {
+    line-height: 30px;
+    padding: 0 10px;
+    background: linear-gradient(
+45deg, #c3c3c3, #e3e3e3);
+  	color: black!important;
+}
+
+.b-comments+.editor-container > .subheadline:hover:before {
+	border-left: 1px #404040 solid;
+    border-top: 1px #404040 solid;
+    border-right: 0;
+    border-bottom: 0;
+  	background-color: #bdbdbd;
+}
+
+.b-comments+.editor-container > .b-form {
+	padding: 10px;
+    outline: 1px solid #00000047;
+}
+
+.b-shiki_editor footer .preview, .b-shiki_editor footer input[type=submit] , .b-form input[type=submit] {
+	outline: 1px solid #000000;
+    background: #d6d3d3;
+    border: 1px #cacaca;
+    border-bottom: 1px #cacaca;
+    border-style: solid;
+    color: black;
+  	border-radius: 0px;
+  	border-right: 2px #404040 solid;
+    border-bottom: 2px #404040 solid;
+  	cursor: inherit;
+}
+
+.b-shiki_editor footer input[type=submit]:hover , .b-shiki_editor footer .preview:hover , .b-form input[type=submit]:hover {
+    background-color: #f0d6de;
+    color: #64575d!important;
+    border-left: 2px #404040 solid;
+    border-top: 2px #404040 solid;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.b-offtopic_marker.off:before {
+    border-radius: 0px !important;
+}
+
+.buttons .editor-smiley:hover, .buttons .editor-quote:hover, .buttons .editor-link:hover, .buttons .editor-bold:hover, .buttons .editor-italic:hover, .buttons .editor-underline:hover, .buttons .editor-strike:hover, .buttons .editor-image:hover, .buttons .editor-spoiler:hover, .buttons .editor-file:hover, .profile-actions a:hover, .b-subposter-action:hover, .buttons .item-ignore:hover, .buttons .item-reply:hover, .buttons .item-delete:hover, .buttons .item-cancel:hover, .buttons .item-request-reject:hover, .buttons .item-delete-cancel:hover, .buttons .item-moderation-cancel:hover, .buttons .item-moderation:hover, .buttons .item-quote:hover, .item-sign:hover, .item-add:hover, .item-minus:hover, .item-mobile:hover {
+    background-color: rgb(240 214 222 / 44%);
+    color: #000000 !important;
+    border-radius: 0px;
+}
+
+.b-comments+.editor-container > .subheadline:after {
+    content: 'x';
+    position: absolute;
+    right: 8px;
+    text-align: center;
+    top: 8px;
+    padding-right: 0px;
+    line-height: 1.3;
+    width: 14px;
+    height: 14px;
+    background-color: #e9e7e7;
+    color: black;
+    border-radius: 0px;
+    border-right: 1px #404040 solid;
+    border-bottom: 1px #404040 solid;
+    outline: 1px #000 solid;
+  	line-height: 1.0;
+}
+
+.tooltip-details {
+    outline: 1px solid #00000047;
+    padding: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #fff;
+    background-image: url(https://i.imgur.com/IGXGYKz.png);
+}
+::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    background-image: url(https://i.imgur.com/Qtm9Z60.png);
+    border-top: 1px solid #bdbdbd;
+    border-left: 1px solid #bdbdbd;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+::-webkit-scrollbar {
+    width: 16px;
+    height: 10px;
+}
+
+.info_block {
+	padding: 5px;
+    margin-bottom: 15px;
+    outline: 1px solid #000000;
+    background: #ffffff;
+    border: 1px #cacaca;
+    border-bottom: 1px #cacaca;
+    border-style: solid;
+    -webkit-box-shadow: 3px 3px 0px rgb(50 50 50 / 25%);
+    -moz-box-shadow: 3px 3px 0px rgba(50, 50, 50, 0.25);
+    box-shadow: 3px 3px 0px rgb(50 50 50 / 25%);
+    text-align: left;
+    position: relative;
+}
+
+.info_block:before {
+    display: block;
+    width: auto;
+    height: 25px;
+    padding: 0px 0px 0 5px;
+    margin-bottom: 7px;
+    content: '/Информация о пользователе';
+    background: linear-gradient( 
+45deg, #c3c3c3, #e3e3e3);
+    color: black!important;
+    line-height: 1.9;
+    font-size: 13px;
+  	overflow: hidden;
+}
+
+.info_block:after {
+    content: 'x';
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    top: 10px;
+    float: right;
+    padding-right: 0px;
+    width: 14px;
+    height: 14px;
+    background-color: #e9e7e7;
+    color: black;
+    border-radius: 0px;
+    border-right: 1px #404040 solid;
+    border-bottom: 1px #404040 solid;
+    outline: 1px #000 solid;
+    line-height: 1.3;
+}
+
+.info_block_1 {
+	outline: 1px solid #00000047;
+    padding: 10px;
+}
+
+.rate_module>.c-column>strong {
+    border-radius: 0px 0px 0px 0;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 70%);
+    color: #000000;
+    font-size: 12px;
+    line-height: 10px;
+    pointer-events: none;
+    outline: 1px solid #000000;
+    background: #ffffff;
+    -webkit-box-shadow: 3px 3px 0px rgb(50 50 50 / 25%);
+    -moz-box-shadow: 3px 3px 0px rgba(50, 50, 50, 0.25);
+    box-shadow: 3px 3px 0px rgb(50 50 50 / 25%);
+}
+
+.b-catalog_entry.completed .image-decor:after {
+    color: #000;
+}
+
+.b-catalog_entry .cover .image-decor img, .p-profiles .profile-head .c-history .entry img, .b-db_entry-variant-list_item .image img, .b-menu_logo img, .b-topic>.inner header img, .b-db_entry>.c-image img, .b-topic.b-news_wall-topic.b-news-topic>.inner footer .b-shiki_swiper, .p-dashboards-show .v2 .generated-news-line .poster img {
+    border-radius: 0px;
+}
+
+.profile-content > .cc-2 > .c-right > .cc-2a>.c-column:nth-child(2n+1) {
+    clear: left;
+    display: none;
+}
+
+hr {
+    border: 0px #c8c8c969 dashed;
+    height: 0px;
+    background-image: none!important; 
+    border-top: 1px dashed #efefef;
+}
+
+.profile-content > .about > .subheadline-buttons , .profile-content > .about > .subheadline {
+	display: none;
+}
+
+.b-abuse_request .ban-form .cancel, .b-ban .abuser, .b-bb_codes-examples .example a, .b-bb_codes-examples .result a, .b-bracket-actions > div, .b-bracket-actions > span, .b-catalog_entry-tooltip .inner a.name, .b-catalog_entry-tooltip .inner .line .value a, .b-catalog_entry-tooltip .inner .line.works .value a, .b-catalog_entry .cover .title, .b-club .name, .b-comment > .inner header .name-date a.name, .b-comments .comments-collapser, .b-cosplay-topic > .inner .cosplay-info .line .value a, .b-cosplay_gallery h3 a, .b-db_entry-note .name-container .name, .b-db_entry > .c-about .additional-links .line-container > .link, .b-db_entry > .c-about .additional-links .line-container > a, .b-dialog > .inner header .name-date a.name, .b-feedback-inner .about a, .b-form .variants .variant a, .b-form .cancel, .b-forums .forum .link-with-input .link, .b-forums .reload, .b-header_filters .filter-line a, .b-height_shortener .expand, .b-js-action, .b-js-link, .b-lang_trigger span, .b-link, .b-log_entry a, .b-log_entry .link, .b-log_entry .moderation a, .b-log_entry .spoiler.collapsed, .b-log_entry .spoiler.collapse, .b-log_entry .spoiler.collapse span, .b-log_entry .spoiler.collapsed span, .b-mention, .b-message > .inner header .name-date a.name, .b-nothing_here a, .b-options-floated a, .b-options-floated .link, .b-options-floated .action, .b-options-floated.mobile-desktop a, .b-person .name, .b-shiki_editor footer .unpreview, .b-shiki_editor footer .unpreview:not(.link), .b-shiki_editor footer .cancel, .b-shiki_editor footer .hide, .b-shiki_editor footer .about-bb_codes, .b-source .contributors .val a, .b-source .mal .val a, .b-source .source .val a, .b-spoiler .content .before, .b-spoiler .content .after, .b-spoiler label, .b-stats_bar a.title, .b-table a, .b-topic > .inner header .name-date a.name, .b-topic .footer-vote .vote-group .vote, .b-user.named_avatar .name, .b-user.detailed .info .image-name, .b-user.detailed .history .line a .event, .b-user16, header.head h1 a.back, header.head h2 a.back, header.head a.misc, header.head a.edit, .b-animes-menu .menu-topics-block .history-entry-tooltip a, .p-animes-files .l-content a, .p-mangas-files .l-content a, div.history .block-list li .tooltip-inner a, div.history .b-block_list li .tooltip-inner a, .p-animes_collection-index .pagination .link, .p-mangas_collection-index .pagination .link, .p-recommendations-index .pagination .link, .p-userlist_comparer-show .pagination .link, .p-contests-edit .grid, .p-contests .match-day .match-link a, .p-contests .rating .member a, .p-contests .results a, .p-contests .suggestion > a, .p-contests .variant > a, .b-contests-menu .results, .b-contests-menu .grid a, .p-contests-grid .round .match a, .p-contests-index .contest a, .p-dashboards .c-my_list .list-type > .title .link, .p-dashboards .c-my_list .history > .title .link, .p-dashboards .c-my_list .list-type > .title .switch, .p-dashboards .c-my_list .history > .title .switch, .p-dashboards .user_list .list-type > .title .link, .p-dashboards .user_list .history > .title .link, .p-dashboards .user_list .list-type > .title .switch, .p-dashboards .user_list .history > .title .switch, .p-dashboards-show .c-content .options .option, .p-db_entries-edit_field .cc-genres > .c-all_genres .genre:not(.included) .name, .p-profiles .profile-head .c-brief header .notice a, .p-profiles .profile-head .c-mobile-actions a, .p-profiles .profile-head .c-mobile-actions span, .p-profiles .profile-head .c-info .c-additionals div a, .p-profiles-edit .account .change-password a, .p-profiles-edit .misc .profile-action a:not(.b-button), .p-profiles-edit .misc .profile-action .link, .p-profiles-edit .misc .nickname-changes a, .p-profiles-edit .misc .nickname-changes .link, .p-profiles-edit .list .profile-action a:not(.b-button), .p-profiles-edit .list .profile-action .link, .p-profiles-edit .list .nickname-changes a, .p-profiles-edit .list .nickname-changes .link, .p-profiles-edit .list #import_form .link, .p-profiles-show .about a, .p-studios .studio .name, .p-translations .animes a, .p-user_history-index .history-page .history-interval p a, .p-user_rates-index .list-lines tr .name a, .p-userlist_comparer .comparer table .name a, .b-log_entry .comment-block ins, .p-statistics-index .forum-nav .sections a.selected, .p-user_rates-index .stat-categories .category, .b-animes-menu .menu-topics-block a.entry .name, .b-animes-menu .menu-topics-block .history-entry-tooltip .tooltip-details a, .b-collection_item .delete, .b-collection_item .drag-handle, header.head h1 a.back::before, header.head h2 a.back::before, .b-form a.remove, .b-list_switchers .switcher, .b-link, .b-oauth_application .name-logo .name {
+    color: #000000 !important;
+    border-bottom-color: none !important;
+    border-bottom: none !important;
+    text-decoration: none !important;
+}
+
+.b-bracket-actions > div:hover, .b-bracket-actions > span:hover, .b-catalog_entry-tooltip .inner .line .value a:hover, .b-catalog_entry-tooltip .inner .line.works .value a:hover, .b-catalog_entry .cover .title:hover, .b-comment > .inner header .name-date a.name:hover, .b-cosplay-topic > .inner .cosplay-info .line .value a:hover, .b-cosplay_gallery h3 a:hover, .b-db_entry-note .name-container .name:hover, .b-db_entry > .c-about .additional-links .line-container > .link:hover, .b-db_entry > .c-about .additional-links .line-container > a:hover, .b-dialog > .inner header .name-date a.name:hover, .b-feedback-inner .about a:hover, .b-form .variants .variant a:hover, .b-header_filters .filter-line a:hover, .b-height_shortener .expand:hover, .b-lang_trigger span:hover, .b-link:hover, .b-log_entry a:hover, .b-log_entry .link:hover, .b-log_entry .moderation a:hover, .b-mention:hover, .b-message > .inner header .name-date a.name:hover, .b-nothing_here a:hover, .b-options-floated a:hover, .b-options-floated.mobile-desktop a:hover, .b-person .name:hover, .b-shiki_editor footer .about-bb_codes:hover, .b-source .contributors .val a:hover, .b-source .mal .val a:hover, .b-source .source .val a:hover, .b-spoiler label:hover, .b-spoiler .content:hover .before, .b-spoiler .content:hover .after, .b-stats_bar a.title:hover, .b-table a:hover, .b-topic > .inner header .name-date a.name:hover, .b-user16:hover, header.head h1 a.back:hover, header.head h2 a.back:hover, .b-animes-menu .menu-topics-block .history-entry-tooltip a:hover, .p-animes-files .l-content a:hover, .p-mangas-files .l-content a:hover, div.history .block-list li .tooltip-inner a:hover, div.history .b-block_list li .tooltip-inner a:hover, .p-contests-edit .grid:hover, .p-contests .match-day .match-link a:hover, .p-contests .rating .member a:hover, .p-contests .results a:hover, .p-contests .suggestion > a:hover, .p-contests .variant > a:hover, .b-contests-menu .results:hover, .p-dashboards .c-my_list .list-type > .title .link:hover, .p-dashboards .c-my_list .history > .title .link:hover, .p-dashboards .c-my_list .list-type > .title .switch:hover, .p-dashboards .c-my_list .history > .title .switch:hover, .p-dashboards .user_list .list-type > .title .link:hover, .p-dashboards .user_list .history > .title .link:hover, .p-dashboards .user_list .list-type > .title .switch:hover, .p-dashboards .user_list .history > .title .switch:hover, .p-dashboards-show .c-content .options .option:hover, .p-dashboards-show .c-content .options .option.selected, .p-db_entries-edit_field .cc-genres > .c-all_genres .genre:not(.included) .name:hover, .p-profiles .profile-head .c-brief header .notice a:hover, .p-profiles .profile-head .c-mobile-actions span:hover, .p-profiles .profile-head .c-info .c-additionals div a:hover, .p-profiles-edit .list #import_form .link:hover, .p-profiles-show .about a:hover, .p-studios .studio .name:hover, .p-translations .animes a:hover, .p-user_history-index .history-page .history-interval p a:hover, .p-user_rates-index .list-lines tr .name a:hover, .p-userlist_comparer .comparer table .name a:hover, .p-statistics-index .forum-nav .sections a:hover, .block-list-alt a:hover, .b-block_list-alt a:hover, .b-catalog_entry .cover:hover, .b-catalog_entry .cover:hover .title, .b-comment > .inner .was_updated:hover, .b-dialog > .inner .was_updated:hover, .b-message > .inner .was_updated:hover, .b-show_more:hover, .b-show_more-more .hide-more:hover, .b-topic > .inner .was_updated:hover, .tooltip-inner .close:hover, .p-animes-franchise .sticky-tooltip .close:hover, .p-mangas-franchise .sticky-tooltip .close:hover, .p-contests .b-contest_match .prev-match:hover, .p-contests .b-contest_match .next-match:hover, .p-contests .match-day .match-link.voted-none > .c-column a:hover, .p-contests .match-day .match-link.voted-left > .c-column:last-child a:hover, .p-contests .match-day .match-link.voted-right > .c-column:first-child a:hover, .p-contests .match-day .match-link .c-column.loser a:hover, .p-contests .match-day .match-link .c-column.created a:hover, .p-contests-grid .round .match .date a:hover, .p-topics header h1 a.reload:hover, .p-user_rates-index .l-content .order-control:hover, .p-user_rates-index .list-lines tr td .anime-status:hover, .p-user_rates-index .list-lines tr td .anime-remove:hover, .p-user_rates-index .list-lines tr td .anime-remove.selected, .b-options-floated.mobile-desktop a.selected, .p-user_rates-index .stat-categories .category.active, .b-animes-menu .menu-topics-block a.entry:hover .name, .b-animes-menu .menu-topics-block a.entry .name:hover, .b-animes-menu .menu-topics-block .history-entry-tooltip .tooltip-details a:hover, .b-options-floated .selected:hover, .b-options-floated .selected.always-active:hover, .b-user16:hover a, .b-user16:hover span, .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility .text:hover, .b-collection_item .delete:hover, .b-collection_item .drag-handle:hover, .b-edit_styles .edit_style .style_css .editor-expand:hover, .b-edit_styles .edit_style .style_css .editor-collapse:hover, .b-edit_styles .new_style .style_css .editor-expand:hover, .b-edit_styles .new_style .style_css .editor-collapse:hover, header.head h1 a.back:hover:after, header.head h2 a.back:hover:after, header.head h1 a.back:hover::before, header.head h2 a.back:hover::before, .p-dashboards .user_list .list-change:hover .title, .b-list_switchers .switcher:hover, .p-topics .l-menu .sticky-topics .topic:hover .title, .p-topics .l-menu .sticky-topics .topic:hover .title:after, .p-topics .l-menu .sticky-topics .topic .title:hover, .p-topics .l-menu .sticky-topics .topic .title:hover:after, .b-catalog_entry .cover .title:hover, .p-topics .l-menu .contests .contest .title:hover:after, .p-userlist_comparer .comparer table .name a:hover, .p-translations .animes a:hover, .p-tests-franchises .not-matched a:hover, .p-tests-franchises .matched a:hover, .p-profiles-edit .misc .profile-action a:not(.b-button):hover, .p-profiles-edit .misc .profile-action .link:hover, .p-profiles-edit .misc .nickname-changes a:not(.b-button):hover, .p-profiles-edit .misc .nickname-changes .link:hover, .p-profiles-edit .list .profile-action a:not(.b-button):hover, .p-profiles-edit .list .profile-action .link:hover, .p-profiles-edit .list .nickname-changes a:not(.b-button):hover, .p-profiles-edit .list .nickname-changes .link:hover, .p-profiles-edit .account .change-password a:hover, .p-profiles .profile-head .c-mobile-actions a:hover, .p-profiles .profile-head .c-mobile-actions span:hover, .p-db_entries-edit_field .cc-genres>.c-all_genres .genre:not(.included) .name:hover, .p-dashboards-show .c-content .options .option:hover, .p-dashboards .user_list .list-type>.title .link:hover, .p-dashboards .user_list .history>.title .link:hover, .p-dashboards .c-my_list .list-type>.title .link:hover, .p-dashboards .c-my_list .history>.title .link:hover, .p-contests-grid .round .match a:hover, .p-contests-index .contest a:hover, .b-contests-menu .results:hover, .b-contests-menu .grid a:hover, .p-contests .suggestion>a:hover, .p-contests .variant>a:hover, .p-contests-edit .grid:hover, .p-clubs-edit .pages .club_page-actions:hover, .p-club_pages .club_page-actions:hover, .p-animes_collection-index .pagination .link:hover, .p-mangas_collection-index .pagination .link:hover, .p-recommendations-index .pagination .link:hover, .p-userlist_comparer-show .pagination .link:hover, .b-animes-menu .menu-topics-block .entry .name:hover, header.head a.misc:hover, header.head a.edit:hover, .b-user_rate_log .spoiler.collapse span:hover, .b-user_rate_log .spoiler.collapsed span:hover, .b-user_rate_log .spoiler.collapse:hover, .b-user_rate_log .spoiler.collapsed:hover, .b-user_rate_log .link:hover, .b-user_rate .add-to-list:hover, .b-user.detailed .history .line a .event:hover, .b-user.moderation .history .line a .event:hover, .b-user.detailed .info .image-name:hover, .b-user.moderation .info .image-name:hover, .b-user.named_avatar .name:hover, .b-topic .footer-vote .vote-group .vote:hover, .b-topic>.inner header .name-date a.name:hover, .b-shiki_editor footer .unpreview:not(.link):hover, .b-shiki_editor footer .cancel:hover, .b-shiki_editor footer .hide:hover, .b-shiki_editor footer .unpreview:hover, .b-options-floated .action:hover, .b-options-floated .link:hover, .b-oauth_application .name-logo .name:hover, .b-message>.inner header .name-date a.name:hover, .b-log_entry .spoiler.collapse span:hover, .b-log_entry .spoiler.collapsed span:hover, .b-log_entry .spoiler.collapse:hover, .b-log_entry .spoiler.collapsed:hover, .b-js-link:hover, .b-js-action:hover, .b-forums .reload:hover, .b-forums .forum .link-with-input .link:hover, .b-form .cancel:hover, .b-form a.remove:hover, .b-dialog>.inner header .name-date a.name:hover, .b-db_entry>.c-about .additional-links .line-container>.link:hover, .b-db_entry>.c-about .additional-links .line-container>a:hover, .b-contest_match .vs .actions .action span:hover, .b-comments .comments-collapser:hover, .b-comment header .hash:hover, .b-comment>.inner header .name-date a.name:hover, .b-collection_search .field .clear:hover, .b-club .name:hover, .b-catalog_entry-tooltip .inner a.name:hover, .b-bracket-details:hover, .b-ban .abuser:hover, .b-ban .spoiler.collapse span:hover, .b-ban .spoiler.collapsed span:hover, .b-ban .spoiler.collapse:hover, .b-ban .spoiler.collapsed:hover, .b-achievement .c-about a.title:hover, .b-achievement .about a.title:hover, .b-abuse_request .ban-form .cancel:hover, .p-user_rates-index .stat-categories .category:hover, .p-topics .l-menu .calendar .entry:hover .title, .p-topics .l-menu .reviews .entry:hover .title, .p-topics .l-menu .clubs .entry:hover .title, .b-mention:hover span, .b-bb_codes-examples .example a:hover, .b-bb_codes-examples .result a:hover, .p-dashboards-show .headline .buttons .options:hover, .b-topic.b-news_wall-topic.b-news-topic>.inner>a:hover .name-date .name, .b-news_wall-topic>a:hover .title, .b-news_line-topic>a:hover .title {
+    color: #f37ba6 !important;
+    border-bottom-color: none !important;
+    border-bottom: none !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: #f37ba6 !important;
+    text-decoration: none !important;
+    border-bottom-color: none !important;
+    border-bottom: none !important;
+}
+
+.p-profiles .about.block .b-spoiler label {
+    font-weight: 100;
+}
+
+a {
+    color: #000000;
+}
+
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a {
+    color: #000000;
+    cursor: pointer;
+}
+
+.b-mention s {
+    color: #f37ba6 !important;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.p-profiles .b-tooltipped.dotted {
+    color: #f37ba6;
+}
+
+.b-catalog_entry.completed .image-decor:after {
+    color: #fff;
+}
+
+.b-feedback>.marker-positioner>.marker-text {
+	outline: 1px solid #000000;
+    background: #d6d3d3;
+    border: 1px #cacaca;
+    border-bottom: 1px #cacaca!important;
+    border-style: solid;
+    border-radius: 0px;
+    border-left: 2px #404040 solid;
+    border-bottom: 2px #404040 solid!important;
+    cursor: inherit;
+    padding: 1px !important;
+}
+
+.b-feedback>.marker-positioner>.marker-text:after {
+    color: #000;
+}
+
+.b-feedback>.hover-activator {
+    background: #4b80c000;
+}
+
+.b-feedback>.marker-positioner>.marker-text:hover , .b-feedback>.marker-positioner>.marker-text:active {
+	border-radius: 0px;
+    background-color: #f0d6de!important;
+    border-right: 2px #404040 solid;
+    border-top: 2px #404040 solid;
+    border-left: 0!important;
+    border-bottom: 0!important;
+    background-image: none!important;
+}
+
+.headline>a:hover:before, .midheadline>a:hover:before, .subheadline>a:hover:before {
+    color: #f37ba6!important;
+}
