@@ -153,13 +153,13 @@
 body, label { 
   cursor: url(http://i.imgur.com/ZOrzC.png), default!important;
 }
-/*
+
 @media only screen and (max-width: 6000px){
 .l-footer .copyright:before {
     content: 'Оригинальная тема by необычный никнейм ';
 }
 }
-*/
+
 @media screen and (min-width: 1440px) {
   	.p-profiles .profile-head .c-brief .avatar .profile-actions:before {
     display: block;
@@ -167,7 +167,7 @@ body, label {
     height: auto;
     padding: 0px 0px 0 5px;
     margin-bottom: 7px;
-    content: 'INFP-T, ♉︎ телец Предпочитаемые жанры: ужасы, психология';
+    
     color: black!important;
     line-height: 1.9;
     font-size: 11px;
@@ -298,12 +298,6 @@ body, label {
 
 .b-stats_bar .bar .first, .b-stats_bar .bar .second, .b-stats_bar .bar .third {
     color: transparent;
-}
-
-.p-profiles header.head .misc:after {  
-  	content: "Собирает клубнику в Польше";
-  	font-size: 11px;
-  	line-height: 12px;
 }
 
 .p-profiles header.head .misc {
