@@ -1104,3 +1104,50 @@ padding: 0 0 15px 0;
 .l-top_menu-v2 .menu-icon.trigger:before {
     filter: invert(100%);
 }
+
+.p-dashboards-show .v2 .my-list {
+  	padding: 2px;
+    background-color: #d0d0c8;
+    border: 1px solid #d0d0c8;
+    border-left-color: white;
+    border-top-color: white;
+    border-right-color: #808080;
+    border-bottom-color: #808080;
+}
+.p-dashboards-show .v2 .my-list .label {
+    background: linear-gradient(to right, #fffdb8, #f9c7dc);
+    line-height: 1.5;
+    font-size: 13px;
+    border: 1px inset #d0d0c8;
+    border-left-color: #404040;
+    border-top-color: #404040;
+    border-right-color: white;
+    border-bottom-color: white;
+    overflow-y: hidden;
+}
+.p-dashboards-show .v2 .my-list .label span {
+    margin-left: 8px;
+}
+.p-dashboards-show .v2 .my-list .label .misc-links a {
+    font-size: 10px;
+    line-height: 2.3;
+}
+.b-user_rate-history {
+    padding: 2px;
+    background-color: #ffffff;
+    border: 1px inset #d0d0c8;
+    border-left-color: #404040;
+    border-top-color: #404040;
+    border-right-color: white;
+    border-bottom-color: white;
+}
+.b-user_rate-history .progress {
+    background-color: #ddd;
+}
+.b-user_rate-history .progress .completed {
+    background-color: #d0d0c8;
+    border-top: 1px solid #bdbdbd;
+    border-left: 1px solid #bdbdbd;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
