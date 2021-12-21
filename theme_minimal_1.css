@@ -640,9 +640,7 @@ font-size: 13px;
     color: transparent;
 }
 
-.p-profiles header.head .misc {
-  	font-size: 0px; 
-}
+
 
 .rate_module>.c-column>strong {
     position: absolute;
@@ -1150,4 +1148,77 @@ padding: 0 0 15px 0;
     border-left: 1px solid #bdbdbd;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
+}
+
+.p-dashboards-show .v2 .headline {
+    padding: 0 10px;
+    border: 1px inset #d0d0c8;
+    border-top-color: #404040!important;
+    border-top-style: inset;
+    border-top-width: 1px;
+    border-right-color: #afafaf!important;
+    border-right-style: inset;
+    border-right-width: 1px;
+    border-bottom-color: #343434!important;
+    border-bottom-style: inset;
+    border-bottom-width: 1px;
+    border-left-color: #404040!important;
+    border-left-style: inset;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-left-color: #404040!important;
+    border-top-color: #404040!important;
+    border-right-color: #9f9f9f!important;
+    border-bottom-color: #b9b9b9!important;
+    font-size: 13px!important;
+    line-height: 19px!important;
+    background-color: #d0d0c8;
+    color: #000!important;
+}
+
+.b-link_button.dark {
+    background-color: #d0d0c8!important;
+    text-align: center;
+    border: 1px solid #404040!important;
+    border-top-color: white!important;
+    border-left-color: white!important;
+  	background-image: none;
+}
+.b-link_button.dark:hover {
+    background-color: #d0d0c8!important;
+    text-align: center;
+    border: 1px solid #404040!important;
+    border-bottom-color: white!important;
+    border-right-color: white!important;
+    background-image: none;
+  	color: #2e2e2e!important;
+}
+
+.subheadline-buttons {
+    right: 0px;
+}
+.p-dashboards-show .v2 .create-topic {
+    font-size: 11px;
+    padding: 3px 10px;
+}
+
+.l-top_menu-v2 .menu-icon[data-count]:after {
+    -webkit-border-radius: 0%;
+    border-radius: 0%;
+    border: 1px solid #000000;
+    color: #000000;
+    background-color: #e9e7e7;
+    border-right: 2px #404040 solid;
+    border-bottom: 2px #404040 solid;
+    border-left: 2px #fff solid;
+    border-top: 2px #fff solid;
+}
+
+.p-dashboards-show .v2 .fc-user-sections .tag-link {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
 }
