@@ -1246,3 +1246,37 @@ padding: 0 0 15px 0;
   	margin-left: 0!important;
     margin-right: 0!important;
 }
+
+body[data-locale=ru] .b-new_marker.active:active:before , body[data-locale=ru] .b-new_marker.active:hover:before {
+    background-color: #155785;
+    border-color: #000000;
+    border-radius: 0%;
+    border: 1px solid #000000;
+    color: #000000;
+    background-color: #e9e7e7;
+    border-left: 2px #404040 solid;
+    border-top: 2px #404040 solid;
+    border-right: 2px #fff solid;
+    border-bottom: 2px #fff solid;
+}
+body[data-locale=ru] .b-new_marker:before {
+    background-color: #e9e7e7;
+    border: 1px solid #000000;
+    color: #000;
+    content: attr(data-text);
+    font-size: 11px;
+    font-family: var(--font-alt);
+    letter-spacing: var(--font-alt-text-letter-spacing);
+    line-height: 14px;
+    position: absolute;
+    text-align: center;
+    width: 38px;
+    border-radius: 0%;
+    border: 1px solid #000000;
+    color: #000000;
+    background-color: #e9e7e7;
+    border-right: 2px #404040 solid;
+    border-bottom: 2px #404040 solid;
+    border-left: 2px #fff solid;
+    border-top: 2px #fff solid;
+}
