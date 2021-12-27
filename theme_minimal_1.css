@@ -309,8 +309,11 @@ a {
     border-left-color: white;
 }
 
-.b-shiki_editor footer input[type=submit]:hover , .b-shiki_editor footer .preview:hover , .b-form input[type=submit]:hover {
+.b-shiki_editor footer input[type=submit]:hover, .b-shiki_editor footer .preview:hover, .b-form input[type=submit]:hover {
     background: #d0d0c8;
+    border: 1px solid #404040;
+    border-bottom-color: white;
+    border-right-color: white;
 }
 
 .b-offtopic_marker.off:before {
