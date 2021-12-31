@@ -1325,3 +1325,8 @@ body[data-locale=ru] .b-new_marker:before {
   	font-size: 13px;
   }
 }
+
+.b-user_rate .rate-show .rate-number .item-add {
+   
+    border: 1px solid transparent;
+}
