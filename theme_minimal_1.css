@@ -1503,6 +1503,8 @@ body[data-locale=ru] .b-new_marker:before {
     box-shadow: 0 0 0px #fff;
 }
 
-
+.b-stats_bar.lifetime .bar .first {
+    background: #d0d0c8;
+}
 
 
