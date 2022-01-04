@@ -1,5 +1,6 @@
 /* Отображение истории в мобильной версии */
 @import url(https://gist.githubusercontent.com/grin3671/d994b47c010aabfd06cba7b9b1edcf03/raw/mobileHistory.css); 
+
 .l-footer {
     clear: both;
     padding-top: 15px;
@@ -59,11 +60,11 @@
     border-image-repeat: initial;
     border-left-color: #404040!important;
     border-top-color: #404040!important;
-   	border-right-color: #9f9f9f!important;
+   border-right-color: #9f9f9f!important;
     border-bottom-color: #b9b9b9!important;
     font-size: 13px!important;
     line-height: 19px!important;
-	  background-color: #d0d0c8;
+background-color: #d0d0c8;
     color: #000!important;
 }
 .headline>a:before, .midheadline>a:before, .subheadline>a:before {
@@ -831,9 +832,8 @@ font-size: 13px;
     
     overflow-y: hidden;
     cursor: default;
-    background-color: #436e31;
-   
-    color: #000000;
+    background:var(--color-background)!important;
+	color:var(--color-text-legend)!important;
 	}
   	.profile-head > .c-brief > .avatar::after {
    	content: '';
@@ -907,7 +907,6 @@ font-size: 13px;
     border-radius: 0px!important;
 	}
   section.l-page:before {
-    
     display: block;
     width: auto;
     height: 19px;
@@ -923,9 +922,8 @@ font-size: 13px;
     border-bottom-color: white;
     overflow-y: hidden;
     cursor: default;
-    background-color: #436e31;
-  
-    color: #000000;
+    background:var(--color-background)!important;
+color:var(--color-text-legend)!important;
 }
   section.l-page:after {
   	content: '';
@@ -988,12 +986,13 @@ padding: 0 0 15px 0;
     -ms-user-select: none;
     user-select: none;
   
-    color: black!important;
+   
     line-height: 1.9;
     font-size: 13px!important;
     margin: 0px;
   	position: relative;
-  	
+  	background:var(--color-background)!important;
+color:var(--color-text-legend)!important;
     border: 1px inset #d0d0c8;
     border-left-color: #404040;
     border-top-color: #404040;
@@ -1297,8 +1296,8 @@ body[data-locale=ru] .b-new_marker:before {
     border-bottom-color: white;
     overflow-y: hidden;
     cursor: default;
-    background-color: #436e31;
-    color: #000000;
+    background:var(--color-background)!important;
+color:var(--color-text-legend)!important;
 }
 	.p-profiles .profile-head .c-brief .avatar .profile-actions:before {
     display: block;
@@ -1344,9 +1343,8 @@ body[data-locale=ru] .b-new_marker:before {
     
     overflow-y: hidden;
     cursor: default;
-    background: linear-gradient(to right, #272526a3, #b7aea7);
-   
-    color: #000000;
+    background:var(--color-background)!important;
+color:var(--color-text-legend)!important;
 	}
   	.profile-head > .c-brief > .avatar::after {
    	content: '';
@@ -1403,7 +1401,8 @@ body[data-locale=ru] .b-new_marker:before {
   	color: #000000 !important;
   	}
   section.l-page:before , .profile-head > .c-brief > .avatar::before , .l-top_menu-v2 .submenu>.legend ,  .b-comments+.editor-container > .subheadline , .tooltip-inner:before{
-    color: #c7c7c7!important;
+    
+color:var(--color-text-legend)!important;
 }
 }
 
