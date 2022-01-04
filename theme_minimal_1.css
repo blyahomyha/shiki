@@ -831,8 +831,8 @@ a {
     overflow-y: hidden;
     cursor: default;
     min-height: 16px;
-    background-color: #436e31;
-    color: #000000;
+    background:var(--color-background)!important;
+    color:var(--color-text-legend)!important;
 }
 
 .tooltip-inner .close {
