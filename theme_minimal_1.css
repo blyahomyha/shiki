@@ -1326,6 +1326,24 @@ body[data-locale=ru] .b-new_marker:before {
   .profile-actions > .b-tooltipped:before {
   	font-size: 13px;
   }
+	.profile-head > .c-brief > .avatar::before {
+    display: block;
+    width: auto;
+    height: 19px;
+    padding: 0px 0px 0 5px;
+    margin-bottom: 7px;
+    content: '/Профиль';
+    line-height: 1.5;
+    font-size: 13px;
+    border: 1px inset #d0d0c8;
+    border-left-color: #404040;
+    border-top-color: #404040;
+    border-right-color: white;
+    border-bottom-color: white;
+    overflow-y: hidden;
+    cursor: default;
+    background-color: #436e31;
+    color: #000000;
 }
 
 .b-user_rate .rate-show .rate-number .item-add {
