@@ -1,3 +1,5 @@
+/* Отображение истории в мобильной версии */
+@import url(https://gist.githubusercontent.com/grin3671/d994b47c010aabfd06cba7b9b1edcf03/raw/mobileHistory.css); 
 .l-footer {
     clear: both;
     padding-top: 15px;
@@ -1360,3 +1362,62 @@ body[data-locale=ru] .b-new_marker:before {
     -webkit-box-shadow: 0 0 0px #fff;
     box-shadow: 0 0 0px #fff;
 }
+
+@media (min-width: 320px) and (max-width: 480px){
+  .profile-head {
+  	padding-top: 128px;
+  }
+  .p-profiles .profile-head .c-history {
+  	display: block;
+    float: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: auto;
+    padding: 0 1rem;
+    margin: 0 -1rem;
+    white-space: nowrap;
+    overflow-x: auto;
+    z-index: 1;
+    margin-bottom: 2rem;
+  }
+  .p-profiles .profile-head .c-brief {
+  	padding: 12px 16px;
+    margin: 0 -16px 1em;
+    
+  }
+  .p-profiles .profile-head .c-brief .avatar {
+  	float: none;
+    position: relative;
+    max-width: 100%;
+    min-height: 49px;
+    margin: 0 0 12px;
+    flex-shrink: 0;
+    text-align: center;
+  }
+  .p-profiles .profile-head .c-brief .avatar img {
+  	width: 36%;
+    max-width: 160px;
+    transform: translateY(calc(-10% - 12px));
+    vertical-align: top;
+    display: block;
+    height: auto;
+    margin: auto;
+    border: 1px inset #d0d0c8;
+    border-left-color: #404040;
+    border-top-color: #404040;
+    border-right-color: white;
+    border-bottom-color: white;
+    background-color: #d0d0c8;
+    border-radius: 0px!important;
+  }
+  .p-profiles .profile-head .c-brief header {
+  	text-align: center;
+  }
+  .p-profiles .profile-head .c-mobile-actions {
+    text-align: center;
+}
+}
+
+
