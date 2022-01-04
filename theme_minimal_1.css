@@ -1344,21 +1344,13 @@ body[data-locale=ru] .b-new_marker:before {
     
     overflow-y: hidden;
     cursor: default;
-    background-color: #436e31;
+    background: linear-gradient(to right, #272526a3, #b7aea7);
    
     color: #000000;
 	}
   	.profile-head > .c-brief > .avatar::after {
    	content: '';
-    position: absolute;
-    right: 5px;
-    top: 5px;
-    float: right;
-    width: 50px;
-    height: 15px;
-    background-image: url('https://kawai.shikimori.one/system/user_images/original/100774/1695126.jpg');
-    background-repeat: no-repeat;
-    background-position: -2px -33px;
+    
 	}
   	.profile-head > .c-brief {
   	
@@ -1410,6 +1402,9 @@ body[data-locale=ru] .b-new_marker:before {
   	.profile-actions .mail, .profile-actions .settings, .profile-actions .ban {
   	color: #000000 !important;
   	}
+  section.l-page:before , .profile-head > .c-brief > .avatar::before , .l-top_menu-v2 .submenu>.legend ,  .b-comments+.editor-container > .subheadline , .tooltip-inner:before{
+    color: #c7c7c7!important;
+}
 }
 
 .b-user_rate .rate-show .rate-number .item-add {
