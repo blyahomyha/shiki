@@ -1330,3 +1330,33 @@ body[data-locale=ru] .b-new_marker:before {
    
     border: 1px solid transparent;
 }
+.tipsy-arrow-w {
+    border-right-color: #d0d0c8;
+}
+.tipsy-inner {
+   
+    color: #000;
+    min-width: 50px;
+    max-width: 320px;
+    overflow: hidden;
+    padding: 5px 8px 4px;
+    text-align: center;
+    padding: 2px;
+    background-color: #d0d0c8;
+    border: 1px solid #d0d0c8;
+  
+    border-top-color: white;
+    border-right-color: #808080;
+    border-bottom-color: #808080;
+   
+  	border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+.tipsy {
+    opacity: 1.0!important;
+}
+.tipsy-inner {
+    -webkit-box-shadow: 0 0 0px #fff;
+    box-shadow: 0 0 0px #fff;
+}
