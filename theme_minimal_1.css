@@ -633,7 +633,7 @@ a {
 }
 
 .buttons .editor-bold {
-	border: 1px solid transparent;
+    border: 1px solid transparent;
 }
 
 .b-catalog_entry.completed .image-decor:before , .b-catalog_entry.on_hold .image-decor:before , .b-catalog_entry.planned .image-decor:before , .b-catalog_entry.dropped .image-decor:before , .b-catalog_entry.watching .image-decor:before , .b-catalog_entry.rewatching .image-decor:before {
@@ -1292,7 +1292,7 @@ body, label {
 }
 
 .p-dashboards-show .v2 .my-list .label {
-    background: linear-gradient(to right, #fffdb8, #f9c7dc);
+    background:var(--color-background)!important;
     line-height: 1.5;
     font-size: 13px;
     border: 1px inset #d0d0c8;
