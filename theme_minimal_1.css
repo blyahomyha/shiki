@@ -1,6 +1,402 @@
 /* Отображение истории в мобильной версии */
 @import url(https://gist.githubusercontent.com/grin3671/d994b47c010aabfd06cba7b9b1edcf03/raw/mobileHistory.css); 
 
+@media only screen and (max-width: 6000px){
+.l-footer .copyright:before {
+    content: 'Оригинальная тема by необычный никнейм ';
+}
+}
+
+@media screen and (max-width: 1024px) {
+   .l-footer {
+    border-right-color: grey!important;
+    border-bottom-color: #a3a3a3;
+  }
+}
+
+@media screen and (max-width: 767px){
+   .l-footer .copyright {
+    color: #555;
+    float: left;
+    font: 11px trebuchet ms,tahoma,arial,verdana;
+    padding: 3px 1px 7px 0;
+    vertical-align: bottom;
+    white-space: normal;
+  }
+	
+  .l-footer {
+    border-right-color: grey!important;
+    border-bottom-color: #a3a3a3;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px){	
+  .profile-head {
+    padding-top: 128px;
+  }
+	
+  .p-profiles .profile-head .c-history {
+  	display: block;
+    float: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: auto;
+    padding: 0 1rem;
+    margin: 0 -1rem;
+    white-space: nowrap;
+    overflow-x: auto;
+    z-index: 1;
+    margin-bottom: 2rem;
+  }
+	
+  .p-profiles .profile-head .c-brief {
+    padding: 12px 16px;
+    margin: 0 -16px 1em;
+  }
+	
+  .p-profiles .profile-head .c-brief .avatar {
+    float: none;
+    position: relative;
+    max-width: 100%;
+    min-height: 49px;
+    margin: 0 0 12px;
+    flex-shrink: 0;
+    text-align: center;
+  }
+	
+  .p-profiles .profile-head .c-brief .avatar img {
+    width: 36%;
+    max-width: 160px;
+    transform: translateY(calc(-10% - 12px));
+    vertical-align: top;
+    display: block;
+    height: auto;
+    margin: auto;
+    border: 1px inset #d0d0c8;
+    border-left-color: #404040;
+    border-top-color: #404040;
+    border-right-color: white;
+    border-bottom-color: white;
+    background-color: #d0d0c8;
+    border-radius: 0px!important;
+  }
+	
+  .p-profiles .profile-head .c-brief header {
+    text-align: center;
+  }
+	
+  .p-profiles .profile-head .c-mobile-actions {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1439px) {
+  .profile-actions > .b-tooltipped:before {
+    font-size: 13px;
+  }
+	
+  .profile-head > .c-brief > .avatar::before {
+    display: block;
+    width: auto;
+    height: 19px;
+    padding: 0px 0px 0 5px;
+    margin-bottom: 7px;
+    content: '/Профиль';
+    line-height: 1.5;
+    font-size: 13px;
+    border: 1px inset #d0d0c8;
+    border-left-color: #404040;
+    border-top-color: #404040;
+    border-right-color: white;
+    border-bottom-color: white;
+    overflow-y: hidden;
+    cursor: default;
+    background:var(--color-background)!important;
+    color:var(--color-text-legend)!important;
+  }
+	
+   .p-profiles .profile-head .c-brief .avatar .profile-actions:before {
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 0px 0px 0 5px;
+    margin-bottom: 7px;
+    color: black!important;
+    line-height: 1.9;
+    font-size: 11px;
+    z-index: 23;
+    text-align: left;
+  }
+	
+   .profile-head > .c-brief > .avatar {
+    padding: 2px;
+    background-color: #d0d0c8;
+    border: 1px solid #d0d0c8;
+    border-left-color: white;
+    border-top-color: white;
+    border-right-color: #808080;
+    border-bottom-color: #808080;
+  } 
+	
+   .profile-head > .c-brief > .avatar::before {
+    display: block;
+    width: auto;
+    height: 19px;
+    padding: 0px 0px 0 5px;
+    margin-bottom: 7px;
+    content: '/Профиль';
+    line-height: 1.5;
+    font-size: 13px;
+    border: 1px inset #d0d0c8;
+    border-left-color: #404040;
+    border-top-color: #404040;
+    border-right-color: white;
+    border-bottom-color: white;
+    overflow-y: hidden;
+    cursor: default;
+    background:var(--color-background)!important;
+    color:var(--color-text-legend)!important;
+  }
+	
+   .profile-head > .c-brief > .avatar::after {
+    content: '';
+  }
+	
+   .p-profiles .profile-head .c-brief .avatar img {
+    width: 100%!important;
+    height: auto!important;
+    border: 1px inset #d0d0c8;
+    border-left-color: #404040;
+    border-top-color: #404040;
+    border-right-color: white;
+    border-bottom-color: white;
+    background-color: #d0d0c8;
+    border-radius: 0px!important;
+  }
+	
+   .p-profiles .profile-head .c-brief .avatar .profile-actions {
+    margin-top: 5px;
+    text-align: center;
+    display: grid;
+    margin-left: 0px;
+  }
+	
+   .p-profiles .profile-head .c-brief .avatar .profile-actions > a {
+    color: black!important;
+    border-radius: 0px;
+    cursor: inherit;
+    margin: 1px 0;
+    height: 25px;
+    padding: 0px !important;
+    text-align: center;
+    padding: 4px 0;
+    border: 1px solid #404040;
+    border-top-color: white;
+    border-left-color: white;
+  }
+	
+   .p-profiles .profile-head .c-brief .avatar .profile-actions > a:hover{
+    color: black!important;
+    border-radius: 0px;
+    cursor: inherit;
+    margin: 1px 0;
+    height: 25px;
+    padding: 0px !important;
+    text-align: center;
+    padding: 4px 0;
+    border: 1px solid #404040;
+    border-bottom-color: white;
+    border-right-color: white;
+    border-top: 1px solid #404040!important;
+  }
+	
+   .profile-actions .mail, .profile-actions .settings, .profile-actions .ban {
+    color: #000000 !important;
+  }
+	
+   section.l-page:before , .profile-head > .c-brief > .avatar::before , .l-top_menu-v2 .submenu>.legend ,  .b-comments+.editor-container > .subheadline , .tooltip-inner:before{
+   color:var(--color-text-legend)!important;
+}
+}
+
+@media screen and (min-width: 1024px) {
+   .l-page {
+    padding: 2px;
+    background-color: #d0d0c8;
+    border: 1px solid #d0d0c8;
+    border-left-color: white;
+    border-top-color: white;
+    border-right-color: #808080;
+    border-bottom-color: #808080;
+  }
+	
+   .l-page > div {
+    padding: 2px 15px;
+    background-color: #ffffff;
+    border: 1px solid #d0d0c8;
+    border-left-color: white;
+    border-top-color: white;
+    border-right-color: #808080;
+    border-bottom-color: #808080;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+   .p-profiles .profile-head .c-brief .avatar .profile-actions:before {
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 0px 0px 0 5px;
+    margin-bottom: 7px;
+    color: black!important;
+    line-height: 1.9;
+    font-size: 11px;
+    z-index: 23;
+    text-align: left;
+  }
+	
+   .profile-head > .c-brief > .avatar {
+    position: absolute;
+    left: -200px;
+    margin-top: -37px!important;
+    padding: 2px;
+    background-color: #d0d0c8;
+    border: 1px solid #d0d0c8;
+    border-left-color: white;
+    border-top-color: white;
+    border-right-color: #808080;
+    border-bottom-color: #808080;
+  } 
+	
+   .profile-head > .c-brief > .avatar::before {
+    display: block;
+    width: auto;
+    height: 19px;
+    padding: 0px 0px 0 5px;
+    margin-bottom: 7px;
+    content: '/Профиль';
+    line-height: 1.5;
+    font-size: 13px;
+    border: 1px inset #d0d0c8;
+    border-left-color: #404040;
+    border-top-color: #404040;
+    border-right-color: white;
+    border-bottom-color: white;
+    overflow-y: hidden;
+    cursor: default;
+    background:var(--color-background)!important;
+    color:var(--color-text-legend)!important;
+  }
+	
+   .profile-head > .c-brief > .avatar::after {
+    content: '';
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    float: right;
+    width: 50px;
+    height: 15px;
+    background-image: url('https://kawai.shikimori.one/system/user_images/original/100774/1695126.jpg');
+    background-repeat: no-repeat;
+    background-position: -2px -33px;
+  }
+	
+   .p-profiles .profile-head .c-brief .avatar img {
+    width: 100%!important;
+    height: auto!important;
+    border: 1px inset #d0d0c8;
+    border-left-color: #404040;
+    border-top-color: #404040;
+    border-right-color: white;
+    border-bottom-color: white;
+    background-color: #d0d0c8;
+    border-radius: 0px!important;
+  }
+	
+   .p-profiles .profile-head .c-brief .avatar .profile-actions {
+    margin-top: 5px;
+    text-align: center;
+    display: grid;
+    margin-left: 0px;
+  }
+	
+   .p-profiles .profile-head .c-brief .avatar .profile-actions > a {
+    color: black!important;
+    border-radius: 0px;
+    cursor: inherit;
+    margin: 1px 0;
+    height: 25px;
+    padding: 0px !important;
+    text-align: center;
+    padding: 4px 0;
+    border: 1px solid #404040;
+    border-top-color: white;
+    border-left-color: white;
+  }
+	
+   .p-profiles .profile-head .c-brief .avatar .profile-actions > a:hover{
+    color: black!important;
+    border-radius: 0px;
+    cursor: inherit;
+    margin: 1px 0;
+    height: 25px;
+    padding: 0px !important;
+    text-align: center;
+    padding: 4px 0;
+    border: 1px solid #404040;
+    border-bottom-color: white;
+    border-right-color: white;
+    border-top: 1px solid #404040!important;
+  }
+	
+   .profile-actions .mail, .profile-actions .settings, .profile-actions .ban {
+    color: #000000 !important;
+  }
+	
+   .l-page {
+    margin-top: 15px;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    padding-bottom: 15px;
+    border-radius: 0px!important;
+  }
+	
+    section.l-page:before {
+    display: block;
+    width: auto;
+    height: 19px;
+    padding: 0px 0px 0 5px;
+    margin-bottom: 10px;
+    content: '/Содержимое страницы';
+    line-height: 1.5;
+    font-size: 13px;
+    border: 1px inset #d0d0c8;
+    border-left-color: #404040;
+    border-top-color: #404040;
+    border-right-color: white;
+    border-bottom-color: white;
+    overflow-y: hidden;
+    cursor: default;
+    background:var(--color-background)!important;
+    color:var(--color-text-legend)!important;
+  }
+	
+    section.l-page:after {
+    content: '';
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    float: right;
+    width: 50px;
+    height: 15px;
+    background-image: url(//kawai.shikimori.one/system/user_images/original/100774/1695126.jpg);
+    background-repeat: no-repeat;
+    background-position: -2px -33px;
+  }
+}
+
 .l-footer {
     clear: both;
     padding-top: 15px;
@@ -599,32 +995,7 @@ font-size: 13px;
     border-bottom-color: #808080;
 }
 
-@media screen and (max-width: 1024px) {
-	.l-footer {
-   
-    border-right-color: grey!important;
-    border-bottom-color: #a3a3a3;
-}
-}
 
-@media screen and (max-width: 767px){
-	.menu-icon.trigger.mobile {
-   
-	}
-  	.l-footer .copyright {
-    color: #555;
-    float: left;
-    font: 11px trebuchet ms,tahoma,arial,verdana;
-    padding: 3px 1px 7px 0;
-    vertical-align: bottom;
-    white-space: normal;
-}
-  .l-footer {
-   
-    border-right-color: grey!important;
-    border-bottom-color: #a3a3a3;
-}
-}
 
 .buttons .editor-smiley, .buttons .editor-quote, .buttons .editor-link, .buttons .editor-bold, .buttons .editor-italic, .buttons .editor-underline, .buttons .editor-strike, .buttons .editor-image, .buttons .editor-spoiler, .buttons .editor-file, .buttons .item-ignore, .buttons .item-reply, .buttons .item-delete, .buttons .item-cancel, .buttons .item-request-reject, .buttons .item-delete-cancel, .buttons .item-moderation-cancel, .buttons .item-moderation, .buttons .item-quote, .profile-actions .mail, .profile-actions .settings, .profile-actions .ban, .profile-actions .fav-remove, .profile-actions .talk, .profile-actions .ignore-add, .profile-actions .fav-add, .profile-actions .ignore-remove {
     padding: 5px !important;
@@ -766,178 +1137,7 @@ font-size: 13px;
     color: #d0d0c8;
     
 }
-@media screen and (min-width: 1024px) {
-.l-page {
-    padding: 2px;
-    background-color: #d0d0c8;
-    border: 1px solid #d0d0c8;
-    border-left-color: white;
-    border-top-color: white;
-    border-right-color: #808080;
-    border-bottom-color: #808080;
-  	}
-  .l-page > div {
-  	padding: 2px 15px;
-    background-color: #ffffff;
-    border: 1px solid #d0d0c8;
-    border-left-color: white;
-    border-top-color: white;
-    border-right-color: #808080;
-    border-bottom-color: #808080;
-  }
-  
-}
-@media screen and (min-width: 1440px) {
-  	.p-profiles .profile-head .c-brief .avatar .profile-actions:before {
-    display: block;
-    width: auto;
-    height: auto;
-    padding: 0px 0px 0 5px;
-    margin-bottom: 7px;
-    
-    color: black!important;
-    line-height: 1.9;
-    font-size: 11px;
-    z-index: 23;
-    text-align: left;
-	}
-  	.profile-head > .c-brief > .avatar {
-  	position: absolute;
-    left: -200px;
-    margin-top: -37px!important;
-    padding: 2px;
-    background-color: #d0d0c8;
-    border: 1px solid #d0d0c8;
-    border-left-color: white;
-    border-top-color: white;
-    border-right-color: #808080;
-    border-bottom-color: #808080;
-     
- 	} 
-  	.profile-head > .c-brief > .avatar::before {
-    display: block;
-    width: auto;
-    height: 19px;
-    padding: 0px 0px 0 5px;
-    margin-bottom: 7px;
-    content: '/Профиль';
-   
-    line-height: 1.5;
-    font-size: 13px;
-    border: 1px inset #d0d0c8;
-    border-left-color: #404040;
-    border-top-color: #404040;
-    border-right-color: white;
-    border-bottom-color: white;
-    
-    overflow-y: hidden;
-    cursor: default;
-    background:var(--color-background)!important;
-	color:var(--color-text-legend)!important;
-	}
-  	.profile-head > .c-brief > .avatar::after {
-   	content: '';
-    position: absolute;
-    right: 5px;
-    top: 5px;
-    float: right;
-    width: 50px;
-    height: 15px;
-    background-image: url('https://kawai.shikimori.one/system/user_images/original/100774/1695126.jpg');
-    background-repeat: no-repeat;
-    background-position: -2px -33px;
-	}
-  	.profile-head > .c-brief {
-  	
-  	}
-  	.p-profiles .profile-head .c-brief .avatar img {
-  	width: 100%!important;
-    height: auto!important;
-    border: 1px inset #d0d0c8;
-    border-left-color: #404040;
-    border-top-color: #404040;
-    border-right-color: white;
-    border-bottom-color: white;
-    background-color: #d0d0c8;
-    border-radius: 0px!important;
-  	}
-  	.p-profiles .profile-head .c-brief .avatar .profile-actions {
-    margin-top: 5px;
-    text-align: center;
-    display: grid;
-    margin-left: 0px;
-	}
-  	.p-profiles .profile-head .c-brief .avatar .profile-actions > a {
-  	color: black!important;
-    border-radius: 0px;
-    cursor: inherit;
-    margin: 1px 0;
-    height: 25px;
-    padding: 0px !important;
-    text-align: center;
-    padding: 4px 0;
-    border: 1px solid #404040;
-    border-top-color: white;
-    border-left-color: white;
-  	}
-  	.p-profiles .profile-head .c-brief .avatar .profile-actions > a:hover{
-  	color: black!important;
-    border-radius: 0px;
-    cursor: inherit;
-    margin: 1px 0;
-    height: 25px;
-    padding: 0px !important;
-    text-align: center;
-    padding: 4px 0;
-    border: 1px solid #404040;
-    border-bottom-color: white;
-    border-right-color: white;
-    border-top: 1px solid #404040!important;
-  	}
-  	.profile-actions .mail, .profile-actions .settings, .profile-actions .ban {
-  	color: #000000 !important;
-  	}
-  	.l-page {
-    margin-top: 15px;
-    border: 1px solid #dfdfdf;
-  
-    border-radius: 5px;
-    padding-bottom: 15px;
 
-    border-radius: 0px!important;
-	}
-  section.l-page:before {
-    display: block;
-    width: auto;
-    height: 19px;
-    padding: 0px 0px 0 5px;
-    margin-bottom: 10px;
-    content: '/Содержимое страницы';
-    line-height: 1.5;
-    font-size: 13px;
-    border: 1px inset #d0d0c8;
-    border-left-color: #404040;
-    border-top-color: #404040;
-    border-right-color: white;
-    border-bottom-color: white;
-    overflow-y: hidden;
-    cursor: default;
-    background:var(--color-background)!important;
-color:var(--color-text-legend)!important;
-}
-  section.l-page:after {
-  	content: '';
-    position: absolute;
-    right: 5px;
-    top: 5px;
-    float: right;
-    width: 50px;
-    height: 15px;
-    background-image: url(//kawai.shikimori.one/system/user_images/original/100774/1695126.jpg);
-    background-repeat: no-repeat;
-    background-position: -2px -33px;
-  }
-}
 
 .rate_module>.c-column>strong {
     position: absolute;
@@ -964,11 +1164,7 @@ body, label {
 padding: 0 0 15px 0;
 }
 
-@media only screen and (max-width: 6000px){
-.l-footer .copyright:before {
-    content: 'Оригинальная тема by необычный никнейм ';
-}
-}
+
 
 .l-top_menu-v2 .submenu>a.icon-mail span.unread span {
     color: #000;
@@ -1275,136 +1471,7 @@ body[data-locale=ru] .b-new_marker:before {
     border-top: 2px #fff solid;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1439px) {
-  
-  .profile-actions > .b-tooltipped:before {
-  	font-size: 13px;
-  }
-	.profile-head > .c-brief > .avatar::before {
-    display: block;
-    width: auto;
-    height: 19px;
-    padding: 0px 0px 0 5px;
-    margin-bottom: 7px;
-    content: '/Профиль';
-    line-height: 1.5;
-    font-size: 13px;
-    border: 1px inset #d0d0c8;
-    border-left-color: #404040;
-    border-top-color: #404040;
-    border-right-color: white;
-    border-bottom-color: white;
-    overflow-y: hidden;
-    cursor: default;
-    background:var(--color-background)!important;
-color:var(--color-text-legend)!important;
-}
-	.p-profiles .profile-head .c-brief .avatar .profile-actions:before {
-    display: block;
-    width: auto;
-    height: auto;
-    padding: 0px 0px 0 5px;
-    margin-bottom: 7px;
-    
-    color: black!important;
-    line-height: 1.9;
-    font-size: 11px;
-    z-index: 23;
-    text-align: left;
-	}
-  	.profile-head > .c-brief > .avatar {
-  	
-   
-   
-    padding: 2px;
-    background-color: #d0d0c8;
-    border: 1px solid #d0d0c8;
-    border-left-color: white;
-    border-top-color: white;
-    border-right-color: #808080;
-    border-bottom-color: #808080;
-     
- 	} 
-  	.profile-head > .c-brief > .avatar::before {
-    display: block;
-    width: auto;
-    height: 19px;
-    padding: 0px 0px 0 5px;
-    margin-bottom: 7px;
-    content: '/Профиль';
-   
-    line-height: 1.5;
-    font-size: 13px;
-    border: 1px inset #d0d0c8;
-    border-left-color: #404040;
-    border-top-color: #404040;
-    border-right-color: white;
-    border-bottom-color: white;
-    
-    overflow-y: hidden;
-    cursor: default;
-    background:var(--color-background)!important;
-color:var(--color-text-legend)!important;
-	}
-  	.profile-head > .c-brief > .avatar::after {
-   	content: '';
-    
-	}
-  	.profile-head > .c-brief {
-  	
-  	}
-  	.p-profiles .profile-head .c-brief .avatar img {
-  	width: 100%!important;
-    height: auto!important;
-    border: 1px inset #d0d0c8;
-    border-left-color: #404040;
-    border-top-color: #404040;
-    border-right-color: white;
-    border-bottom-color: white;
-    background-color: #d0d0c8;
-    border-radius: 0px!important;
-  	}
-  	.p-profiles .profile-head .c-brief .avatar .profile-actions {
-    margin-top: 5px;
-    text-align: center;
-    display: grid;
-    margin-left: 0px;
-	}
-  	.p-profiles .profile-head .c-brief .avatar .profile-actions > a {
-  	color: black!important;
-    border-radius: 0px;
-    cursor: inherit;
-    margin: 1px 0;
-    height: 25px;
-    padding: 0px !important;
-    text-align: center;
-    padding: 4px 0;
-    border: 1px solid #404040;
-    border-top-color: white;
-    border-left-color: white;
-  	}
-  	.p-profiles .profile-head .c-brief .avatar .profile-actions > a:hover{
-  	color: black!important;
-    border-radius: 0px;
-    cursor: inherit;
-    margin: 1px 0;
-    height: 25px;
-    padding: 0px !important;
-    text-align: center;
-    padding: 4px 0;
-    border: 1px solid #404040;
-    border-bottom-color: white;
-    border-right-color: white;
-    border-top: 1px solid #404040!important;
-  	}
-  	.profile-actions .mail, .profile-actions .settings, .profile-actions .ban {
-  	color: #000000 !important;
-  	}
-  section.l-page:before , .profile-head > .c-brief > .avatar::before , .l-top_menu-v2 .submenu>.legend ,  .b-comments+.editor-container > .subheadline , .tooltip-inner:before{
-    
-color:var(--color-text-legend)!important;
-}
-}
+
 
 .b-user_rate .rate-show .rate-number .item-add {
    
@@ -1441,61 +1508,6 @@ color:var(--color-text-legend)!important;
     box-shadow: 0 0 0px #fff;
 }
 
-@media (min-width: 320px) and (max-width: 480px){
-  .profile-head {
-  	padding-top: 128px;
-  }
-  .p-profiles .profile-head .c-history {
-  	display: block;
-    float: none;
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    width: auto;
-    padding: 0 1rem;
-    margin: 0 -1rem;
-    white-space: nowrap;
-    overflow-x: auto;
-    z-index: 1;
-    margin-bottom: 2rem;
-  }
-  .p-profiles .profile-head .c-brief {
-  	padding: 12px 16px;
-    margin: 0 -16px 1em;
-    
-  }
-  .p-profiles .profile-head .c-brief .avatar {
-  	float: none;
-    position: relative;
-    max-width: 100%;
-    min-height: 49px;
-    margin: 0 0 12px;
-    flex-shrink: 0;
-    text-align: center;
-  }
-  .p-profiles .profile-head .c-brief .avatar img {
-  	width: 36%;
-    max-width: 160px;
-    transform: translateY(calc(-10% - 12px));
-    vertical-align: top;
-    display: block;
-    height: auto;
-    margin: auto;
-    border: 1px inset #d0d0c8;
-    border-left-color: #404040;
-    border-top-color: #404040;
-    border-right-color: white;
-    border-bottom-color: white;
-    background-color: #d0d0c8;
-    border-radius: 0px!important;
-  }
-  .p-profiles .profile-head .c-brief header {
-  	text-align: center;
-  }
-  .p-profiles .profile-head .c-mobile-actions {
-    text-align: center;
-}
-}
+
 
 
