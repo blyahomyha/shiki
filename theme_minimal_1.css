@@ -15,7 +15,7 @@
     border: 1px solid #404040;
     border-top-color: white;
     border-left-color: white;
-    color: #000!important;
+    color: #000!important; 
 }
 .l-top_menu-v2 .submenu > a:hover {
     color: #000 !important;
