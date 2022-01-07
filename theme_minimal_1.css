@@ -1,5 +1,4 @@
-/* Отображение истории в мобильной версии */
-@import url(https://gist.githubusercontent.com/grin3671/d994b47c010aabfd06cba7b9b1edcf03/raw/mobileHistory.css); 
+
 
 @media only screen and (max-width: 6000px){
 .l-footer .copyright:before {
