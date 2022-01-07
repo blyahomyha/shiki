@@ -9,12 +9,13 @@
     border-top-color: white;
     border-right-color: #808080;
     border-bottom-color: #808080;
-  	outline: 0px solid #000000;
+    outline: 0px solid #000000;
 }
 .l-top_menu-v2 .submenu>a {
     border: 1px solid #404040;
     border-top-color: white;
     border-left-color: white;
+    color: #000!important;
 }
 .l-top_menu-v2 .submenu > a:hover {
     color: #000 !important;
