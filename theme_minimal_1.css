@@ -1005,7 +1005,8 @@ a {
     padding: 0px 0px 0 5px;
     margin-bottom: 7px;
     content: '/Содержимое файла';
-    color: #000000;
+    background:var(--color-background)!important;
+    color:var(--color-text-legend)!important;
     line-height: 1.5;
     font-size: 13px;
     border: 1px inset #d0d0c8;
