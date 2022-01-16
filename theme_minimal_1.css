@@ -484,7 +484,7 @@
     top: auto;
 }
 
-.midheadline, .subheadline {
+.midheadline, .subheadline, .headline {
     border-radius: 0px;
     text-align: left;
     border-bottom-width: 0px;
@@ -517,6 +517,7 @@
     line-height: 19px!important;
     background-color: #d0d0c8;
     color: #000!important;
+    font-weight: 100!important;
 }
 
 .headline>a:before, .midheadline>a:before, .subheadline>a:before {
