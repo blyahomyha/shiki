@@ -717,7 +717,7 @@ a {
     border-bottom-color: white;
 }
 
-.b-shiki_editor footer .preview, .b-shiki_editor footer input[type=submit] , .b-form input[type=submit] {
+.b-shiki_editor footer .preview, .b-shiki_editor footer input[type=submit] , .b-form input[type=submit] , .abstain {
     background: #d0d0c8;
     border-radius: 0px;
     cursor: inherit;
@@ -731,7 +731,7 @@ a {
     border-left-color: white;
 }
 
-.b-shiki_editor footer input[type=submit]:hover, .b-shiki_editor footer .preview:hover, .b-form input[type=submit]:hover {
+.b-shiki_editor footer input[type=submit]:hover, .b-shiki_editor footer .preview:hover, .b-form input[type=submit]:hover , .abstain:hover {
     background: #d0d0c8;
     border: 1px solid #404040;
     border-bottom-color: white;
