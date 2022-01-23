@@ -1,62 +1,5 @@
-.l-top_menu-v2 {
-    color: #000;
-    border-bottom: 1px solid #808080;
-    background-color: #d0d0c8!important;
-    border-left-color: white;
-    border-top-color: white;
-    border-right-color: #808080;
-}
-.l-top_menu-v2 .menu-dropdown>span {
-    background: transparent!important;
-    border-bottom: transparent!important;
-}
-.l-top_menu-v2 .menu-icon:hover {
-    background-color: transparent;
-}
-.l-top_menu-v2 .global-search input {
-    background-color: transparent;
-    border: 1px solid #d0d0c8;
-    border-left-color: #404040;
-    border-top-color: #404040;
-    border-right-color: white;
-    border-bottom-color: white;
-}
-
-.l-top_menu-v2 .logo-container .glyph {
-    filter: invert(100%);
-}
-
-.l-top_menu-v2 .global-search .search-results .nothing_found.active, .l-top_menu-v2 .global-search .search-results .nothing_found:focus, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus, .l-top_menu-v2 .global-search .search-results .search-mode.active, .l-top_menu-v2 .global-search .search-results .search-mode:focus {
-    background: transparent;
-}
-.l-top_menu-v2 .global-search .search-results .nothing_found, .l-top_menu-v2 .global-search .search-results .search-mode {
-    line-height: 30px;
-}
-.l-top_menu-v2 .global-search .search-results .nothing_found.active:before, .l-top_menu-v2 .global-search .search-results .nothing_found:focus:before, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active:before, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus:before, .l-top_menu-v2 .global-search .search-results .search-mode.active:before, .l-top_menu-v2 .global-search .search-results .search-mode:focus:before {
-    background: transparent;
-}
-.l-top_menu-v2 .global-search .search-results .nothing_found:before, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:before, .l-top_menu-v2 .global-search .search-results .search-mode:before {
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-}
-.l-top_menu-v2 .global-search .search-results .nothing_found:before, .l-top_menu-v2 .global-search .search-results .search-mode:before {
-    margin: auto 10px!important;
-}
-.l-top_menu-v2 .global-search .search-results .nothing_found.active+.b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .nothing_found.active+.search-mode, .l-top_menu-v2 .global-search .search-results .nothing_found:focus+.b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .nothing_found:focus+.search-mode, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active+.b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active+.search-mode, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus+.b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus+.search-mode, .l-top_menu-v2 .global-search .search-results .search-mode.active+.b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .search-mode.active+.search-mode, .l-top_menu-v2 .global-search .search-results .search-mode:focus+.b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .search-mode:focus+.search-mode {
-    border-top-color: transparent;
-}
-.l-top_menu-v2 .global-search .search-results .nothing_found, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .search-mode {
-    border-top: transparent;
-}
-.l-top_menu-v2 .global-search .search-results .search-mode:hover {
-    background: transparent;
-}
-@media screen and (max-width: 1023px){
-.l-top_menu-v2.is-search-mobile .global-search {
-    background: #d0d0c8;
-  }
-}
+/* Отображение истории в мобильной версии */
+@import url(https://gist.githubusercontent.com/grin3671/d994b47c010aabfd06cba7b9b1edcf03/raw/mobileHistory.css); 
 
 .l-top_menu-v2 .menu-dropdown.profile>span img , .l-top_menu-v2 .icon-avatar img {
     border: 1px solid #d0d0c8;
@@ -82,8 +25,18 @@
     border-left-color: white;
     color: #000!important; 
 }
-
-
+.l-top_menu-v2 .submenu > a:hover {
+    color: #000 !important;
+    transition: background 0.2s ease;
+    background-color: rgb(90 90 90 / 0%)!important;
+    border: 1px solid #404040;
+    border-bottom-color: white;
+    border-right-color: white;
+    border-top: 1px solid #404040!important;
+} 
+.l-top_menu-v2 .menu-dropdown>span a:hover {
+    background-color: rgb(90 90 90 / 0%)!important;
+} 
 
 @media only screen and (max-width: 6000px){
 .l-footer .copyright:before {
@@ -315,37 +268,6 @@
     border-right-color: #808080;
     border-bottom-color: #808080;
   }
-    section.l-page:before {
-    display: block;
-    width: auto;
-    height: 19px;
-    padding: 0px 0px 0 5px;
-    margin-bottom: 10px;
-    content: '/Содержимое страницы';
-    line-height: 1.5;
-    font-size: 13px;
-    border: 1px inset #d0d0c8;
-    border-left-color: #404040;
-    border-top-color: #404040;
-    border-right-color: white;
-    border-bottom-color: white;
-    overflow-y: hidden;
-    cursor: default;
-    background: var(--color-background)!important;
-    color: var(--color-text-legend)!important;
-}
-    section.l-page:after {
-    content: '';
-    position: absolute;
-    right: 5px;
-    top: 5px;
-    float: right;
-    width: 50px;
-    height: 15px;
-    background-image: url(//kawai.shikimori.one/system/user_images/original/100774/1695126.jpg);
-    background-repeat: no-repeat;
-    background-position: -2px -33px;
-}
 }
 
 @media screen and (min-width: 1440px) {
@@ -1239,6 +1161,31 @@ body, label {
     background-position: -35px -33px;
 }
 
+.l-top_menu-v2, .l-top_menu-v2 .menu-dropdown>span, .l-top_menu-v2 .menu-dropdown > span {
+    background: #ffffff !important;
+    border-radius: 0;
+    color: #000;
+    border-bottom: 1px solid #dfdfdf;
+
+}
+
+.l-top_menu-v2 .menu-dropdown>span a {
+    color: #000;
+}
+
+.l-top_menu-v2 .menu-dropdown.profile {
+    color: #000!important;
+}
+
+.l-top_menu-v2 .menu-icon:hover {
+    -webkit-transition: background .2s ease;
+    transition: background .2s ease;
+    background-color: rgb(240 214 222 / 44%);
+}
+
+.l-top_menu-v2 .menu-icon.trigger:before {
+    filter: invert(100%);
+}
 
 .p-dashboards-show .v2 .my-list {
     padding: 2px;
@@ -1465,4 +1412,3 @@ body[data-locale=ru] .b-new_marker:before {
 .b-stats_bar.lifetime .bar .first {
     background: #d0d0c8;
 }
-
