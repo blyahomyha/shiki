@@ -649,15 +649,15 @@ a {
 
 .b-comments-notifier {
     color: #000;
-    background-color: #bdbdbd;
-    border-top: 1px solid #bdbdbd;
-    border-left: 1px solid #bdbdbd;
+    background-color: #d0d0c8;
+    border-top: 1px solid #d0d0c8;
+    border-left: 1px solid #d0d0c8;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
 }
 
 .b-comments-notifier:hover {
-    background-color: #a9a9a9;
+    background-color: #c3c3bc;
 }
 
 .buttons .editor-bold {
@@ -1338,22 +1338,18 @@ body, label {
 }
 
 body[data-locale=ru] .b-new_marker.active:active:before , body[data-locale=ru] .b-new_marker.active:hover:before {
-    background-color: #155785;
     border-color: #000000;
     border-radius: 0%;
     border: 1px solid #000000;
     color: #000000;
-    background-color: #e9e7e7;
-    border-left: 2px #404040 solid;
-    border-top: 2px #404040 solid;
-    border-right: 2px #fff solid;
-    border-bottom: 2px #fff solid;
+    background-color: #d0d0c8;
+    border-left: 1px #404040 solid;
+    border-top: 1px #404040 solid;
+    border-right: 1px #fff solid;
+    border-bottom: 1px #fff solid;
 }
 
 body[data-locale=ru] .b-new_marker:before {
-    background-color: #e9e7e7;
-    border: 1px solid #000000;
-    color: #000;
     content: attr(data-text);
     font-size: 11px;
     font-family: var(--font-alt);
@@ -1365,11 +1361,11 @@ body[data-locale=ru] .b-new_marker:before {
     border-radius: 0%;
     border: 1px solid #000000;
     color: #000000;
-    background-color: #e9e7e7;
-    border-right: 2px #404040 solid;
-    border-bottom: 2px #404040 solid;
-    border-left: 2px #fff solid;
-    border-top: 2px #fff solid;
+    background-color: #d0d0c8;
+    border-right: 1px #404040 solid;
+    border-bottom: 1px #404040 solid;
+    border-left: 1px #fff solid;
+    border-top: 1px #fff solid;
 }
 
 .b-user_rate .rate-show .rate-number .item-add {  
