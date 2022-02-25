@@ -552,7 +552,7 @@ input,
 .p-profiles .about.block .b-spoiler label {
   border: none;
   display: inline-block !important;
-  font-weight: bold; /* толщина шрифта, можно убрать, если не нужно */
+  font-weight: 100; /* толщина шрифта, можно убрать, если не нужно */
   color: #000; /* цвет текста спойлера */
   background: transparent;
   height: 30px; 
