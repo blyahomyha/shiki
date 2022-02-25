@@ -554,7 +554,6 @@ input,
   display: inline-block !important;
   font-weight: bold; /* толщина шрифта, можно убрать, если не нужно */
   color: #000; /* цвет текста спойлера */
-  background: #e8ebef; /* цвет фона спойлера */
   height: 30px; 
   width: 100%;
   font-size: 12pt; /* размер шрифта текста на спойлере */
