@@ -1,0 +1,569 @@
+/***Edit Scrollbar Here***/
+
+::-webkit-scrollbar-thumb:vertical {
+      background:#ffffff;
+      border:1px solid #dfdfdf; 
+      cursor: url(http://i.imgur.com/ZOrzC.png), auto;
+ }
+
+::-webkit-scrollbar-thumb:horizontal {
+      background-color: #ffffff;
+      height:4px;
+      border:1px solid #dfdfdf;
+}
+
+ ::-webkit-scrollbar {
+     width:9px;
+     background: transparent;
+     height:4px;
+}
+ 
+ ::-webkit-scrollbar-track { 
+     background: transparent; 
+     width:9px; 
+}
+
+::-webkit-scrollbar {
+      background-color: #ffffff;
+      height: 9px;
+      width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+      background-color: #cccccc;
+      border: 4px solid #ffffff;
+}
+
+::-webkit-scrollbar-track {
+      background-color: #ffffff;
+}
+
+/* Убрать кнопку Сообщить об ошибке */
+.b-feedback>.marker-positioner {
+    display: none;
+}
+
+/* АЧИВКИ НАЧАЛО */ 
+.b-achievement.is-badge:before {
+	  bottom: 0px;
+    border-radius: 0 0 7px 7px;
+}
+.b-achievement .c-image .inner a .border {
+    border: 0;
+}
+/* АЧИВКИ КОНЕЦ */ 
+
+/*Кнопка просмотрено*/
+.b-catalog_entry.completed .image-decor:before , .user_rates-minified .b-catalog_entry.completed .image-decor::before {
+    background: linear-gradient(
+135deg, transparent 18px, #419541 0);
+    border-width: 0px;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    height: 26px;
+    width: 26px;
+    line-height: 25px;
+    bottom: 0px;
+    right: 0px;
+    top: auto;
+}
+
+/*Текст всех кнопок*/
+.b-catalog_entry.completed .image-decor:after , .user_rates-minified .b-catalog_entry.completed .image-decor::after , .b-catalog_entry.planned .image-decor:after , .b-catalog_entry.on_hold .image-decor:after , .b-catalog_entry.dropped .image-decor:after , .b-catalog_entry.rewatching .image-decor:after , .b-catalog_entry.watching .image-decor:after , .user_rates-minified .b-catalog_entry.watching .image-decor::after , .user_rates-minified .b-catalog_entry.on_hold .image-decor::after , .user_rates-minified .b-catalog_entry.dropped .image-decor::after , .user_rates-minified .b-catalog_entry.planned .image-decor::after , .user_rates-minified .b-catalog_entry.rewatching .image-decor::after {
+    font-size: 13px;
+    width: 16px;
+    line-height: 16px;
+    right: 0px;
+    bottom: 0px;
+    top: auto;
+    background: none;
+}
+
+/*Кнопка запланировано*/
+.b-catalog_entry.planned .image-decor:before , .user_rates-minified .b-catalog_entry.planned .image-decor::before {
+    background: linear-gradient( 
+135deg, transparent 18px, #ededed 0);
+    border-width: 0px;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    height: 26px;
+    width: 26px;
+    line-height: 25px;
+    bottom: 0px;
+    right: 0px;
+    top: auto;
+}
+/*Кнопка отложено*/
+.b-catalog_entry.on_hold .image-decor:before , .user_rates-minified .b-catalog_entry.on_hold .image-decor::before {
+    background: linear-gradient( 
+135deg, transparent 18px, #7b8084 0);
+    border-width: 0px;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    height: 26px;
+    width: 26px;
+    line-height: 25px;
+    bottom: 0px;
+    right: 0px;
+    top: auto;
+}
+
+/*Кнопка брошено*/
+.b-catalog_entry.dropped .image-decor:before , .user_rates-minified .b-catalog_entry.dropped .image-decor::before {
+    background: linear-gradient( 
+135deg, transparent 18px, #ca4929 0);
+    border-width: 0px;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    height: 26px;
+    width: 26px;
+    line-height: 25px;
+    bottom: 0px;
+    right: 0px;
+    top: auto;
+}
+
+/*Кнопка пересматриваю, смотрю*/
+.b-catalog_entry.rewatching .image-decor:before , .b-catalog_entry.watching .image-decor:before , .user_rates-minified .b-catalog_entry.watching .image-decor::before , .user_rates-minified .b-catalog_entry.rewatching .image-decor::before {
+    background: linear-gradient( 
+135deg, transparent 18px, var(--link-color) 0);
+    border-width: 0px;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    height: 26px;
+    width: 26px;
+    line-height: 25px;
+    bottom: 0px;
+    right: 0px;
+    top: auto;
+}
+
+/* Изображения аниме\манги\персонажей\людей */
+.p-profiles .profile-head .c-history .entry img:hover {
+    opacity: 1;
+}
+
+.p-profiles .profile-head .c-history .entry img {
+    opacity: 0.9;
+    filter: grayscale(40%);
+}
+
+.b-user.avatar img:hover, .b-user.named_avatar img:hover, .b-user.avatar_fixed_margin img:hover {
+    opacity: 1;
+}
+
+.b-user.avatar img, .b-user.named_avatar img, .b-user.avatar_fixed_margin img {
+    opacity: 0.9;
+    filter: grayscale(45%);
+}
+
+.b-club .logo:hover {
+    opacity: 1;
+}
+
+.b-club .logo {
+    opacity: 0.8;
+    filter: grayscale(30%);
+}
+
+.b-catalog_entry .cover .image-decor {
+    opacity: 0.8;
+    filter: grayscale(30%);
+}
+
+.b-catalog_entry .cover .image-decor:hover {
+    opacity: 0.88;
+}
+
+.b-catalog_entry-tooltip .image {
+    opacity: 0.8;
+    filter: grayscale(30%);
+}
+
+.b-catalog_entry-tooltip .image:hover {
+    opacity: 0.9;
+}
+.b-comment>.inner header img {
+	opacity: 0.8;
+    filter: grayscale(30%);
+}
+.b-comment>.inner header img:hover {
+	opacity: 0.9;
+}
+
+.b-catalog_entry-tooltip .inner .additional-images .link img {
+    opacity: 0.8;
+    filter: grayscale(30%);
+}
+
+.b-catalog_entry-tooltip .inner .additional-images .link img:hover {
+    opacity: 0.9;
+}
+
+.b-catalog_entry .cover .image-decor .image-cutter {
+    border-radius: 4px!important;
+}
+
+/* Списки аниме и манги */
+.b-stats_bar.anime .bar .first {
+    background: #afcbd7;
+}
+.b-stats_bar.anime .bar .second {
+    background: #cadfe9;
+}
+.b-stats_bar.manga .bar .first {
+    background: #edc4d5;
+}
+.b-stats_bar.manga .bar .second {
+    background: #f0d6de;
+}
+.c-lists-info .b-stats_bar .bar {
+    height: 3px;
+}
+.p-profiles .stat_name[data-type="dropped"] .size {
+    background: transparent;
+    color: #8d8d8eeb;
+}
+.p-profiles .stat_name .size {
+    background: #e3f0fb00;
+}
+div#scores.bar.simple.horizontal div.bar.s3.min, div#scores.bar.simple.horizontal div.bar.s2.min, div#scores.bar.simple.horizontal div.bar.s1.min, div#scores.bar.simple.horizontal div.bar.s0.min, div#types.bar.simple.horizontal div.bar.s3.min, div#types.bar.simple.horizontal div.bar.s2.min, div#types.bar.simple.horizontal div.bar.s1.min, div#types.bar.simple.horizontal div.bar.s0.min, div#ratings.bar.simple.horizontal div.bar.s3.min, div#ratings.bar.simple.horizontal div.bar.s2.min, div#ratings.bar.simple.horizontal div.bar.s1.min, div#ratings.bar.simple.horizontal div.bar.s0.min, div#rates_scores_stats.bar.simple.horizontal div.bar.s3.min, div#rates_scores_stats.bar.simple.horizontal div.bar.s2.min, div#rates_scores_stats.bar.simple.horizontal div.bar.s1.min, div#rates_scores_stats.bar.simple.horizontal div.bar.s0.min, div#rates_statuses_stats.bar.simple.horizontal div.bar.s3.min, div#rates_statuses_stats.bar.simple.horizontal div.bar.s2.min, div#rates_statuses_stats.bar.simple.horizontal div.bar.s1.min, div#rates_statuses_stats.bar.simple.horizontal div.bar.s0.min {
+    border-radius: 3px !important;
+    height: 1px;
+    margin-bottom: 15px;
+}
+.bar.horizontal .line .x_label {
+    color: #444;
+    font-size: 10px;
+    font-weight: 100;
+    float: right;
+    line-height: 1px;
+}
+.b-animes-menu #rates_statuses_stats .x_label {
+    font-weight: 100;
+    font-size: 10px;
+}
+.b-stats_bar .title , .subheadline , .p-profiles .profile-head .c-history .entry .title , .p-profiles-show .lifetime .times .time.checked , strong, b , .p-profiles-show .profile-content .activity .title , .p-profiles .stat_name .size , .b-comment>.inner .name-date>a , .p-profiles-show .achievements .header .title , .b-achievement .c-about .title, .b-achievement .about .title , .b-catalog_entry .cover .title{
+	font-weight: 100!important;
+}
+
+/* Изменения в разделе аватарки и ника */
+.p-profiles .profile-head .c-brief header h1.aliases:after {
+    font-family: 'PT Mono';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
+    text-transform: none;
+    letter-spacing: normal;
+    content: "(⁎˃ᆺ˂)";
+    color: #333;
+    cursor: pointer;
+    font-size: 12px;
+    margin-left: 8px;
+    margin-top: 16px;
+    font-style: normal;
+}
+.b-user.avatar img, .p-profiles .profile-head .c-brief .avatar img, .l-top_menu-v2 .menu-dropdown.profile>span img, .b-comment>.inner header img, .l-top_menu-v2 .icon-avatar img, .p-user_rates-index .l-menu .avatar img, .b-club .logo, .b-user.avatar img, .b-user.named_avatar img, .b-user.avatar_fixed_margin img, .p-collections .b-topic>.inner header img, .p-topics .l-menu .clubs .entry img, .b-message > .inner header img, .b-dialog > .inner header img {
+    border-radius: 4px!important;
+}
+.p-profiles .profile-head .c-brief header h1 {
+    font-size: 25px;
+    font-weight: 100;
+    font-style: oblique;
+}
+.p-profiles .profile-head .avatar img {
+    border: 0px dashed #80afdf;
+}
+.p-profiles .profile-head .c-brief header .notice span:after {
+    color: #000000;
+    content: '♡';
+    display: inline-block;
+    font-weight: normal;
+    padding: 0 5px;
+}
+.p-profiles .profile-actions {
+    background: transparent;
+    display: grid;
+  	margin: 0;
+}
+.buttons .editor-smiley:hover, .buttons .editor-quote:hover, .buttons .editor-link:hover, .buttons .editor-bold:hover, .buttons .editor-italic:hover, .buttons .editor-underline:hover, .buttons .editor-strike:hover, .buttons .editor-image:hover, .buttons .editor-spoiler:hover, .buttons .editor-file:hover, .profile-actions a:hover, .b-subposter-action:hover, .buttons .item-ignore:hover, .buttons .item-reply:hover, .buttons .item-delete:hover, .buttons .item-cancel:hover, .buttons .item-request-reject:hover, .buttons .item-delete-cancel:hover, .buttons .item-moderation-cancel:hover, .buttons .item-moderation:hover, .buttons .item-quote:hover, .item-sign:hover, .item-add:hover, .item-minus:hover, .item-mobile:hover {
+    background-color: transparent;
+}
+.profile-actions .mail:before {
+    content: "Почта";
+  font-family: 'PT Mono';
+  font-size: 11px;
+}
+.profile-actions .settings:before {
+    content: "Настройки";
+  font-family: 'PT Mono';
+  font-size: 11px;
+}
+.profile-actions .ban:before {
+    content: "Баны";
+  font-family: 'PT Mono';
+  font-size: 11px;
+}
+.profile-actions .ignore-add:before {
+    content: "Игнорировать";
+  font-family: 'PT Mono';
+  font-size: 11px;
+}
+.profile-actions .fav-remove:before {
+    content: "Удалить";
+  font-family: 'PT Mono';
+  font-size: 11px;
+}
+.profile-actions .talk:before {
+    content: "Написать";
+  font-family: 'PT Mono';
+  font-size: 11px;
+}
+.profile-actions .fav-add:before {
+    content: "Добавить";
+  font-family: 'PT Mono';
+  font-size: 11px;
+}
+.profile-actions .b-tooltipped:hover::after {
+    width: 70px;
+}
+.profile-actions .b-tooltipped {
+	margin-left: 0!important;
+    padding: 0!important;
+}
+.profile-actions .b-tooltipped:after {
+    content: '';
+    background: #eee;
+    width: 50px;
+    float: left;
+    height: 1px;
+    margin-right: 5px;
+    position: relative;
+    top: 10px;
+    display: inline-block;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+}
+.tipsy-arrow-s , .tipsy-arrow-w {
+    display: none;
+}
+.tipsy-inner {
+	background-color: #fff;
+    color: #000;
+    min-width: 50px;
+    max-width: 320px;
+    overflow: hidden;
+    padding: 5px 8px 4px;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    box-shadow: rgb(0 0 0 / 8%) 7px 7px!important;
+    border-radius: 5px!important;
+}
+
+/* Изменение заголовков */
+.midheadline, .subheadline {
+    padding: 0 0px;
+}
+.headline, .subheadline, .midheadline:not(.magenta):not(.orange):not(.blue):not(.red):not(.green):not(.yellow):not(.purple), .headline > a, .subheadline > a, .midheadline:not(.magenta):not(.orange):not(.blue):not(.red):not(.green):not(.yellow):not(.purple) > a {
+    background: #e3f0fb00;
+    border-left: 0px solid #e3f0fb;
+    color: #cccccc;
+    border-radius: 0px;
+    text-align: left;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    text-transform: none;
+    border-color: #eeeeee;
+    font-size: 11px!important;
+    line-height: 30px;
+}
+
+.headline>a, .midheadline>a, .subheadline>a {
+  border-bottom-width: 0px!important;
+}
+
+/* Фон сайта */
+body { 
+  background: #fff;
+}
+
+/* Изменение курсора на сайте */
+body,
+label {
+  cursor: url(http://i.imgur.com/ZOrzC.png), default !important;
+}
+
+*:before {pointer-events: none;}
+
+a,
+hover,
+before,
+after,
+active,
+.popup li,
+.input input,
+.submenu
+.menu-search,
+.entry,
+.userbox,
+.cover,
+.title,
+.add-trigger,
+.remove-trigger,
+.trigger-arrow,
+.trigger,
+.text,
+.option,
+.edit,
+.watching,
+.rewatching,
+.close,
+.expand span,
+.plus,
+.b-tooltipped,
+input,
+.preview,
+.unpreview,
+.value,
+.div,
+.slide,
+.b-to-top,
+.leave,
+.invite,
+.upload,
+.invite span,
+.b-spoiler label,
+.b-poster,
+.off,
+.item-ignore,
+.item-reply,
+.b-comments-notifier,
+.comments-loader,
+.click-loader {
+  cursor: url(http://media.tumblr.com/e7f72e808c4dbe5006b9c3a30dbc9b79/tumblr_inline_mh67vhwGnR1rdqsqf.png), pointer !important;
+}
+
+@media only screen and (max-width: 6000px){
+.l-footer {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+.l-page {
+    margin-top: 15px;
+    border: 1px solid #dfdfdf;
+    box-shadow: rgb(0 0 0 / 8%) 7px 7px;
+    border-radius: 5px;
+  padding-bottom: 15px;
+  }
+}
+
+/* Всплывашка */ 
+.tooltip-inner {
+    border: 1px solid #dfdfdf;
+    box-shadow: rgb(0 0 0 / 8%) 7px 7px;
+    border-radius: 5px;
+}
+
+/* Спойлер */
+.p-profiles .about.block .b-spoiler label {
+    font-weight: 100!important;
+}
+
+.rate_module>.c-column>strong {
+    position: absolute;
+    top: 8px;
+    left: -6px;
+    padding: 6px 8px;
+    background: #afcbd7e0;
+    border-color: #ffffff;
+    border-radius: 2px 4px 4px 0;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 70%);
+    color: #000000;
+    font-size: 12px;
+    line-height: 10px;
+    pointer-events: none;
+}
+
+.b-spoiler label:before , .b-spoiler label:after {
+    content: '';
+}
+
+.p-profiles .about.block .b-spoiler .before {
+  width: 100%; 
+  height: 50px;
+  display: inline-block !important;
+  margin-top: -50px;
+}
+
+.p-profiles .about.block .b-spoiler label {
+  background: #e8ebef00;
+  color: #f7cfdd;
+}
+
+/* Оформление вкладок */
+.u-tabs > div:not([data-tab]) {
+  white-space: nowrap;
+  overflow-x: auto;
+}
+.u-tabs [data-tab-switch] {
+  display: inline-block;
+    padding: .25em .75em;
+    font-weight: bold;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background: #e8ebef;
+    border-left: 5px solid #d8dde4;
+    color: #176093!important;
+    font-family: Open Sans, Helvetica Neue, Arial, Verdana, sans-serif;
+    background: var(--headline-background-color);
+    border-left: 5px solid var(--headline-border-color);
+    color: var(--headline-color);
+    font-family: var(--font-alt);
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.13px;
+    line-height: 1.65;
+    margin-bottom: 10px;
+    padding: 4px 10px 2px;
+    position: relative;
+    text-transform: uppercase;
+    -webkit-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+    -webkit-font-smoothing: antialiased;
+}
+.u-tabs [data-tab-switch]:not(:first-child) {
+  	margin-left: 10px;
+}
+.u-tabs .active[data-tab-switch] {
+    color: #dd5202!important;
+    opacity: 1;
+}
+.u-tabs [data-tab] {
+  	margin-top: 10px;
+}
+
+.p-profiles .about.block .b-spoiler label {
+  border: none;
+  display: inline-block !important;
+  font-weight: bold; /* толщина шрифта, можно убрать, если не нужно */
+  color: #000; /* цвет текста спойлера */
+  background: #e8ebef; /* цвет фона спойлера */
+  height: 30px; 
+  width: 100%;
+  font-size: 12pt; /* размер шрифта текста на спойлере */
+  padding-top: 3px; 
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.p-profiles .about.block .b-spoiler .after:before, .about.block .b-spoiler .before:before {
+  content: '';
+}
+
