@@ -180,9 +180,7 @@
     filter: grayscale(30%);
 }
 
-.b-catalog_entry-tooltip .image:hover {
-    opacity: 0.9;
-}
+
 .b-comment>.inner header img {
 	opacity: 0.8;
     filter: grayscale(30%);
