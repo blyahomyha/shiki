@@ -566,3 +566,191 @@ input,
   content: '';
 }
 
+.two_lined_001 {
+	line-height: 1.65;
+    position: relative;
+    margin-right: 1.5%;
+    width: 15.4166666667%;
+}
+.c-column-001 > .b-image {
+	border-radius: 4px !important;
+}
+.name_title_001 {
+	-webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    font-size: 13px;
+    max-height: 42.9px;
+    line-height: 1.65;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    word-wrap: break-word;
+    width: auto;
+  margin-top: 5px;
+}
+
+.b-comment {
+    border-top: 0px dashed #efefef;
+    margin-bottom: 15px; 
+    padding: 6px;
+    background: #f7f7f7;
+      border-radius: 4px;
+}
+
+.b-comment>.inner .name-date {
+    margin-left: 0px;
+  	font-size: 10px;
+}
+
+.b-comment>.inner .name-date .time {
+    font-size: 10px;
+    padding-left: 10px;
+    color: black;
+    text-decoration: none;
+}
+.b-comment>.inner .name-date .time:after {
+    content: ':';
+}
+.b-comment>.inner>.body {
+    margin-left: 0px;
+  	font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 12px;
+    color: #CCCCCC;
+}
+.b-comment header .hash {
+    color: #9da2a8;
+    cursor: pointer;
+    display: none;
+    font-size: 10px;
+    margin-left: 6px;
+    margin-top: 0px;
+    position: absolute;
+    vertical-align: middle;
+}
+.b-comment.tooltipped>.inner header .hash {
+    display: inline-block;
+    margin-top: 0px;
+    font-size: 10px;
+}
+.b-comment>.inner .name-date .name {
+    font-weight: 100;
+    color: black!important;
+    text-decoration: none;
+  letter-spacing: 1px;
+}
+.b-replies {
+    clear: both;
+    color: #7b8084;
+    font-size: 10px;
+    padding: 8px 6px 3px 0px;
+    text-align: left;
+  	position: inherit;
+}
+
+.p-profiles .profile-head .c-brief header h1 {
+    font-size: 25px;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+.buttons .editor-smiley, .buttons .editor-quote, .buttons .editor-link, .buttons .editor-bold, .buttons .editor-italic, .buttons .editor-underline, .buttons .editor-strike, .buttons .editor-image, .buttons .editor-spoiler, .buttons .editor-file, .buttons .item-ignore, .buttons .item-reply, .buttons .item-delete, .buttons .item-cancel, .buttons .item-request-reject, .buttons .item-delete-cancel, .buttons .item-moderation-cancel, .buttons .item-moderation, .buttons .item-quote, .profile-actions .mail, .profile-actions .settings, .profile-actions .ban, .profile-actions .fav-remove, .profile-actions .talk, .profile-actions .ignore-add, .profile-actions .fav-add, .profile-actions .ignore-remove {
+    padding: 2px !important;
+    color: #cccccc !important;
+}
+
+body {
+   
+    font-family: var(--font-main);
+    font-size: 10px;
+   
+    letter-spacing: 1px;
+}
+
+.b-stats_bar .stat_names .stat_name , .c-lists-info , .p-profiles .profile-head .c-history .entry .title {
+  
+    font-size: 11px;
+}
+
+@media screen and (min-width: 1200px){
+
+.button-site-1 {
+    position: fixed;
+    height: 50px;
+   border: 1px solid #dfdfdf;
+    box-shadow: rgb(0 0 0 / 8%) 7px 7px;
+    border-radius: 5px;
+   background-color: #fff;
+   
+    
+    
+    overflow: hidden;
+    z-index: 20;
+  
+    transition: 0.5s ease-in-out, background-position 0s, border 0s, border-radius 0s;
+  }}
+
+@media screen and (min-width: 1200px){
+
+.button-site-1 {
+    top: 12.92rem;
+    left: -140px;
+    width: 200px;
+  background-color: #fff;
+  }}
+
+@media screen and (min-width: 1200px){
+
+.button-site-1:hover {
+    left: -2px;
+    z-index: 60;
+   
+   
+    
+  }}
+@media screen and (min-width: 1200px){
+
+.button-site-1 > strong {
+    background-image: url(https://kawai.shikimori.one/system/user_images/original/100774/1830891.jpg);
+    background-size: cover;
+  }}
+@media screen and (min-width: 1200px){
+
+.button-site-1 > strong {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    right: 5px;
+    bottom: 0;
+    margin: auto 0;
+    border-radius: 5px;
+    
+    pointer-events: none;
+    background-color: #cfd0d21a;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid #ffffff;
+  }}
+@media screen and (min-width: 1200px){
+
+.button-site-1 .b-link {
+    padding-right: 3rem;
+  }}
+
+@media screen and (min-width: 1200px){
+
+.button-site-1 .b-link{
+    display: flex;
+    align-items: center;
+    height: 100% !important;
+    font-size: 12px !important;
+    color: rgba(var(--dark-color), var(--hundred)) !important;
+    justify-content: center;
+  }}
+
+.b-link {
+    text-decoration: underline;
+}
