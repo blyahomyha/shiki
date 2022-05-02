@@ -1,0 +1,409 @@
+/* СМЕНА ОБЛОЖЕК */
+
+/* Общие настройки обложек */
+.b-catalog_entry .cover .image-cutter,
+.b-catalog_entry-tooltip > a,
+.entry-tooltip_container > .image-link {
+  background-size: cover;
+  background-position: top center;
+}
+
+/* Изменение контейнера во всплывающей подсказке */
+.b-catalog_entry-tooltip > a,
+.entry-tooltip_container > .image-link {
+  float: left;
+  width: 160px;
+  height: 249.34px;
+  filter: grayscale(50%);
+}
+.entry-tooltip_container > .image-link:hover {
+    filter: grayscale(30%);
+}
+/* Для персонажей и людей */
+[class *= 'b-catalog_entry'] > a[href *= 'characters/-'] img {
+  opacity: 0;
+}
+
+[class *= 'b-catalog_entry'] > a[href *= 'people/-'] img {
+  opacity: 0;
+}
+
+/* Для аниме, манги и ранобэ */
+.b-catalog_entry > a[href *= 'mangas/-'] img,
+.entry-tooltip_container > .image-link[href *= 'mangas/-'] img {
+  opacity: 0;
+}
+
+.b-catalog_entry > a[href *= 'people/-'] img,
+.entry-tooltip_container > .image-link[href *= 'people/-'] img {
+  opacity: 0!important;
+}
+
+/* Всё вместе – группа селекторов */
+[class *= 'b-catalog_entry'] > a[href *= 'characters/-'] img,
+.b-catalog_entry > a[href *= 'mangas/-'] img,
+.entry-tooltip_container > .image-link[href *= 'mangas/-'] img {
+  opacity: 0;
+}
+/* Смена обложки – (персонаж) */
+.b-catalog_entry a[href *= 'characters/-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/-'] {
+  background-image: url();
+}
+.b-catalog_entry a[href *= 'people/-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'people/-'] {
+  background-image: url();
+}
+/* Смена обложки – (манга) */
+.b-catalog_entry a[href *= 'mangas/-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'mangas/-'] {
+  background-image: url();
+}
+
+
+.b-catalog_entry a[href *= 'people/14761-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'people/14761-'] {
+  background-image: url(https://moe.shikimori.one/system/user_images/original/100774/1820742.jpg);
+}
+[class *= 'b-catalog_entry'] > a[href *= 'people/14761-'] img {
+  opacity: 0;
+}
+
+
+.b-catalog_entry a[href *= 'people/41963-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'people/41963-'] {
+  background-image: url(https://desu.shikimori.one/system/user_images/original/100774/1820743.jpg);
+}
+[class *= 'b-catalog_entry'] > a[href *= 'people/41963-'] img {
+  opacity: 0;
+}
+
+/*(animes) */
+.b-catalog_entry a[href *= 'animes/4081-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'animes/4081-'] {
+  background-image: url(https://kawai.shikimori.one/system/user_images/original/100774/1713321.jpg);
+}
+.b-catalog_entry > a[href *= 'animes/4081-'] img,
+.entry-tooltip_container > .image-link[href *= 'animes/4081-'] img {
+  opacity: 0;
+}
+
+.b-catalog_entry a[href *= 'animes/43299-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'animes/43299-'] {
+  background-image: url(https://moe.shikimori.one/system/user_images/original/100774/1797992.jpg);
+}
+.b-catalog_entry > a[href *= 'animes/43299-'] img,
+.entry-tooltip_container > .image-link[href *= 'animes/43299-'] img {
+  opacity: 0;
+}
+
+.b-catalog_entry a[href *= 'animes/37517-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'animes/37517-'] {
+  background-image: url(https://nyaa.shikimori.one/system/user_images/original/100774/1700015.jpg);
+}
+.b-catalog_entry > a[href *= 'animes/37517-'] img,
+.entry-tooltip_container > .image-link[href *= 'animes/37517-'] img {
+  opacity: 0;
+}
+
+
+.b-catalog_entry a[href *= 'mangas/103815-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'mangas/103815-'] {
+  background-image: url(https://desu.shikimori.one/system/user_images/original/100774/1700018.jpg);
+}
+.b-catalog_entry > a[href *= 'mangas/103815-'] img,
+.entry-tooltip_container > .image-link[href *= 'mangas/103815-'] img {
+  opacity: 0;
+}
+
+.b-catalog_entry a[href *= 'mangas/24457-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'mangas/24457-'] {
+  background-image: url(https://desu.shikimori.one/system/user_images/original/100774/1700788.jpg);
+}
+.b-catalog_entry > a[href *= 'mangas/24457-'] img,
+.entry-tooltip_container > .image-link[href *= 'mangas/24457-'] img {
+  opacity: 0;
+}
+
+.b-catalog_entry a[href *= 'mangas/123812-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'mangas/123812-'] {
+  background-image: url(https://moe.shikimori.one/system/user_images/original/100774/1700052.jpg);
+}
+.b-catalog_entry > a[href *= 'mangas/123812-'] img,
+.entry-tooltip_container > .image-link[href *= 'mangas/123812-'] img {
+  opacity: 0;
+}
+
+.b-catalog_entry a[href *= 'animes/33003-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'animes/33003-'] {
+  background-image: url(https://moe.shikimori.one/system/user_images/original/100774/1700242.jpg);
+}
+.b-catalog_entry > a[href *= 'animes/33003-'] img,
+.entry-tooltip_container > .image-link[href *= 'animes/33003-'] img {
+  opacity: 0;
+}
+
+.b-catalog_entry a[href *= 'animes/z226-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'animes/z226-'] {
+  background-image: url(https://desu.shikimori.one/system/user_images/original/100774/1700263.jpg);
+}
+.b-catalog_entry > a[href *= 'animes/z226-'] img,
+.entry-tooltip_container > .image-link[href *= 'animes/z226-'] img {
+  opacity: 0;
+}
+
+.b-catalog_entry a[href *= 'animes/16498-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'animes/16498-'] {
+  background-image: url(https://kawai.shikimori.one/system/user_images/original/100774/1700306.jpg);
+}
+.b-catalog_entry > a[href *= 'animes/16498-'] img,
+.entry-tooltip_container > .image-link[href *= 'animes/16498-'] img {
+  opacity: 0;
+}
+
+.b-catalog_entry a[href *= 'animes/z5114-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'animes/z5114-'] {
+  background-image: url(https://dere.shikimori.one/system/user_images/original/100774/1713404.jpg);
+}
+.b-catalog_entry > a[href *= 'animes/z5114-'] img,
+.entry-tooltip_container > .image-link[href *= 'animes/z5114-'] img {
+  opacity: 0;
+}
+
+.b-catalog_entry a[href *= 'animes/22145-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'animes/22145-'] {
+  background-image: url(https://moe.shikimori.one/system/user_images/original/100774/1700342.jpg);
+}
+.b-catalog_entry > a[href *= 'animes/22145-'] img,
+.entry-tooltip_container > .image-link[href *= 'animes/22145-'] img {
+  opacity: 0;
+}
+
+/* Манга Пустоцвет */
+.b-catalog_entry a[href *= 'mangas/125430-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'mangas/125430-'] {
+  background-image: url(https://moe.shikimori.one/system/user_images/original/100774/1722062.jpg);
+}
+.b-catalog_entry > a[href *= 'mangas/125430-'] img,
+.entry-tooltip_container > .image-link[href *= 'mangas/125430-'] img {
+  opacity: 0;
+}
+
+.b-catalog_entry a[href *= 'animes/z1535-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'animes/z1535-'] {
+  background-image: url(https://nyaa.shikimori.one/system/user_images/original/100774/1700785.jpg);
+}
+.b-catalog_entry > a[href *= 'animes/z1535-'] img,
+.entry-tooltip_container > .image-link[href *= 'animes/z1535-'] img {
+  opacity: 0;
+}
+
+.b-catalog_entry a[href *= 'animes/37520-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'animes/37520-'] {
+  background-image: url(https://nyaa.shikimori.one/system/user_images/original/100774/1744005.jpg);
+}
+.b-catalog_entry > a[href *= 'animes/37520-'] img,
+.entry-tooltip_container > .image-link[href *= 'animes/37520-'] img {
+  opacity: 0;
+}
+
+/* Аниме Для тебя Бессмертный */
+.b-catalog_entry a[href *= 'animes/41025-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'animes/41025-'] {
+  background-image: url(https://moe.shikimori.one/system/user_images/original/100774/1741857.jpg);
+}
+.b-catalog_entry > a[href *= 'animes/41025-'] img,
+.entry-tooltip_container > .image-link[href *= 'animes/41025-'] img {
+  opacity: 0;
+}
+
+[class *= 'b-catalog_entry'] > a[href *= 'characters/137170-'] img {
+  opacity: 0;
+}
+.b-catalog_entry a[href *= 'characters/137170-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/137170-'] {
+  background-image: url(https://kawai.shikimori.one/system/user_images/original/100774/1713341.jpg);
+}
+  
+[class *= 'b-catalog_entry'] > a[href *= 'characters/137825-'] img {
+  opacity: 0;
+}
+.b-catalog_entry a[href *= 'characters/137825-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/137825-'] {
+  background-image: url(https://desu.shikimori.one/system/user_images/original/100774/1764988.jpg);
+}
+  
+[class *= 'b-catalog_entry'] > a[href *= 'characters/145-'] img {
+  opacity: 0;
+}
+.b-catalog_entry a[href *= 'characters/145-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/145-'] {
+  background-image: url(https://kawai.shikimori.one/system/user_images/original/100774/1765461.jpg);
+}
+
+.b-catalog_entry a[href *= 'animes/z11061-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'animes/z11061-'] {
+  background-image: url(https://kawai.shikimori.one/system/user_images/original/100774/1713351.jpg);
+}
+.b-catalog_entry > a[href *= 'animes/z11061-'] img,
+.entry-tooltip_container > .image-link[href *= 'animes/z11061-'] img {
+  opacity: 0;
+}
+
+/*манга Человек-бензопила*/
+.b-catalog_entry a[href *= 'mangas/116778-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'mangas/116778-'] {
+  background-image: url(https://nyaa.shikimori.one/system/user_images/original/100774/1722340.jpg);
+}
+.b-catalog_entry > a[href *= 'mangas/116778-'] img,
+.entry-tooltip_container > .image-link[href *= 'mangas/116778-'] img {
+  opacity: 0;
+}
+
+/* манга Евангелион*/
+.b-catalog_entry a[href *= 'mangas/698-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'mangas/698-'] {
+  background-image: url(https://desu.shikimori.one/system/user_images/original/100774/1722348.jpg);
+}
+.b-catalog_entry > a[href *= 'mangas/698-'] img,
+.entry-tooltip_container > .image-link[href *= 'mangas/698-'] img {
+  opacity: 0;
+}
+
+.b-catalog_entry a[href *= 'mangas/119072-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'mangas/119072-'] {
+  background-image: url(https://moe.shikimori.one/system/user_images/original/100774/1714517.jpg);
+}
+.b-catalog_entry > a[href *= 'mangas/119072-'] img,
+.entry-tooltip_container > .image-link[href *= 'mangas/119072-'] img {
+  opacity: 0;
+}
+
+.b-catalog_entry a[href *= 'mangas/z3866-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'mangas/z3866-'] {
+  background-image: url(https://nyaa.shikimori.one/system/user_images/original/100774/1718065.jpg);
+}
+.b-catalog_entry > a[href *= 'mangas/z3866-'] img,
+.entry-tooltip_container > .image-link[href *= 'mangas/z3866-'] img {
+  opacity: 0;
+}
+
+.b-catalog_entry a[href *= 'mangas/24808-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'mangas/24808-'] {
+  background-image: url(https://kawai.shikimori.one/system/user_images/original/100774/1718076.jpg);
+}
+.b-catalog_entry > a[href *= 'mangas/24808-'] img,
+.entry-tooltip_container > .image-link[href *= 'mangas/24808-'] img {
+  opacity: 0;
+}
+
+.b-catalog_entry a[href *= 'mangas/912-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'mangas/912-'] {
+  background-image: url(https://moe.shikimori.one/system/user_images/original/100774/1718737.jpg);
+}
+.b-catalog_entry > a[href *= 'mangas/912-'] img,
+.entry-tooltip_container > .image-link[href *= 'mangas/912-'] img {
+  opacity: 0;
+}
+
+.b-catalog_entry a[href *= 'mangas/91946'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'mangas/91946-'] {
+  background-image: url(https://nyaa.shikimori.one/system/user_images/original/100774/1719190.jpg);
+}
+.b-catalog_entry > a[href *= 'mangas/91946-'] img,
+.entry-tooltip_container > .image-link[href *= 'mangas/91946-'] img {
+  opacity: 0;
+}
+
+.b-catalog_entry a[href *= 'mangas/117623'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'mangas/117623-'] {
+  background-image: url(https://desu.shikimori.one/system/user_images/original/33635/738193.jpg);
+}
+.b-catalog_entry > a[href *= 'mangas/117623-'] img,
+.entry-tooltip_container > .image-link[href *= 'mangas/117623-'] img {
+  opacity: 0;
+}
+
+.b-catalog_entry a[href *= 'animes/40748-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'animes/40748-'] {
+  background-image: url(https://kawai.shikimori.one/system/user_images/original/100774/1758466.jpg);
+}
+.b-catalog_entry > a[href *= 'animes/40748-'] img,
+.entry-tooltip_container > .image-link[href *= 'animes/40748-'] img {
+  opacity: 0;
+}
+
+
+
+/* Манга Безвинный */
+.b-catalog_entry a[href *= 'mangas/58563-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'mangas/58563-'] {
+  background-image: url(https://moe.shikimori.one/system/user_images/original/100774/1722092.jpg);
+}
+.b-catalog_entry > a[href *= 'mangas/58563-'] img,
+.entry-tooltip_container > .image-link[href *= 'mangas/58563-'] img {
+  opacity: 0;
+}
+  
+.b-catalog_entry a[href *= 'animes/z32182-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'animes/z32182-'] {
+  background-image: url(https://dere.shikimori.one/system/user_images/original/100774/1795909.jpg);
+}
+.b-catalog_entry > a[href *= 'animes/z32182-'] img,
+.entry-tooltip_container > .image-link[href *= 'animes/z32182-'] img {
+  opacity: 0;
+}
+  
+.b-catalog_entry a[href *= 'mangas/119931-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'mangas/119931-'] {
+  background-image: url(https://moe.shikimori.one/system/user_images/original/100774/1746742.jpg);
+}
+.b-catalog_entry > a[href *= 'mangas/119931-'] img,
+.entry-tooltip_container > .image-link[href *= 'mangas/119931-'] img {
+  opacity: 0;
+}
+
+.b-catalog_entry a[href *= 'animes/437-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'animes/437-'] {
+  background-image: url(https://nyaa.shikimori.one/system/user_images/original/100774/1795770.jpg);
+}
+.b-catalog_entry > a[href *= 'animes/437-'] img,
+.entry-tooltip_container > .image-link[href *= 'animes/437-'] img {
+  opacity: 0;
+}
+
+.b-catalog_entry a[href *= 'animes/431-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'animes/431-'] {
+  background-image: url(https://moe.shikimori.one/system/user_images/original/100774/1795772.jpg);
+}
+.b-catalog_entry > a[href *= 'animes/431-'] img,
+.entry-tooltip_container > .image-link[href *= 'animes/431-'] img {
+  opacity: 0;
+}
+
+.b-catalog_entry a[href *= 'animes/40615-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'animes/40615-'] {
+  background-image: url(https://nyaa.shikimori.one/system/user_images/original/100774/1795775.jpg);
+}
+.b-catalog_entry > a[href *= 'animes/40615-'] img,
+.entry-tooltip_container > .image-link[href *= 'animes/40615-'] img {
+  opacity: 0;
+}
+
+.b-catalog_entry a[href *= 'animes/1062-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'animes/1062-'] {
+  background-image: url(https://nyaa.shikimori.one/system/user_images/original/100774/1824100.jpg);
+}
+.b-catalog_entry > a[href *= 'animes/1062-'] img,
+.entry-tooltip_container > .image-link[href *= 'animes/1062-'] img {
+  opacity: 0;
+}
+
+.b-catalog_entry a[href *= 'animes/339-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'animes/339-'] {
+  background-image: url(https://dere.shikimori.one/system/user_images/original/100774/1830889.jpg);
+}
+.b-catalog_entry > a[href *= 'animes/339-'] img,
+.entry-tooltip_container > .image-link[href *= 'animes/339-'] img {
+  opacity: 0;
+}
