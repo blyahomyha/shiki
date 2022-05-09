@@ -241,7 +241,8 @@
   background-image: url(https://kawai.shikimori.one/system/user_images/original/100774/1765461.jpg);
 }
 
-class *= 'b-catalog_entry'] > a[href *= 'characters/194150-'] img {
+class *= 'b-catalog_entry'] > a[href *= 'characters/194150-'] img, 
+.entry-tooltip_container > .image-link[href *= 'characters/194150-'] img {
   opacity: 0;
 }
 .b-catalog_entry a[href *= 'characters/194150-'] .image-cutter,
