@@ -241,6 +241,14 @@
   background-image: url(https://kawai.shikimori.one/system/user_images/original/100774/1765461.jpg);
 }
 
+class *= 'b-catalog_entry'] > a[href *= 'characters/194150-'] img {
+  opacity: 0;
+}
+.b-catalog_entry a[href *= 'characters/194150-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/194150-'] {
+  background-image: url(https://64.media.tumblr.com/2adc42c1674569036d09fec326920c1b/c0362f3988119510-de/s400x600/f4624cf4082d7730221a5f5c9ad4a4c89ec0fe3b.gifv);
+}
+
 .b-catalog_entry a[href *= 'animes/z11061-'] .image-cutter,
 .entry-tooltip_container > .image-link[href *= 'animes/z11061-'] {
   background-image: url(https://kawai.shikimori.one/system/user_images/original/100774/1713351.jpg);
