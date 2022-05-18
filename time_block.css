@@ -34,3 +34,10 @@
     /* display: flex; */
     /* flex-direction: row-reverse; */
 }
+
+.p-profiles-show .profile-content .cc-2 > .c-right > .block {
+  flex-grow: 1;
+}
+.p-profiles-show .profile-content .cc-2 > .c-right .cc-2a > .c-column {
+  width: 100%;
+}
