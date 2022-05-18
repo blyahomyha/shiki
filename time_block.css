@@ -1,0 +1,36 @@
+.p-profiles-show .profile-content .cc-2 > .c-left {
+    /* display: none; */
+    width: 74%;
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+
+.p-profiles-show .profile-content .activity:last-child {
+    margin-bottom: 0;
+    display: none;
+}
+
+.p-profiles-show .profile-content .cc-2 > .c-right {
+    /* display: flex; */
+    /* flex-direction: row-reverse; */
+    width: 100%;
+    /* float: none; */
+    margin: 0;
+    position: relative;
+}
+
+.p-profiles-show .profile-content .cc-2 > .c-right > .cc-2a {
+    flex-shrink: 0;
+    width: 23%;
+    margin: 0 0 0 30px !important;
+    position: absolute;
+    right: 0;
+    top: -100px;
+}
+
+.p-profiles-show .profile-content .cc-2 > .c-right > .block {
+    flex-grow: 0;
+    width: 74%;
+    /* display: flex; */
+    /* flex-direction: row-reverse; */
+}
