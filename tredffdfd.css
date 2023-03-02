@@ -1,0 +1,1417 @@
+.l-top_menu-v2 {
+    color: #000;
+    border-bottom: 1px solid #808080;
+    background-color: #d0d0c8!important;
+    border-left-color: white;
+    border-top-color: white;
+    border-right-color: #808080;
+}
+.l-top_menu-v2 .menu-dropdown>span {
+    background: transparent!important;
+    border-bottom: transparent!important;
+}
+.l-top_menu-v2 .menu-icon:hover {
+    background-color: transparent;
+}
+.l-top_menu-v2 .global-search input {
+    background-color: transparent;
+    border: 1px solid #d0d0c8;
+    border-left-color: #404040;
+    border-top-color: #404040;
+    border-right-color: white;
+    border-bottom-color: white;
+}
+
+.l-top_menu-v2 .logo-container .glyph {
+    filter: invert(100%);
+}
+
+.l-top_menu-v2 .global-search .search-results .nothing_found.active, .l-top_menu-v2 .global-search .search-results .nothing_found:focus, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus, .l-top_menu-v2 .global-search .search-results .search-mode.active, .l-top_menu-v2 .global-search .search-results .search-mode:focus {
+    background: transparent;
+}
+.l-top_menu-v2 .global-search .search-results .nothing_found, .l-top_menu-v2 .global-search .search-results .search-mode {
+    line-height: 30px;
+}
+.l-top_menu-v2 .global-search .search-results .nothing_found.active:before, .l-top_menu-v2 .global-search .search-results .nothing_found:focus:before, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active:before, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus:before, .l-top_menu-v2 .global-search .search-results .search-mode.active:before, .l-top_menu-v2 .global-search .search-results .search-mode:focus:before {
+    background: #00000042;
+}
+.l-top_menu-v2 .global-search .search-results .nothing_found:before, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:before, .l-top_menu-v2 .global-search .search-results .search-mode:before {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+.l-top_menu-v2 .global-search .search-results .nothing_found:before, .l-top_menu-v2 .global-search .search-results .search-mode:before {
+    margin: auto 10px!important;
+}
+.l-top_menu-v2 .global-search .search-results .nothing_found.active+.b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .nothing_found.active+.search-mode, .l-top_menu-v2 .global-search .search-results .nothing_found:focus+.b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .nothing_found:focus+.search-mode, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active+.b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active+.search-mode, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus+.b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus+.search-mode, .l-top_menu-v2 .global-search .search-results .search-mode.active+.b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .search-mode.active+.search-mode, .l-top_menu-v2 .global-search .search-results .search-mode:focus+.b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .search-mode:focus+.search-mode {
+    border-top-color: transparent;
+}
+.l-top_menu-v2 .global-search .search-results .nothing_found, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .search-mode {
+    border-top: transparent;
+}
+.l-top_menu-v2 .global-search .search-results .search-mode:hover {
+    background: transparent;
+}
+@media screen and (max-width: 1023px){
+.l-top_menu-v2.is-search-mobile .global-search {
+    background: #d0d0c8;
+  }
+}
+
+.l-top_menu-v2 .menu-icon:active {
+    background-color: transparent;
+}
+
+.l-top_menu-v2 .submenu>a.icon-mail span.unread span {
+    color: #000;
+}
+
+.l-top_menu-v2 .submenu>.legend {
+    font-weight: 100;
+    letter-spacing: 0px;
+    margin-top: 5px;
+    padding: 0 15px 0 10px;
+    pointer-events: none;
+    text-transform: uppercase;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    line-height: 1.9;
+    font-size: 13px!important;
+    margin: 0px;
+    position: relative;
+    background:var(--color-background)!important;
+    color:var(--color-text-legend)!important;
+    border: 1px inset #d0d0c8;
+    border-left-color: #404040;
+    border-top-color: #404040;
+    border-right-color: white;
+    border-bottom-color: white;
+    overflow-y: hidden;
+}
+
+.l-top_menu-v2 .submenu>.legend:before {
+    content: '';
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    float: right;
+    width: 17px;
+    height: 15px;
+    background-image: url(//kawai.shikimori.one/system/user_images/original/100774/1695126.jpg);
+    background-repeat: no-repeat;
+    background-position: -35px -33px;
+}
+
+
+
+.l-top_menu-v2 .menu-dropdown>span a {
+    color: #000;
+}
+
+.l-top_menu-v2 .menu-dropdown.profile {
+    color: #000!important;
+}
+
+.l-top_menu-v2 .menu-icon.trigger:before {
+    filter: invert(100%);
+}
+
+.l-top_menu-v2 .menu-icon[data-count]:after , body[data-locale=ru] .b-new_marker.active:active:before, body[data-locale=ru] .b-new_marker.active:hover:before {
+    -webkit-border-radius: 0%!important;
+    border-radius: 0%!important;
+    border: 1px solid #000000!important;
+    color: #000000!important;
+    background-color: #d0d0c8!important;
+    border-right: 1px #404040 solid!important;
+    border-bottom: 1px #404040 solid!important;
+    border-left: 1px #fff solid!important;
+    border-top: 1px #fff solid!important;
+}
+
+.l-top_menu-v2 .menu-dropdown.profile>span img , .l-top_menu-v2 .icon-avatar img {
+    border: 1px solid #d0d0c8;
+    border-left-color: #404040;
+    border-top-color: #404040;
+    border-right-color: white;
+    border-bottom-color: white;
+}
+
+.l-top_menu-v2 .submenu {
+    padding: 2px;
+    background-color: #d0d0c8!important;
+    border: 1px solid #d0d0c8;
+    border-left-color: white;
+    border-top-color: white;
+    border-right-color: #808080;
+    border-bottom-color: #808080;
+    outline: 0px solid #000000;
+}
+.l-top_menu-v2 .submenu>a {
+    border: 1px solid #404040;
+    border-top-color: white;
+    border-left-color: white;
+    color: #000!important; 
+}
+.l-top_menu-v2 .submenu > a:hover {
+    color: #000 !important;
+    transition: background 0.2s ease;
+    background-color: rgb(90 90 90 / 0%)!important;
+    border: 1px solid #404040;
+    border-bottom-color: white;
+    border-right-color: white;
+    border-top: 1px solid #404040!important;
+} 
+.l-top_menu-v2 .menu-dropdown>span a:hover {
+    background-color: rgb(90 90 90 / 0%)!important;
+} 
+
+@media only screen and (max-width: 6000px){
+.l-footer .copyright:before {
+    content: 'Оригинальная тема by хач ';
+}
+}
+
+@media screen and (max-width: 1024px) {
+   .l-footer {
+    border-right-color: grey!important;
+    border-bottom-color: #a3a3a3;
+  }
+}
+
+@media screen and (max-width: 767px){
+   .l-footer .copyright {
+    color: #555;
+    float: left;
+    font: 11px trebuchet ms,tahoma,arial,verdana;
+    padding: 3px 1px 7px 0;
+    vertical-align: bottom;
+    white-space: normal;
+  }
+	
+  .l-footer {
+    border-right-color: grey!important;
+    border-bottom-color: #a3a3a3;
+  }
+  .l-top_menu-v2 .menu-dropdown>span[data-unread_count]:after {
+   -webkit-border-radius: 0%!important;
+    border-radius: 0%!important;
+    border: 1px solid #000000!important;
+    color: #000000!important;
+    background-color: #d0d0c8!important;
+    border-right: 1px #404040 solid!important;
+    border-bottom: 1px #404040 solid!important;
+    border-left: 1px #fff solid!important;
+    border-top: 1px #fff solid!important;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px){	
+  .p-profiles .profile-head .c-brief {
+    padding: 12px 0px;
+  }
+	
+  .p-profiles .profile-head .c-brief .avatar {
+    float: none;
+    position: relative;
+    max-width: 100%;
+    min-height: 49px;
+    margin: 0 0 12px;
+    flex-shrink: 0;
+    text-align: center;
+  }
+	
+  .p-profiles .profile-head .c-brief .avatar img {
+    width: 36%;
+    max-width: 160px;
+    transform: translateY(calc(-10% - 12px));
+    vertical-align: top;
+    display: block;
+    height: auto;
+    margin: auto;
+    border: 1px inset #d0d0c8;
+    border-left-color: #404040;
+    border-top-color: #404040;
+    border-right-color: white;
+    border-bottom-color: white;
+    background-color: #d0d0c8;
+    border-radius: 0px!important;
+  }
+	
+  .p-profiles .profile-head .c-brief header {
+    text-align: center;
+  }
+	
+  .p-profiles .profile-head .c-mobile-actions {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1439px) {
+  .profile-actions > .b-tooltipped:before {
+    font-size: 13px;
+  }
+	
+  
+	
+   .p-profiles .profile-head .c-brief .avatar .profile-actions:before {
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 0px 0px 0 5px;
+    margin-bottom: 7px;
+    color: black!important;
+    line-height: 1.9;
+    font-size: 11px;
+    z-index: 23;
+    text-align: left;
+  }
+	
+   .profile-head > .c-brief > .avatar {
+    padding: 2px;
+    background-color: #d0d0c8;
+    border: 1px solid #d0d0c8;
+    border-left-color: white;
+    border-top-color: white;
+    border-right-color: #808080;
+    border-bottom-color: #808080;
+  } 
+	
+ 
+	
+	
+   .p-profiles .profile-head .c-brief .avatar img {
+    width: 100%!important;
+    height: auto!important;
+    border: 1px inset #d0d0c8;
+    border-left-color: #404040;
+    border-top-color: #404040;
+    border-right-color: white;
+    border-bottom-color: white;
+    background-color: #d0d0c8;
+    border-radius: 0px!important;
+  }
+	
+   .p-profiles .profile-head .c-brief .avatar .profile-actions {
+    margin-top: 5px;
+    text-align: center;
+    display: grid;
+    margin-left: 0px;
+  }
+	
+   .p-profiles .profile-head .c-brief .avatar .profile-actions > a {
+    color: black!important;
+    border-radius: 0px;
+    cursor: inherit;
+    margin: 1px 0;
+    height: 25px;
+    padding: 0px !important;
+    text-align: center;
+    padding: 4px 0;
+    border: 1px solid #404040;
+    border-top-color: white;
+    border-left-color: white;
+  }
+	
+   .p-profiles .profile-head .c-brief .avatar .profile-actions > a:hover{
+    color: black!important;
+    border-radius: 0px;
+    cursor: inherit;
+    margin: 1px 0;
+    height: 25px;
+    padding: 0px !important;
+    text-align: center;
+    padding: 4px 0;
+    border: 1px solid #404040;
+    border-bottom-color: white;
+    border-right-color: white;
+    border-top: 1px solid #404040!important;
+  }
+	
+   .profile-actions .mail, .profile-actions .settings, .profile-actions .ban {
+    color: #000000 !important;
+  }
+	
+   section.l-page:before , .profile-head > .c-brief > .avatar::before , .l-top_menu-v2 .submenu>.legend ,  .b-comments+.editor-container > .subheadline , .tooltip-inner:before{
+   color:var(--color-text-legend)!important;
+}
+}
+
+@media screen and (min-width: 1024px) {
+   .l-page {
+    padding: 2px;
+    background-color: #d0d0c8;
+    border: 1px solid #d0d0c8;
+    border-left-color: white;
+    border-top-color: white;
+    border-right-color: #808080;
+    border-bottom-color: #808080;
+  }
+	
+   .l-page > div {
+    padding: 2px 15px;
+    background-color: #ffffff;
+    border: 1px solid #d0d0c8;
+    border-left-color: white;
+    border-top-color: white;
+    border-right-color: #808080;
+    border-bottom-color: #808080;
+  }
+    section.l-page:before {
+    display: block;
+    width: auto;
+    height: 19px;
+    padding: 0px 0px 0 5px;
+    margin-bottom: 10px;
+    content: '/Содержимое страницы';
+    line-height: 1.5;
+    font-size: 13px;
+    border: 1px inset #d0d0c8;
+    border-left-color: #404040;
+    border-top-color: #404040;
+    border-right-color: white;
+    border-bottom-color: white;
+    overflow-y: hidden;
+    cursor: default;
+    background: var(--color-background)!important;
+    color: var(--color-text-legend)!important;
+   }
+    section.l-page:after {
+    content: '';
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    float: right;
+    width: 50px;
+    height: 15px;
+    background-image: url(//kawai.shikimori.one/system/user_images/original/100774/1695126.jpg);
+    background-repeat: no-repeat;
+    background-position: -2px -33px;
+   }
+}
+
+@media screen and (min-width: 1440px) {
+   .p-profiles .profile-head .c-brief .avatar .profile-actions:before {
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 0px 0px 0 5px;
+    margin-bottom: 7px;
+    color: black!important;
+    line-height: 1.9;
+    font-size: 11px;
+    z-index: 23;
+    text-align: left;
+  }
+	
+   
+	
+   
+	
+  
+	
+   .p-profiles .profile-head .c-brief .avatar img {
+    width: 100%!important;
+    height: auto!important;
+    border: 1px inset #d0d0c8;
+    border-left-color: #404040;
+    border-top-color: #404040;
+    border-right-color: white;
+    border-bottom-color: white;
+    background-color: #d0d0c8;
+    border-radius: 0px!important;
+  }
+	
+   .p-profiles .profile-head .c-brief .avatar .profile-actions {
+    margin-top: 5px;
+    text-align: center;
+    display: grid;
+    margin-left: 0px;
+  }
+	
+   .p-profiles .profile-head .c-brief .avatar .profile-actions > a {
+    color: black!important;
+    border-radius: 0px;
+    cursor: inherit;
+    margin: 1px 0;
+    height: 25px;
+    padding: 0px !important;
+    text-align: center;
+    padding: 4px 0;
+    border: 1px solid #404040;
+    border-top-color: white;
+    border-left-color: white;
+  }
+	
+   .p-profiles .profile-head .c-brief .avatar .profile-actions > a:hover{
+    color: black!important;
+    border-radius: 0px;
+    cursor: inherit;
+    margin: 1px 0;
+    height: 25px;
+    padding: 0px !important;
+    text-align: center;
+    padding: 4px 0;
+    border: 1px solid #404040;
+    border-bottom-color: white;
+    border-right-color: white;
+    border-top: 1px solid #404040!important;
+  }
+	
+   .profile-actions .mail, .profile-actions .settings, .profile-actions .ban {
+    color: #000000 !important;
+  }
+	
+   .l-page {
+    margin-top: 15px;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    padding-bottom: 15px;
+    border-radius: 0px!important;
+  }
+	
+    section.l-page:before {
+    display: block;
+    width: auto;
+    height: 19px;
+    padding: 0px 0px 0 5px;
+    margin-bottom: 10px;
+    content: '/Содержимое страницы';
+    line-height: 1.5;
+    font-size: 13px;
+    border: 1px inset #d0d0c8;
+    border-left-color: #404040;
+    border-top-color: #404040;
+    border-right-color: white;
+    border-bottom-color: white;
+    overflow-y: hidden;
+    cursor: default;
+    background:var(--color-background)!important;
+    color:var(--color-text-legend)!important;
+  }
+	
+    section.l-page:after {
+    content: '';
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    float: right;
+    width: 50px;
+    height: 15px;
+    background-image: url(//kawai.shikimori.one/system/user_images/original/100774/1695126.jpg);
+    background-repeat: no-repeat;
+    background-position: -2px -33px;
+  }
+}
+
+.l-footer {
+    clear: both;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding: 4px 2px;
+    margin-top: 2px;
+    border: 1px solid #d0d0c8;
+    border-left-color: #808080;
+    border-top-color: #808080;
+    border-right-color: white;
+    border-bottom-color: #a3a3a3;
+}
+
+.b-options-floated {
+    margin-top: 5px;
+}
+
+.subheadline-buttons {
+    margin-top: -1px;
+    position: absolute;
+    right: 3px;
+    z-index: 2;
+}
+
+.b-to-top.active .slide {
+    cursor: pointer;
+    width: 120px;
+    height: 20px;
+    left: 0;
+    position: fixed;
+    bottom: 0;
+    width: 0;
+    z-index: 999;
+    top: auto;
+}
+
+body[data-locale=ru] .b-new_marker.off:before {
+    color: #000000;
+    border-color: rgb(208 208 200);
+    background-color: transparent;
+}
+
+.midheadline, .subheadline, .headline {
+    border-radius: 0px;
+    text-align: left;
+    border-bottom-width: 0px;
+    border-bottom-style: solid;
+    text-transform: none;
+    padding: 0 10px;
+    border: 1px inset #d0d0c8;
+    border-top-color: #404040!important;
+    border-top-style: inset;
+    border-top-width: 1px;
+    border-right-color: #afafaf!important;
+    border-right-style: inset;
+    border-right-width: 1px;
+    border-bottom-color: #343434!important;
+    border-bottom-style: inset;
+    border-bottom-width: 1px;
+    border-left-color: #404040!important;
+    border-left-style: inset;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-left-color: #404040!important;
+    border-top-color: #404040!important;
+    border-right-color: #9f9f9f!important;
+    border-bottom-color: #b9b9b9!important;
+    font-size: 13px!important;
+    line-height: 19px!important;
+    background-color: #d0d0c8;
+    color: #000!important;
+    font-weight: 100!important;
+}
+
+.headline>a:before, .midheadline>a:before, .subheadline>a:before {
+    content: '';
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    float: right;
+    width: 17px;
+    height: 15px;
+    background-image: url(//kawai.shikimori.one/system/user_images/original/100774/1695126.jpg);
+    background-repeat: no-repeat;
+    background-position: -35px -33px;
+}
+
+.headline>a, .midheadline>a, .subheadline>a {
+    color: black!important;
+    line-height: 19px;
+}
+
+.b-catalog_entry.completed .image-decor:after {
+    color: #000;
+}
+
+.b-catalog_entry .cover .image-decor img, .p-profiles .profile-head .c-history .entry img, .b-db_entry-variant-list_item .image img, .b-menu_logo img, .b-topic>.inner header img, .b-db_entry>.c-image img, .b-topic.b-news_wall-topic.b-news-topic>.inner footer .b-shiki_swiper, .p-dashboards-show .v2 .generated-news-line .poster img {
+    border-radius: 0px;
+}
+
+hr {
+    border: 0px #c8c8c969 dashed;
+    height: 0px;
+    background-image: none!important; 
+    border-top: 1px dashed #efefef;
+}
+
+.p-profiles .about.block .b-spoiler label {
+    font-weight: 100;
+}
+
+a {
+    color: #000000;
+}
+
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a {
+    color: #000000;
+    cursor: pointer;
+}
+
+.b-catalog_entry.completed .image-decor:after {
+    color: #fff;
+}
+
+.b-feedback>.marker-positioner>.marker-text {
+    outline: 1px solid #000000;
+    background: #d0d0c8!important;
+    border: 1px #cacaca;
+    border-bottom: 1px #cacaca!important;
+    border-style: solid;
+    border-radius: 0px;
+    border-left: 2px #404040 solid;
+    border-bottom: 2px #404040 solid!important;
+    cursor: inherit;
+    padding: 1px !important;
+}
+
+.b-feedback>.marker-positioner>.marker-text:after {
+    color: #000;
+}
+
+.b-feedback>.hover-activator {
+    background: #4b80c000;
+}
+
+.b-feedback>.marker-positioner>.marker-text:hover , .b-feedback>.marker-positioner>.marker-text:active {
+    border-radius: 0px;
+    background-color: #d0d0c8!important;
+    border-right: 2px #404040 solid;
+    border-top: 2px #404040 solid;
+    border-left: 0!important;
+    border-bottom: 0!important;
+    background-image: none!important;
+}
+
+.headline>a:hover:before, .midheadline>a:hover:before, .subheadline>a:hover:before {
+    color: #f37ba6!important;
+}
+
+.bar.simple .bar {
+    background: #d0d0c8!important;
+    border-top: 1px solid #d0d0c8;
+    border-left: 1px solid #d0d0c8;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.bar.horizontal .line {
+    clear: right;
+    padding: 0 5px 0 0px;
+    margin-bottom: 1px;
+    background-color: #fff;
+    background-image: url(https://i.imgur.com/IGXGYKz.png);
+}
+
+.b-rate .stars.score {
+    color: #626262;
+}
+
+.b-anime_status_tag.released , .b-anime_status_tag.anons , .b-anime_status_tag.ongoing , .b-anime_status_tag.discontinued , .b-anime_status_tag.paused {
+    border: 1px solid #999999;
+    color: #000;
+    background-color: #fff;
+    background-image: url(https://i.imgur.com/IGXGYKz.png);
+}
+
+.b-tag.active[href], .b-tag[href]:hover {
+    border-bottom-color: transparent;
+    color: #fff;
+    margin-left: 0;
+    margin-right: 6px;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-decoration: none;
+    background-color: #fff;
+    background-image: url(https://i.imgur.com/IGXGYKz.png);
+}
+
+.b-add_to_list.completed .trigger, .b-add_to_list.completed .option , .b-add_to_list.dropped .trigger, .b-add_to_list.dropped .option , .b-add_to_list.on_hold .trigger, .b-add_to_list.on_hold .option , .b-add_to_list.planned .trigger, .b-add_to_list.planned .option , .b-add_to_list.watching .trigger, .b-add_to_list.watching .option , .b-add_to_list.rewatching .trigger, .b-add_to_list.rewatching .option {
+    background: #eef6dc;
+    border-color: #bdbdbd;
+    color: #000000;
+    background-image: url(https://i.imgur.com/IGXGYKz.png);
+}
+
+.b-rate .stars.hover {
+    color: #ffa9c8;
+}
+
+.b-link_button.dark:hover {
+    background-color: #bdbdbd;
+    border-color: #00ffff00;
+    color: #fff;
+    background-color: #fff;
+    background-image: url(https://i.imgur.com/IGXGYKz.png);
+}
+
+.b-link_button.dark {
+    background-color: #456;
+    border-color: #3e4d5d00;
+    color: #2e2e2e;
+    background-color: #fff;
+    background-image: url(https://i.imgur.com/IGXGYKz.png);
+}
+
+.b-comments-notifier {
+    color: #000;
+    background-color: #d0d0c8;
+    border-top: 1px solid #d0d0c8;
+    border-left: 1px solid #d0d0c8;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.b-comments-notifier:hover {
+    background-color: #c3c3bc;
+}
+
+.buttons .editor-bold {
+    border: 1px solid transparent;
+}
+
+.b-catalog_entry.completed .image-decor:before , .b-catalog_entry.on_hold .image-decor:before , .b-catalog_entry.planned .image-decor:before , .b-catalog_entry.dropped .image-decor:before , .b-catalog_entry.watching .image-decor:before , .b-catalog_entry.rewatching .image-decor:before {
+    background: #d0d0c8;
+    border-radius: 0px;
+    border-right: 1px #404040 solid;
+    border-bottom: 1px #404040 solid;
+    outline: 1px #000 solid;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    right: 1px;
+    top: 1px;
+    border-width: 1px;
+}
+
+.b-catalog_entry.completed .image-decor:after , .b-catalog_entry.on_hold .image-decor:after , .b-catalog_entry.planned .image-decor:after , .b-catalog_entry.dropped .image-decor:after , .b-catalog_entry.watching .image-decor:after , .b-catalog_entry.rewatching .image-decor:after  {
+    color: #000;
+    width: 19px;
+    line-height: 19px;
+    font-size: 13px;
+    right: 1px;
+    top: 1px;
+}
+
+.b-catalog_entry.planned .image-decor:before {
+    border-top-color: #fff;
+    border-left-color: #fff;
+}
+
+.user_rates-minified .b-catalog_entry.planned .image-decor::before, .user_rates-minified .b-catalog_entry.planned .image-decor::after, .user_rates-minified .b-catalog_entry.watching .image-decor::before, .user_rates-minified .b-catalog_entry.watching .image-decor::after, .user_rates-minified .b-catalog_entry.completed .image-decor::before, .user_rates-minified .b-catalog_entry.completed .image-decor::after, .user_rates-minified .b-catalog_entry.rewatching .image-decor::before, .user_rates-minified .b-catalog_entry.rewatching .image-decor::after, .user_rates-minified .b-catalog_entry.on_hold .image-decor::before, .user_rates-minified .b-catalog_entry.on_hold .image-decor::after, .user_rates-minified .b-catalog_entry.dropped .image-decor::before, .user_rates-minified .b-catalog_entry.dropped .image-decor::after {
+    right: 1px;
+    top: 1px;
+}
+
+.b-comments+.editor-container > .subheadline:hover:before {
+    border-left: 1px #404040 solid;
+    border-top: 1px #404040 solid;
+    border-right: 0;
+    border-bottom: 0;
+    background-color: #bdbdbd;
+}
+
+.b-comments+.editor-container > .b-form {
+    font-size: 12px;
+    border: 1px inset #d0d0c8;
+    border-left-color: #404040;
+    border-top-color: #404040;
+    border-right-color: white;
+    border-bottom-color: white;
+    background-color: #d0d0c8;
+    padding: 10px 2px;
+}
+
+.b-shiki_editor .controls {
+    height: auto;
+    padding: 4px 2px;
+    margin-bottom: 8px;
+    border: 1px solid #d0d0c8;
+    border-left-color: #808080;
+    border-top-color: #808080;
+    border-right-color: white;
+    border-bottom-color: white;
+}
+
+.b-shiki_editor footer .preview, .b-shiki_editor footer input[type=submit] , .b-form input[type=submit] , .abstain {
+    background: #d0d0c8;
+    border-radius: 0px;
+    cursor: inherit;
+    color: black!important;
+    border-radius: 0px;
+    cursor: inherit;
+    height: 25px;
+    text-align: center;
+    border: 1px solid #404040;
+    border-top-color: white;
+    border-left-color: white;
+}
+
+.b-shiki_editor footer input[type=submit]:hover, .b-shiki_editor footer .preview:hover, .b-form input[type=submit]:hover , .abstain:hover {
+    background: #d0d0c8;
+    border: 1px solid #404040;
+    border-bottom-color: white;
+    border-right-color: white;
+}
+
+.b-offtopic_marker.off:before {
+    border-radius: 0px !important;
+}
+
+.buttons .editor-smiley:hover, .buttons .editor-quote:hover, .buttons .editor-link:hover, .buttons .editor-bold:hover, .buttons .editor-italic:hover, .buttons .editor-underline:hover, .buttons .editor-strike:hover, .buttons .editor-image:hover, .buttons .editor-spoiler:hover, .buttons .editor-file:hover, .profile-actions a:hover, .b-subposter-action:hover, .buttons .item-ignore:hover, .buttons .item-reply:hover, .buttons .item-delete:hover, .buttons .item-cancel:hover, .buttons .item-request-reject:hover, .buttons .item-delete-cancel:hover, .buttons .item-moderation-cancel:hover, .buttons .item-moderation:hover, .buttons .item-quote:hover, .item-sign:hover, .item-add:hover, .item-minus:hover, .item-mobile:hover {
+    color: black;
+    cursor: default;
+    border: 1px outset #d0d0c8;
+    border-top-color: rgb(208, 208, 200);
+    border-top-style: outset;
+    border-top-width: 1px;
+    border-right-color: rgb(208, 208, 200);
+    border-right-style: outset;
+    border-right-width: 1px;
+    border-bottom-color: rgb(208, 208, 200);
+    border-bottom-style: outset;
+    border-bottom-width: 1px;
+    border-left-color: rgb(208, 208, 200);
+    border-left-style: outset;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+
+.buttons .editor-smiley:active, .buttons .editor-quote:active, .buttons .editor-link:active, .buttons .editor-bold:active, .buttons .editor-italic:active, .buttons .editor-underline:active, .buttons .editor-strike:active, .buttons .editor-image:active, .buttons .editor-spoiler:active, .buttons .editor-file:active, .profile-actions a:active, .b-subposter-action:active, .buttons .item-ignore:active, .buttons .item-reply:active, .buttons .item-delete:active, .buttons .item-cancel:active, .buttons .item-request-reject:active, .buttons .item-delete-cancel:active, .buttons .item-moderation-cancel:active, .buttons .item-moderation:active, .buttons .item-quote:active, .item-sign:active, .item-add:active, .item-minus:active, .item-mobile:active {
+    border: 1px solid #808080;
+    border-right-color: white;
+    border-bottom-color: white;
+    color: rgba(0,0,0,0);
+}
+
+.b-shiki_editor .body .editor textarea:not([rows]) {
+    border: 1px solid #404040;
+    border-bottom-color: #d0d0c8;
+    border-right-color: #d0d0c8;
+    padding: 3px;
+}
+
+.b-shiki_editor footer {
+    padding: 4px 2px;
+    margin-top: 2px;
+    border: 1px solid #d0d0c8;
+    border-left-color: #808080;
+    border-top-color: #808080;
+    border-right-color: white;
+    border-bottom-color: white;
+}
+
+.b-comments+.editor-container > .subheadline:after {
+    content: '';
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    float: right;
+    width: 50px;
+    height: 15px;
+    background-image: url('https://kawai.shikimori.one/system/user_images/original/100774/1695126.jpg');
+    background-repeat: no-repeat;
+    background-position: -2px -33px;
+}
+
+.tooltip-details {
+    padding: 5px;
+    background-color: #ffffff;
+    border: 1px solid #d0d0c8;
+    border-left-color: white;
+    border-top-color: white;
+    border-right-color: #808080;
+    border-bottom-color: #808080;
+    border: 1px inset #d0d0c8;
+    border-left-color: #404040;
+    border-top-color: #404040;
+    border-right-color: white;
+    border-bottom-color: white;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #fff;
+    background-image: url(https://i.imgur.com/IGXGYKz.png);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    background-image: url(https://i.imgur.com/Qtm9Z60.png);
+    border-top: 1px solid #bdbdbd;
+    border-left: 1px solid #bdbdbd;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+::-webkit-scrollbar {
+    width: 16px;
+    height: 10px;
+}
+
+.b-comments+.editor-container > .subheadline {
+    border: 1px inset #d0d0c8;
+    border-left-color: #404040;
+    border-top-color: #404040;
+    border-right-color: white;
+    border-bottom-color: white;
+    background-color: #d0d0c8;
+    padding: 0 0 0 10px;
+    line-height: 19px;
+    color: #000000;
+    overflow-y: hidden;
+    cursor: default;
+    min-height: 16px;
+    background:var(--color-background)!important;
+    color:var(--color-text-legend)!important;
+}
+
+.tooltip-inner .close {
+    cursor: pointer;
+    font-family: Courier;
+    font-size: 9px;
+    position: absolute;
+    z-index: 2;
+    right: 5px;
+    text-align: center;
+    top: 5px;
+    padding-right: 1px;
+    line-height: 1.6;
+    font-weight: bold;
+    width: 15px;
+    height: 14px;
+    background-color: #d0d0c8;
+    color: black;
+    border-radius: 0px;
+    border-right: 1px #404040 solid;
+    border-bottom: 1px #404040 solid;
+    border-left: 1px #fff solid;
+    border-top: 1px #fff solid;
+    outline: 1px solid transparent;
+}
+
+.tooltip-inner .close:hover {
+    cursor: pointer;
+    font-family: Courier;
+    font-size: 9px;
+    position: absolute;
+    z-index: 2;
+    right: 5px;
+    text-align: center;
+    top: 5px;
+    padding-right: 0px;
+    line-height: 1.6;
+    font-weight: bold;
+    width: 15px;
+    height: 14px;
+    background-color: #d0d0c8;
+    color: black;
+    border-radius: 0px;
+    border-left: 1px #404040 solid;
+    border-top: 1px #404040 solid;
+    border-right: 1px #fff solid;
+    border-bottom: 1px #fff solid;
+    outline: 1px solid transparent;
+}
+
+.tooltip-arrow {
+    display: none;
+}
+
+.p-profiles .profile-head .c-brief header h1 {
+    font-size: 25px;
+    font-weight: 100; 
+}
+
+.b-stats_bar.anime .bar .first {
+    background-color: #d0d0c8;
+    border-top: 1px solid #bdbdbd;
+    border-left: 1px solid #bdbdbd;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.b-stats_bar.anime .bar .second {
+    background-color: #ddd;
+}
+
+.b-stats_bar.manga .bar .first {
+    background-color: #d0d0c8;
+    border-top: 1px solid #bdbdbd;
+    border-left: 1px solid #bdbdbd;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.b-stats_bar.manga .bar .second {
+    background-color: #ddd;
+}
+
+.p-profiles .stat_name .size {
+    background: #e3f0fb00;
+    color: #000000!important;
+}
+
+.p-profiles .profile-head .avatar img {
+    border: 0px dashed #80afdf;
+}
+
+.p-profiles .stat_name .size {
+    background: #e3f0fb00;
+}
+
+.b-stats_bar .bar .third {
+    background-color: #ddd;
+}
+
+.c-lists-info .b-stats_bar .bar {
+    height: 7px;
+    border-radius: 0px;
+}
+
+.b-comments+.editor-container {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    background-color: #d0d0c8;
+    padding: 2px;
+    border: 1px solid #d0d0c8;
+    border-left-color: white;
+    border-top-color: white;
+    border-right-color: #808080;
+    border-bottom-color: #808080;
+}
+
+.tooltip-inner:before {
+    display: block;
+    width: auto;
+    padding: 0px 0px 0 5px;
+    margin-bottom: 7px;
+    content: '/Содержимое файла';
+    background:var(--color-background)!important;
+    color:var(--color-text-legend)!important;
+    line-height: 1.5;
+    font-size: 13px;
+    border: 1px inset #d0d0c8;
+    border-left-color: #404040;
+    border-top-color: #404040;
+    border-right-color: white;
+    border-bottom-color: white;
+    overflow-y: hidden;
+    cursor: default;
+}
+
+.p-profiles-show .lifetime > .bar {
+    overflow: visible;
+    position: relative;
+}
+
+.p-profiles-show .lifetime > .bar > .first {
+    position: relative;
+}
+
+.b-stats_bar.lifetime .bar .first {
+    background-color: #d0d0c8;
+    border-top: 1px solid #bdbdbd;
+    border-left: 1px solid #bdbdbd;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.headline>a, .midheadline>a, .subheadline>a {
+    border-bottom-width: 0px!important;
+}
+
+.b-stats_bar .title , .subheadline , .p-profiles .profile-head .c-history .entry .title , .p-profiles-show .lifetime .times .time.checked , strong, b , .p-profiles-show .profile-content .activity .title , .p-profiles .stat_name .size , .b-comment>.inner .name-date>a , .p-profiles-show .achievements .header .title , .b-achievement .c-about .title, .b-achievement .about .title , .b-catalog_entry .cover .title{
+    font-weight: 100!important;
+}
+
+.tooltip-inner {
+    padding: 2px;
+    background-color: #d0d0c8;
+    border: 1px solid #d0d0c8;
+    border-left-color: white;
+    border-top-color: white;
+    border-right-color: #808080;
+    border-bottom-color: #808080;
+    border: 1px solid #d0d0c8;
+    border-right-color: #808080;
+    border-bottom-color: #808080;
+}
+
+.buttons .editor-smiley, .buttons .editor-quote, .buttons .editor-link, .buttons .editor-bold, .buttons .editor-italic, .buttons .editor-underline, .buttons .editor-strike, .buttons .editor-image, .buttons .editor-spoiler, .buttons .editor-file, .buttons .item-ignore, .buttons .item-reply, .buttons .item-delete, .buttons .item-cancel, .buttons .item-request-reject, .buttons .item-delete-cancel, .buttons .item-moderation-cancel, .buttons .item-moderation, .buttons .item-quote, .profile-actions .mail, .profile-actions .settings, .profile-actions .ban, .profile-actions .fav-remove, .profile-actions .talk, .profile-actions .ignore-add, .profile-actions .fav-add, .profile-actions .ignore-remove {
+    padding: 5px !important;
+    color: #000000 !important;
+    border: 1px solid transparent;
+}
+
+.b-stats_bar .bar .first, .b-stats_bar .bar .second, .b-stats_bar .bar .third {
+    color: transparent;
+}
+
+.rate_module>.c-column>strong {
+    position: absolute;
+    top: 8px;
+    left: -6px;
+    padding: 6px 8px;
+    background: #afcbd7e0;
+    border-color: #ffffff;
+    border-radius: 2px 4px 4px 0;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 70%);
+    color: #000000;
+    font-size: 12px;
+    line-height: 10px;
+    pointer-events: none;
+}
+
+.b-user.avatar img, .p-profiles .profile-head .c-brief .avatar img, .l-top_menu-v2 .menu-dropdown.profile>span img, .b-comment>.inner header img, .l-top_menu-v2 .icon-avatar img, .p-user_rates-index .l-menu .avatar img, .b-club .logo, .b-user.avatar img, .b-user.named_avatar img, .b-user.avatar_fixed_margin img, .p-collections .b-topic>.inner header img, .p-topics .l-menu .clubs .entry img, .b-message > .inner header img, .b-dialog > .inner header img {
+    border-radius: 0px;
+}
+
+/* АЧИВКИ НАЧАЛО */ 
+.b-achievement.is-badge:before {
+    bottom: 0px;
+    border-radius: 0;
+}
+
+.b-achievement .c-image .inner a .border {
+    border: 0;
+}
+/* АЧИВКИ КОНЕЦ */ 
+
+.p-profiles .profile-head .c-brief header .notice span:after {
+    color: #000000;
+    content: ;
+    display: inline-block;
+    font-weight: normal;
+    padding: 0 5px;
+}
+
+.b-stats_bar.lifetime .bar .first {
+    background: #f9c8dc;
+}
+
+.p-profiles-show .lifetime .times .time.checked:before {
+    color: #d0d0c8;
+}
+
+.rate_module>.c-column>strong {
+    position: absolute;
+    top: 8px;
+    left: -6px;
+    padding: 6px 8px;
+    background: #ffffff;
+    border-color: #ffffff;
+    border-radius: 0;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 70%);
+    color: #000000;
+    font-size: 12px;
+    line-height: 10px;
+    pointer-events: none;
+}
+
+/* AUTO=sticky_menu */ 
+@media screen and (min-width: 1025px) { .l-top_menu-v2 { position: sticky; top: 0; } .l-top_menu-v2 .active .submenu { max-height: calc(100vh - var(--top-menu-height)); overflow-y: auto; } }
+
+body, label { 
+    padding: 0 0 15px 0;
+}
+
+
+
+.p-dashboards-show .v2 .my-list {
+    padding: 2px;
+    background-color: #d0d0c8;
+    border: 1px solid #d0d0c8;
+    border-left-color: white;
+    border-top-color: white;
+    border-right-color: #808080;
+    border-bottom-color: #808080;
+}
+
+.p-dashboards-show .v2 .my-list .label {
+    background:var(--color-background)!important;
+    line-height: 1.5;
+    font-size: 13px;
+    border: 1px inset #d0d0c8;
+    border-left-color: #404040;
+    border-top-color: #404040;
+    border-right-color: white;
+    border-bottom-color: white;
+    overflow-y: hidden;
+}
+
+.p-dashboards-show .v2 .my-list .label span {
+    margin-left: 8px;
+}
+
+.p-dashboards-show .v2 .my-list .label .misc-links a {
+    font-size: 10px;
+    line-height: 2.3;
+}
+
+.b-user_rate-history {
+    padding: 2px;
+    background-color: #ffffff;
+    border: 1px inset #d0d0c8;
+    border-left-color: #404040;
+    border-top-color: #404040;
+    border-right-color: white;
+    border-bottom-color: white;
+}
+
+.b-user_rate-history .progress {
+    background-color: #ddd;
+}
+
+.b-user_rate-history .progress .completed {
+    background-color: #d0d0c8;
+    border-top: 1px solid #bdbdbd;
+    border-left: 1px solid #bdbdbd;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.p-dashboards-show .v2 .headline {
+    padding: 0 10px;
+    border: 1px inset #d0d0c8;
+    border-top-color: #404040!important;
+    border-top-style: inset;
+    border-top-width: 1px;
+    border-right-color: #afafaf!important;
+    border-right-style: inset;
+    border-right-width: 1px;
+    border-bottom-color: #343434!important;
+    border-bottom-style: inset;
+    border-bottom-width: 1px;
+    border-left-color: #404040!important;
+    border-left-style: inset;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-left-color: #404040!important;
+    border-top-color: #404040!important;
+    border-right-color: #9f9f9f!important;
+    border-bottom-color: #b9b9b9!important;
+    font-size: 13px!important;
+    line-height: 19px!important;
+    background-color: #d0d0c8;
+    color: #000!important;
+}
+
+.b-link_button.dark {
+    background-color: #d0d0c8!important;
+    text-align: center;
+    border: 1px solid #404040!important;
+    border-top-color: white!important;
+    border-left-color: white!important;
+    background-image: none;
+}
+
+.b-link_button.dark:hover {
+    background-color: #d0d0c8!important;
+    text-align: center;
+    border: 1px solid #404040!important;
+    border-bottom-color: white!important;
+    border-right-color: white!important;
+    background-image: none;
+    color: #2e2e2e!important;
+}
+
+.subheadline-buttons {
+    right: 0px;
+}
+
+.p-dashboards-show .v2 .create-topic {
+    font-size: 11px;
+    padding: 3px 10px;
+}
+
+
+
+
+
+.p-dashboards-show .v2 .fc-user-sections .tag-link {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.b-hot_topics-v2 {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #eef1f2;
+    border-bottom: 1px solid #d0d8db;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: 30px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    line-height: 24px;
+    margin: -5px 0px 5px;
+    overflow: hidden;
+    padding: 2px 5px!important;
+    position: relative;
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+
+body[data-locale=ru] .b-new_marker.active:active:before , body[data-locale=ru] .b-new_marker.active:hover:before {
+    border-color: #000000;
+    border-radius: 0%;
+    border: 1px solid #000000;
+    color: #000000;
+    background-color: #d0d0c8;
+    border-left: 1px #404040 solid;
+    border-top: 1px #404040 solid;
+    border-right: 1px #fff solid;
+    border-bottom: 1px #fff solid;
+}
+
+body[data-locale=ru] .b-new_marker:before {
+    content: attr(data-text);
+    font-size: 11px;
+    font-family: var(--font-alt);
+    letter-spacing: var(--font-alt-text-letter-spacing);
+    line-height: 14px;
+    position: absolute;
+    text-align: center;
+    width: 38px;
+    border-radius: 0%;
+    border: 1px solid #000000;
+    color: #000000;
+    background-color: #d0d0c8;
+    border-right: 1px #404040 solid;
+    border-bottom: 1px #404040 solid;
+    border-left: 1px #fff solid;
+    border-top: 1px #fff solid;
+}
+
+.b-user_rate .rate-show .rate-number .item-add {  
+    border: 1px solid transparent;
+}
+
+.tipsy-arrow-w {
+    border-right-color: #d0d0c8;
+}
+
+.tipsy-inner {
+    color: #000;
+    min-width: 50px;
+    max-width: 320px;
+    overflow: hidden;
+    padding: 5px 8px 4px;
+    text-align: center;
+    padding: 2px;
+    background-color: #d0d0c8;
+    border: 1px solid #d0d0c8;
+    border-top-color: white;
+    border-right-color: #808080;
+    border-bottom-color: #808080;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+
+.tipsy {
+    opacity: 1.0!important;
+}
+
+.tipsy-inner {
+    -webkit-box-shadow: 0 0 0px #fff;
+    box-shadow: 0 0 0px #fff;
+}
+
+.b-stats_bar.lifetime .bar .first {
+    background: #d0d0c8;
+}
