@@ -169,7 +169,7 @@
 
 @media only screen and (max-width: 6000px){
 .l-footer .copyright:before {
-    content: 'Оригинальная тема by сюн ';
+    content: 'Оригинальная тема by хач ';
 }
 }
 
@@ -254,23 +254,7 @@
   }
 	
   .profile-head > .c-brief > .avatar::before {
-    display: block;
-    width: auto;
-    height: 19px;
-    padding: 0px 0px 0 5px;
-    margin-bottom: 7px;
-    content: '/Профиль';
-    line-height: 1.5;
-    font-size: 13px;
-    border: 1px inset #d0d0c8;
-    border-left-color: #404040;
-    border-top-color: #404040;
-    border-right-color: white;
-    border-bottom-color: white;
-    overflow-y: hidden;
-    cursor: default;
-    background:var(--color-background)!important;
-    color:var(--color-text-legend)!important;
+    
   }
 	
    .p-profiles .profile-head .c-brief .avatar .profile-actions:before {
@@ -287,37 +271,15 @@
   }
 	
    .profile-head > .c-brief > .avatar {
-    padding: 2px;
-    background-color: #d0d0c8;
-    border: 1px solid #d0d0c8;
-    border-left-color: white;
-    border-top-color: white;
-    border-right-color: #808080;
-    border-bottom-color: #808080;
+    
   } 
 	
    .profile-head > .c-brief > .avatar::before {
-    display: block;
-    width: auto;
-    height: 19px;
-    padding: 0px 0px 0 5px;
-    margin-bottom: 7px;
-    content: '/Профиль';
-    line-height: 1.5;
-    font-size: 13px;
-    border: 1px inset #d0d0c8;
-    border-left-color: #404040;
-    border-top-color: #404040;
-    border-right-color: white;
-    border-bottom-color: white;
-    overflow-y: hidden;
-    cursor: default;
-    background:var(--color-background)!important;
-    color:var(--color-text-legend)!important;
+    
   }
 	
    .profile-head > .c-brief > .avatar::after {
-    content: '';
+    
   }
 	
    .p-profiles .profile-head .c-brief .avatar img {
@@ -379,54 +341,17 @@
 
 @media screen and (min-width: 1024px) {
    .l-page {
-    padding: 2px;
-    background-color: #d0d0c8;
-    border: 1px solid #d0d0c8;
-    border-left-color: white;
-    border-top-color: white;
-    border-right-color: #808080;
-    border-bottom-color: #808080;
+    
   }
 	
    .l-page > div {
-    padding: 2px 15px;
-    background-color: #ffffff;
-    border: 1px solid #d0d0c8;
-    border-left-color: white;
-    border-top-color: white;
-    border-right-color: #808080;
-    border-bottom-color: #808080;
+    
   }
     section.l-page:before {
-    display: block;
-    width: auto;
-    height: 19px;
-    padding: 0px 0px 0 5px;
-    margin-bottom: 10px;
-    content: '/Содержимое страницы';
-    line-height: 1.5;
-    font-size: 13px;
-    border: 1px inset #d0d0c8;
-    border-left-color: #404040;
-    border-top-color: #404040;
-    border-right-color: white;
-    border-bottom-color: white;
-    overflow-y: hidden;
-    cursor: default;
-    background: var(--color-background)!important;
-    color: var(--color-text-legend)!important;
+    
    }
     section.l-page:after {
-    content: '';
-    position: absolute;
-    right: 5px;
-    top: 5px;
-    float: right;
-    width: 50px;
-    height: 15px;
-    background-image: url(//kawai.shikimori.one/system/user_images/original/100774/1695126.jpg);
-    background-repeat: no-repeat;
-    background-position: -2px -33px;
+    
    }
 }
 
@@ -445,49 +370,15 @@
   }
 	
    .profile-head > .c-brief > .avatar {
-    position: absolute;
-    left: -200px;
-    margin-top: -37px!important;
-    padding: 2px;
-    background-color: #d0d0c8;
-    border: 1px solid #d0d0c8;
-    border-left-color: white;
-    border-top-color: white;
-    border-right-color: #808080;
-    border-bottom-color: #808080;
+    
   } 
 	
    .profile-head > .c-brief > .avatar::before {
-    display: block;
-    width: auto;
-    height: 19px;
-    padding: 0px 0px 0 5px;
-    margin-bottom: 7px;
-    content: '/Профиль';
-    line-height: 1.5;
-    font-size: 13px;
-    border: 1px inset #d0d0c8;
-    border-left-color: #404040;
-    border-top-color: #404040;
-    border-right-color: white;
-    border-bottom-color: white;
-    overflow-y: hidden;
-    cursor: default;
-    background:var(--color-background)!important;
-    color:var(--color-text-legend)!important;
+    
   }
 	
    .profile-head > .c-brief > .avatar::after {
-    content: '';
-    position: absolute;
-    right: 5px;
-    top: 5px;
-    float: right;
-    width: 50px;
-    height: 15px;
-    background-image: url('https://kawai.shikimori.one/system/user_images/original/100774/1695126.jpg');
-    background-repeat: no-repeat;
-    background-position: -2px -33px;
+    
   }
 	
    .p-profiles .profile-head .c-brief .avatar img {
@@ -543,44 +434,15 @@
   }
 	
    .l-page {
-    margin-top: 15px;
-    border: 1px solid #dfdfdf;
-    border-radius: 5px;
-    padding-bottom: 15px;
-    border-radius: 0px!important;
+    
   }
 	
     section.l-page:before {
-    display: block;
-    width: auto;
-    height: 19px;
-    padding: 0px 0px 0 5px;
-    margin-bottom: 10px;
-    content: '/Содержимое страницы';
-    line-height: 1.5;
-    font-size: 13px;
-    border: 1px inset #d0d0c8;
-    border-left-color: #404040;
-    border-top-color: #404040;
-    border-right-color: white;
-    border-bottom-color: white;
-    overflow-y: hidden;
-    cursor: default;
-    background:var(--color-background)!important;
-    color:var(--color-text-legend)!important;
+    
   }
 	
     section.l-page:after {
-    content: '';
-    position: absolute;
-    right: 5px;
-    top: 5px;
-    float: right;
-    width: 50px;
-    height: 15px;
-    background-image: url(//kawai.shikimori.one/system/user_images/original/100774/1695126.jpg);
-    background-repeat: no-repeat;
-    background-position: -2px -33px;
+    
   }
 }
 
